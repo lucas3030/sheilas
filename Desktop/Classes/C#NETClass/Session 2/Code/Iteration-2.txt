@@ -1,0 +1,6 @@
+outcome.Text = "";
+for (int i = 0; i < 10; i++)
+{
+    string line = "Test for loop " + i;
+    outcome.Text += line + "\r\n";
+}

@@ -1,0 +1,654 @@
+Date/Time:       2016-10-11 07:07:32 -0400
+OS Version:      iPhone OS 10.0.1 (Build 14A403)
+Architecture:    arm64
+Report Version:  25
+
+Data Source:     Stackshots
+Kernel Cache:    0xffffffe000000000 BD502948-2C9E-F1E5-A3CF-5E0AB39C6A61
+
+Duration:        2.25s
+Steps:           9 (250ms sampling interval)
+
+Hardware model:  iPhone8,1
+Active cpus:     2
+
+
+------------------------------------------------------------
+Heavy format: stacks are sorted by count
+Use -i and -timeline to re-report with chronological sorting
+------------------------------------------------------------
+
+
+
+Process:         accountsd [101]
+Path:            /System/Library/Frameworks/Accounts.framework/accountsd
+Architecture:    arm64
+Parent:          launchd [1]
+UID:             501
+Sudden Term:     Tracked (allows idle exit)
+Task size:       7 MB
+CPU Time:        <0.001
+Note:            4 idle work queue threads omitted
+
+  Thread 0x508              DispatchQueue 1           9 samples (1-9)           priority 4 (base 4)       cpu time <0.001
+  9  start + 4 (libdyld.dylib + 17848) [0x181dd45b8]
+    9  ??? (accountsd + 14656) [0x1000c3940]
+      9  CFRunLoopRunSpecific + 444 (CoreFoundation + 36936) [0x182df2048]
+        9  __CFRunLoopRun + 1132 (CoreFoundation + 895240) [0x182ec3908]
+          9  __CFRunLoopServiceMachPort + 192 (CoreFoundation + 904428) [0x182ec5cec]
+            9  mach_msg + 72 (libsystem_kernel.dylib + 4060) [0x181ec7fdc]
+              9  mach_msg_trap + 8 (libsystem_kernel.dylib + 4460) [0x181ec816c]
+               *9  ??? [0xfffffff007091f80]
+
+  Thread 0x34d5f            Thread name "com.apple.NSURLConnectionLoader"       9 samples (1-9)           priority 4 (base 4)
+  9  thread_start + 4 (libsystem_pthread.dylib + 3516) [0x181fa8dbc]
+    9  _pthread_start + 284 (libsystem_pthread.dylib + 14192) [0x181fab770]
+      9  _pthread_body + 240 (libsystem_pthread.dylib + 14432) [0x181fab860]
+        9  __NSThread__start__ + 1024 (Foundation + 1090828) [0x1839fe50c]
+          9  +[NSURLConnection(Loader) _resourceLoadLoop:] + 336 (CFNetwork + 838892) [0x1835dfcec]
+            9  CFRunLoopRunSpecific + 444 (CoreFoundation + 36936) [0x182df2048]
+              9  __CFRunLoopRun + 1132 (CoreFoundation + 895240) [0x182ec3908]
+                9  __CFRunLoopServiceMachPort + 192 (CoreFoundation + 904428) [0x182ec5cec]
+                  9  mach_msg + 72 (libsystem_kernel.dylib + 4060) [0x181ec7fdc]
+                    9  mach_msg_trap + 8 (libsystem_kernel.dylib + 4460) [0x181ec816c]
+                     *9  ??? [0xfffffff007091f80]
+
+  Thread 0x13a07c           1 sample (1)              priority 2 (base 4)
+  1  start_wqthread + 4 (libsystem_pthread.dylib + 3508) [0x181fa8db4]
+    1  _pthread_wqthread + 968 (libsystem_pthread.dylib + 4488) [0x181fa9188]
+      1  __workq_kernreturn + 8 (libsystem_kernel.dylib + 129672) [0x181ee6a88]
+       *1  ??? [0xfffffff006b8096c] (runnable)
+
+  Binary Images:
+           0x1000c0000 -        0x1000c3fff  accountsd (637)         <4E1AD3B8-1523-3883-83CF-18330499069B>  /System/Library/Frameworks/Accounts.framework/accountsd
+           0x181dd0000 -        0x181dd7fff  libdyld.dylib           <B69BC097-9DE9-3E7C-9CAC-9D89B284039F>  /usr/lib/system/libdyld.dylib
+           0x181ec7000 -        0x181eeefff  libsystem_kernel.dylib  <04E6664A-F080-30E1-AD7D-9F2249E47E18>  /usr/lib/system/libsystem_kernel.dylib
+           0x181fa8000 -        0x181fb3fff  libsystem_pthread.dylib <BE17C5DE-3FF8-3A86-9591-3479341C34EC>  /usr/lib/system/libsystem_pthread.dylib
+           0x182de9000 -        0x18316cfff  CoreFoundation          <C4824900-D70E-3FD5-B01D-BB079B63EAE1>  /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+           0x183513000 -        0x183882fff  CFNetwork               <CA09941B-FD35-3BB8-B6B6-79A0F14CAD1E>  /System/Library/Frameworks/CFNetwork.framework/CFNetwork
+           0x1838f4000 -        0x183bc3fff  Foundation              <A6AD1055-3017-396E-BB4E-BA2A4AD331D8>  /System/Library/Frameworks/Foundation.framework/Foundation
+
+
+Process:         adid [167]
+Path:            /usr/libexec/adid
+Architecture:    arm64
+Parent:          launchd [1]
+UID:             501
+Sudden Term:     Tracked (allows idle exit)
+Task size:       1 MB
+Note:            1 idle work queue threads omitted
+
+  Thread 0x92e              DispatchQueue 1           9 samples (1-9)           priority 4 (base 4)
+  9  start + 4 (libdyld.dylib + 17848) [0x181dd45b8]
+    9  ??? (adid + 32792) [0x1000a8018]
+      9  CFRunLoopRun + 112 (CoreFoundation + 354516) [0x182e3f8d4]
+        9  CFRunLoopRunSpecific + 444 (CoreFoundation + 36936) [0x182df2048]
+          9  __CFRunLoopRun + 1132 (CoreFoundation + 895240) [0x182ec3908]
+            9  __CFRunLoopServiceMachPort + 192 (CoreFoundation + 904428) [0x182ec5cec]
+              9  mach_msg + 72 (libsystem_kernel.dylib + 4060) [0x181ec7fdc]
+                9  mach_msg_trap + 8 (libsystem_kernel.dylib + 4460) [0x181ec816c]
+                 *9  ??? [0xfffffff007091f80]
+
+  Binary Images:
+           0x1000a0000 -        0x1001cffff  adid                   <8A159622-A7C7-31A7-8B47-136777198AB0>  /usr/libexec/adid
+           0x181dd0000 -        0x181dd7fff  libdyld.dylib          <B69BC097-9DE9-3E7C-9CAC-9D89B284039F>  /usr/lib/system/libdyld.dylib
+           0x181ec7000 -        0x181eeefff  libsystem_kernel.dylib <04E6664A-F080-30E1-AD7D-9F2249E47E18>  /usr/lib/system/libsystem_kernel.dylib
+           0x182de9000 -        0x18316cfff  CoreFoundation         <C4824900-D70E-3FD5-B01D-BB079B63EAE1>  /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+
+
+Process:         aggregated [3196]
+Path:            /System/Library/PrivateFrameworks/AggregateDictionary.framework/Support/aggregated
+Architecture:    arm64
+Parent:          launchd [1]
+UID:             501
+Sudden Term:     Tracked
+Task size:       5 MB
+CPU Time:        0.061
+Note:            7 idle work queue threads omitted
+
+  Thread 0x1376ba           DispatchQueue 1           9 samples (1-9)           priority 4 (base 4)       cpu time 0.006
+  9  start + 4 (libdyld.dylib + 17848) [0x181dd45b8]
+    9  ??? (aggregated + 29492) [0x1000e7334]
+      9  -[NSRunLoop(NSRunLoop) runMode:beforeDate:] + 304 (Foundation + 51996) [0x183900b1c]
+        9  CFRunLoopRunSpecific + 444 (CoreFoundation + 36936) [0x182df2048]
+          9  __CFRunLoopRun + 1132 (CoreFoundation + 895240) [0x182ec3908]
+            9  __CFRunLoopServiceMachPort + 192 (CoreFoundation + 904428) [0x182ec5cec]
+              9  mach_msg + 72 (libsystem_kernel.dylib + 4060) [0x181ec7fdc]
+                9  mach_msg_trap + 8 (libsystem_kernel.dylib + 4460) [0x181ec816c]
+                 *9  ??? [0xfffffff007091f80]
+
+  Thread 0x1376d5           9 samples (1-9)           priority 4 (base 4)
+  9  thread_start + 4 (libsystem_pthread.dylib + 3516) [0x181fa8dbc]
+    9  _pthread_start + 284 (libsystem_pthread.dylib + 14192) [0x181fab770]
+      9  _pthread_body + 240 (libsystem_pthread.dylib + 14432) [0x181fab860]
+        9  __NSThread__start__ + 1024 (Foundation + 1090828) [0x1839fe50c]
+          9  -[BrightnessSystemClientInternal main] + 1392 (CoreBrightness + 6396) [0x1932368fc]
+            9  -[NSRunLoop(NSRunLoop) runMode:beforeDate:] + 304 (Foundation + 51996) [0x183900b1c]
+              9  CFRunLoopRunSpecific + 444 (CoreFoundation + 36936) [0x182df2048]
+                9  __CFRunLoopRun + 1132 (CoreFoundation + 895240) [0x182ec3908]
+                  9  __CFRunLoopServiceMachPort + 192 (CoreFoundation + 904428) [0x182ec5cec]
+                    9  mach_msg + 72 (libsystem_kernel.dylib + 4060) [0x181ec7fdc]
+                      9  mach_msg_trap + 8 (libsystem_kernel.dylib + 4460) [0x181ec816c]
+                       *9  ??? [0xfffffff007091f80]
+
+  Thread 0x1376d6           9 samples (1-9)           priority 4 (base 4)
+  9  thread_start + 4 (libsystem_pthread.dylib + 3516) [0x181fa8dbc]
+    9  _pthread_start + 284 (libsystem_pthread.dylib + 14192) [0x181fab770]
+      9  _pthread_body + 240 (libsystem_pthread.dylib + 14432) [0x181fab860]
+        9  __NSThread__start__ + 1024 (Foundation + 1090828) [0x1839fe50c]
+          9  -[BrightnessSystemClientInternal main] + 1392 (CoreBrightness + 6396) [0x1932368fc]
+            9  -[NSRunLoop(NSRunLoop) runMode:beforeDate:] + 304 (Foundation + 51996) [0x183900b1c]
+              9  CFRunLoopRunSpecific + 444 (CoreFoundation + 36936) [0x182df2048]
+                9  __CFRunLoopRun + 1132 (CoreFoundation + 895240) [0x182ec3908]
+                  9  __CFRunLoopServiceMachPort + 192 (CoreFoundation + 904428) [0x182ec5cec]
+                    9  mach_msg + 72 (libsystem_kernel.dylib + 4060) [0x181ec7fdc]
+                      9  mach_msg_trap + 8 (libsystem_kernel.dylib + 4460) [0x181ec816c]
+                       *9  ??? [0xfffffff007091f80]
+
+  Binary Images:
+           0x1000e0000 -        0x1000ebfff  aggregated (340)        <38428E40-7754-3AA5-B9DB-1677C5898CDC>  /System/Library/PrivateFrameworks/AggregateDictionary.framework/Support/aggregated
+           0x181dd0000 -        0x181dd7fff  libdyld.dylib           <B69BC097-9DE9-3E7C-9CAC-9D89B284039F>  /usr/lib/system/libdyld.dylib
+           0x181ec7000 -        0x181eeefff  libsystem_kernel.dylib  <04E6664A-F080-30E1-AD7D-9F2249E47E18>  /usr/lib/system/libsystem_kernel.dylib
+           0x181fa8000 -        0x181fb3fff  libsystem_pthread.dylib <BE17C5DE-3FF8-3A86-9591-3479341C34EC>  /usr/lib/system/libsystem_pthread.dylib
+           0x182de9000 -        0x18316cfff  CoreFoundation          <C4824900-D70E-3FD5-B01D-BB079B63EAE1>  /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+           0x1838f4000 -        0x183bc3fff  Foundation              <A6AD1055-3017-396E-BB4E-BA2A4AD331D8>  /System/Library/Frameworks/Foundation.framework/Foundation
+           0x193235000 -        0x193294fff  CoreBrightness          <45681CA0-F8DE-3889-B148-B92CD7C379AC>  /System/Library/PrivateFrameworks/CoreBrightness.framework/CoreBrightness
+
+
+Process:         akd [133]
+Path:            /System/Library/PrivateFrameworks/AuthKit.framework/akd
+Architecture:    arm64
+Parent:          launchd [1]
+UID:             501
+Sudden Term:     Tracked (allows idle exit)
+Task size:       2 MB
+Note:            1 idle work queue threads omitted
+
+  Thread 0x749              DispatchQueue 1           9 samples (1-9)           priority 4 (base 4)
+  9  start + 4 (libdyld.dylib + 17848) [0x181dd45b8]
+    9  ??? (akd + 83692) [0x1000a06ec]
+      9  -[NSRunLoop(NSRunLoop) run] + 88 (Foundation + 397984) [0x1839552a0]
+        9  -[NSRunLoop(NSRunLoop) runMode:beforeDate:] + 304 (Foundation + 51996) [0x183900b1c]
+          9  CFRunLoopRunSpecific + 444 (CoreFoundation + 36936) [0x182df2048]
+            9  __CFRunLoopRun + 1132 (CoreFoundation + 895240) [0x182ec3908]
+              9  __CFRunLoopServiceMachPort + 192 (CoreFoundation + 904428) [0x182ec5cec]
+                9  mach_msg + 72 (libsystem_kernel.dylib + 4060) [0x181ec7fdc]
+                  9  mach_msg_trap + 8 (libsystem_kernel.dylib + 4460) [0x181ec816c]
+                   *9  ??? [0xfffffff007091f80]
+
+  Thread 0x752              Thread name "com.apple.NSURLConnectionLoader"       9 samples (1-9)           priority 4 (base 4)
+  9  thread_start + 4 (libsystem_pthread.dylib + 3516) [0x181fa8dbc]
+    9  _pthread_start + 284 (libsystem_pthread.dylib + 14192) [0x181fab770]
+      9  _pthread_body + 240 (libsystem_pthread.dylib + 14432) [0x181fab860]
+        9  __NSThread__start__ + 1024 (Foundation + 1090828) [0x1839fe50c]
+          9  +[NSURLConnection(Loader) _resourceLoadLoop:] + 336 (CFNetwork + 838892) [0x1835dfcec]
+            9  CFRunLoopRunSpecific + 444 (CoreFoundation + 36936) [0x182df2048]
+              9  __CFRunLoopRun + 1132 (CoreFoundation + 895240) [0x182ec3908]
+                9  __CFRunLoopServiceMachPort + 192 (CoreFoundation + 904428) [0x182ec5cec]
+                  9  mach_msg + 72 (libsystem_kernel.dylib + 4060) [0x181ec7fdc]
+                    9  mach_msg_trap + 8 (libsystem_kernel.dylib + 4460) [0x181ec816c]
+                     *9  ??? [0xfffffff007091f80]
+
+  Binary Images:
+           0x10008c000 -        0x100113fff  akd (119)               <66E36FC3-DDEB-321F-BA00-468E9FB52C09>  /System/Library/PrivateFrameworks/AuthKit.framework/akd
+           0x181dd0000 -        0x181dd7fff  libdyld.dylib           <B69BC097-9DE9-3E7C-9CAC-9D89B284039F>  /usr/lib/system/libdyld.dylib
+           0x181ec7000 -        0x181eeefff  libsystem_kernel.dylib  <04E6664A-F080-30E1-AD7D-9F2249E47E18>  /usr/lib/system/libsystem_kernel.dylib
+           0x181fa8000 -        0x181fb3fff  libsystem_pthread.dylib <BE17C5DE-3FF8-3A86-9591-3479341C34EC>  /usr/lib/system/libsystem_pthread.dylib
+           0x182de9000 -        0x18316cfff  CoreFoundation          <C4824900-D70E-3FD5-B01D-BB079B63EAE1>  /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+           0x183513000 -        0x183882fff  CFNetwork               <CA09941B-FD35-3BB8-B6B6-79A0F14CAD1E>  /System/Library/Frameworks/CFNetwork.framework/CFNetwork
+           0x1838f4000 -        0x183bc3fff  Foundation              <A6AD1055-3017-396E-BB4E-BA2A4AD331D8>  /System/Library/Frameworks/Foundation.framework/Foundation
+
+
+Process:         amfid [181]
+Path:            /usr/libexec/amfid
+Architecture:    arm64
+Parent:          launchd [1]
+UID:             0
+Sudden Term:     Tracked (allows idle exit)
+Task size:       1 MB
+Note:            1 idle work queue threads omitted
+
+  Thread 0x9cc              DispatchQueue 11          9 samples (1-9)           priority 31 (base 31)
+  9  _dispatch_sig_thread + 44 (libdispatch.dylib + 78656) [0x181db3340]
+    9  _dispatch_sigsuspend + 28 (libdispatch.dylib + 78684) [0x181db335c]
+      9  __sigsuspend_nocancel + 8 (libsystem_kernel.dylib + 128772) [0x181ee6704]
+       *9  ??? [0xfffffff0073a01a0]
+
+  Binary Images:
+           0x100080000 -        0x100083fff  amfid (225.1.5)        <1FC9FA00-455C-3508-8B91-62F2F5CFF3BA>  /usr/libexec/amfid
+           0x181da0000 -        0x181dcffff  libdispatch.dylib      <9DA4900C-6D95-3655-BBFC-C6B31C990E9C>  /usr/lib/system/libdispatch.dylib
+           0x181ec7000 -        0x181eeefff  libsystem_kernel.dylib <04E6664A-F080-30E1-AD7D-9F2249E47E18>  /usr/lib/system/libsystem_kernel.dylib
+
+
+Process:         AppPredictionWidget [3200] (suspended)
+Path:            /System/Library/PrivateFrameworks/AppPredictionWidget.framework/PlugIns/AppPredictionWidget.appex/AppPredictionWidget
+Architecture:    arm64
+Parent:          launchd [1]
+UID:             501
+Sudden Term:     Tracked (allows idle exit)
+Task size:       7 MB
+Note:            Suspended for 9 samples
+
+  Thread 0x138619           DispatchQueue 1           9 samples (1-9)           priority 4 (base 4)
+  9  start + 4 (libdyld.dylib + 17848) [0x181dd45b8]
+    9  NSExtensionMain + 64 (Foundation + 2103116) [0x183af574c]
+      9  +[PKService _defaultRun:arguments:] + 20 (PlugInKit + 70012) [0x18b51817c]
+        9  +[PKService main] + 56 (PlugInKit + 68800) [0x18b517cc0]
+          9  -[PKService run] + 848 (PlugInKit + 69976) [0x18b518158]
+            9  -[NSXPCListener resume] + 180 (Foundation + 2210364) [0x183b0fa3c]
+              9  xpc_main + 200 (libxpc.dylib + 80196) [0x181ffa944]
+                9  _xpc_objc_main + 784 (libxpc.dylib + 72904) [0x181ff8cc8]
+                  9  UIApplicationMain + 208 (UIKit + 480592) [0x188dc6550]
+                    9  -[UIApplication _run] + 684 (UIKit + 501784) [0x188dcb818]
+                      9  GSEventRunModal + 180 (GraphicsServices + 49560) [0x184875198]
+                        9  CFRunLoopRunSpecific + 444 (CoreFoundation + 36936) [0x182df2048]
+                          9  __CFRunLoopRun + 1132 (CoreFoundation + 895240) [0x182ec3908]
+                            9  __CFRunLoopServiceMachPort + 192 (CoreFoundation + 904428) [0x182ec5cec]
+                              9  mach_msg + 72 (libsystem_kernel.dylib + 4060) [0x181ec7fdc]
+                                9  mach_msg_trap + 8 (libsystem_kernel.dylib + 4460) [0x181ec816c]
+                                 *9  ??? [0xfffffff0070d6998] (suspended)
+
+  Thread 0x13981d           DispatchQueue 3460        9 samples (1-9)           priority 4 (base 4)
+  9  start_wqthread + 4 (libsystem_pthread.dylib + 3508) [0x181fa8db4]
+    9  _pthread_wqthread + 1288 (libsystem_pthread.dylib + 4808) [0x181fa92c8]
+      9  _dispatch_worker_thread3 + 124 (libdispatch.dylib + 69868) [0x181db10ec]
+        9  _dispatch_root_queue_drain + 572 (libdispatch.dylib + 70540) [0x181db138c]
+          9  _dispatch_queue_invoke + 652 (libdispatch.dylib + 18856) [0x181da49a8]
+            9  _dispatch_queue_serial_drain + 468 (libdispatch.dylib + 62072) [0x181daf278]
+              9  _dispatch_mach_invoke + 1972 (libdispatch.dylib + 18188) [0x181da470c]
+                9  _dispatch_mach_cancel_invoke + 80 (libdispatch.dylib + 120124) [0x181dbd53c]
+                  9  _dispatch_client_callout4 + 16 (libdispatch.dylib + 4752) [0x181da1290]
+                    9  _xpc_connection_mach_event + 788 (libxpc.dylib + 12708) [0x181fea1a4]
+                      9  _xpc_connection_call_event_handler + 68 (libxpc.dylib + 22852) [0x181fec944]
+                        9  message_handler + 488 (Foundation + 31400) [0x1838fbaa8]
+                          9  -[_NSXPCConnectionExportedObjectTable invalidate] + 84 (Foundation + 30352) [0x1838fb690]
+                            9  CFDictionaryRemoveAllValues + 512 (CoreFoundation + 75164) [0x182dfb59c]
+                              9  __CFBasicHashDrain + 288 (CoreFoundation + 1463252) [0x182f4e3d4]
+                                9  -[_NSXPCConnectionExportInfo dealloc] + 68 (Foundation + 30444) [0x1838fb6ec]
+                                  9  -[NSXPCInterface dealloc] + 36 (Foundation + 30528) [0x1838fb740]
+                                    9  _CFRelease + 216 (CoreFoundation + 911988) [0x182ec7a74]
+                                      9  __CFBasicHashDrain + 44 (CoreFoundation + 1463008) [0x182f4e2e0]
+                                        9  __CFBasicHashDrain + 364 (CoreFoundation + 1463328) [0x182f4e420]
+                                         *9  ??? [0xfffffff0070d6998] (suspended)
+
+  Thread 0x138625           Thread name "com.apple.uikit.eventfetch-thread"     9 samples (1-9)           priority 4 (base 4)
+  9  thread_start + 4 (libsystem_pthread.dylib + 3516) [0x181fa8dbc]
+    9  _pthread_start + 284 (libsystem_pthread.dylib + 14192) [0x181fab770]
+      9  _pthread_body + 240 (libsystem_pthread.dylib + 14432) [0x181fab860]
+        9  __NSThread__start__ + 1024 (Foundation + 1090828) [0x1839fe50c]
+          9  -[UIEventFetcher threadMain] + 136 (UIKit + 10419820) [0x189740e6c]
+            9  -[NSRunLoop(NSRunLoop) runUntilDate:] + 96 (Foundation + 185868) [0x18392160c]
+              9  -[NSRunLoop(NSRunLoop) runMode:beforeDate:] + 304 (Foundation + 51996) [0x183900b1c]
+                9  CFRunLoopRunSpecific + 444 (CoreFoundation + 36936) [0x182df2048]
+                  9  __CFRunLoopRun + 1132 (CoreFoundation + 895240) [0x182ec3908]
+                    9  __CFRunLoopServiceMachPort + 192 (CoreFoundation + 904428) [0x182ec5cec]
+                      9  mach_msg + 72 (libsystem_kernel.dylib + 4060) [0x181ec7fdc]
+                        9  mach_msg_trap + 8 (libsystem_kernel.dylib + 4460) [0x181ec816c]
+                         *9  ??? [0xfffffff007091f80] (suspended)
+
+  Thread 0x139503           9 samples (1-9)           priority 4 (base 4)
+  9  start_wqthread + 4 (libsystem_pthread.dylib + 3508) [0x181fa8db4]
+    9  _pthread_wqthread + 1452 (libsystem_pthread.dylib + 4972) [0x181fa936c]
+      9  __workq_kernreturn + 8 (libsystem_kernel.dylib + 129672) [0x181ee6a88]
+       *9  ??? [0xfffffff0070d6998] (suspended)
+
+  Thread 0x139822           9 samples (1-9)           priority 4 (base 4)
+  9  start_wqthread + 0 (libsystem_pthread.dylib + 3504) [0x181fa8db0]
+   *9  ??? [0xfffffff0070d6998] (suspended)
+
+  Thread 0x139823           9 samples (1-9)           priority 4 (base 4)
+  9  start_wqthread + 0 (libsystem_pthread.dylib + 3504) [0x181fa8db0]
+   *9  ??? [0xfffffff0070d6998] (suspended)
+
+  Thread 0x139dc8           9 samples (1-9)           priority 4 (base 4)
+  9  start_wqthread + 4 (libsystem_pthread.dylib + 3508) [0x181fa8db4]
+    9  _pthread_wqthread + 968 (libsystem_pthread.dylib + 4488) [0x181fa9188]
+      9  __workq_kernreturn + 8 (libsystem_kernel.dylib + 129672) [0x181ee6a88]
+       *9  ??? [0xfffffff0070d6998] (suspended)
+
+  Thread 0x139dc9           9 samples (1-9)           priority 4 (base 4)
+  9  start_wqthread + 4 (libsystem_pthread.dylib + 3508) [0x181fa8db4]
+    9  _pthread_wqthread + 1452 (libsystem_pthread.dylib + 4972) [0x181fa936c]
+      9  __workq_kernreturn + 8 (libsystem_kernel.dylib + 129672) [0x181ee6a88]
+       *9  ??? [0xfffffff0070d6998] (suspended)
+
+  Thread 0x139dd0           9 samples (1-9)           priority 4 (base 4)
+  9  start_wqthread + 0 (libsystem_pthread.dylib + 3504) [0x181fa8db0]
+   *9  ??? [0xfffffff0070d6998] (suspended)
+
+  Thread 0x139dd1           9 samples (1-9)           priority 4 (base 4)
+  9  start_wqthread + 4 (libsystem_pthread.dylib + 3508) [0x181fa8db4]
+    9  _pthread_wqthread + 1452 (libsystem_pthread.dylib + 4972) [0x181fa936c]
+      9  __workq_kernreturn + 8 (libsystem_kernel.dylib + 129672) [0x181ee6a88]
+       *9  ??? [0xfffffff0070d6998] (suspended)
+
+  Binary Images:
+           0x10001c000 -        0x100027fff  AppPredictionWidget (389.1.19) <CD0FD431-CF6A-39C5-BC2F-2091BD75A0F6>  /System/Library/PrivateFrameworks/AppPredictionWidget.framework/PlugIns/AppPredictionWidget.appex/AppPredictionWidget
+           0x181da0000 -        0x181dcffff  libdispatch.dylib              <9DA4900C-6D95-3655-BBFC-C6B31C990E9C>  /usr/lib/system/libdispatch.dylib
+           0x181dd0000 -        0x181dd7fff  libdyld.dylib                  <B69BC097-9DE9-3E7C-9CAC-9D89B284039F>  /usr/lib/system/libdyld.dylib
+           0x181ec7000 -        0x181eeefff  libsystem_kernel.dylib         <04E6664A-F080-30E1-AD7D-9F2249E47E18>  /usr/lib/system/libsystem_kernel.dylib
+           0x181fa8000 -        0x181fb3fff  libsystem_pthread.dylib        <BE17C5DE-3FF8-3A86-9591-3479341C34EC>  /usr/lib/system/libsystem_pthread.dylib
+           0x181fe7000 -        0x18200efff  libxpc.dylib                   <9BBF09CD-8CFD-3F94-BAE4-0FAC797416E0>  /usr/lib/system/libxpc.dylib
+           0x182de9000 -        0x18316cfff  CoreFoundation                 <C4824900-D70E-3FD5-B01D-BB079B63EAE1>  /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+           0x1838f4000 -        0x183bc3fff  Foundation                     <A6AD1055-3017-396E-BB4E-BA2A4AD331D8>  /System/Library/Frameworks/Foundation.framework/Foundation
+           0x184869000 -        0x184880fff  GraphicsServices               <1E0ED931-5F48-3008-8AA2-086205F45050>  /System/Library/PrivateFrameworks/GraphicsServices.framework/GraphicsServices
+           0x188d51000 -        0x189ae0fff  UIKit                          <0C8F420C-D77F-39F2-A818-5A8DDD3C8F0C>  /System/Library/Frameworks/UIKit.framework/UIKit
+           0x18b507000 -        0x18b526fff  PlugInKit                      <8FDE4C6C-2DBC-3004-B563-587001B9E729>  /System/Library/PrivateFrameworks/PlugInKit.framework/PlugInKit
+
+
+Process:         appstored [175]
+Path:            /System/Library/PrivateFrameworks/AppStoreDaemon.framework/appstored.bundle/appstored
+Architecture:    arm64
+Parent:          launchd [1]
+UID:             501
+Sudden Term:     Tracked (allows idle exit)
+Task size:       9 MB
+Note:            3 idle work queue threads omitted
+
+  Thread 0x956              DispatchQueue 1           9 samples (1-9)           priority 31 (base 31)
+  9  start + 4 (libdyld.dylib + 17848) [0x181dd45b8]
+    9  ??? (appstored + 10420) [0x1000528b4]
+      9  CFRunLoopRunSpecific + 444 (CoreFoundation + 36936) [0x182df2048]
+        9  __CFRunLoopRun + 1132 (CoreFoundation + 895240) [0x182ec3908]
+          9  __CFRunLoopServiceMachPort + 192 (CoreFoundation + 904428) [0x182ec5cec]
+            9  mach_msg + 72 (libsystem_kernel.dylib + 4060) [0x181ec7fdc]
+              9  mach_msg_trap + 8 (libsystem_kernel.dylib + 4460) [0x181ec816c]
+               *9  ??? [0xfffffff007091f80]
+
+  Thread 0x99e              Thread name "com.apple.NSURLConnectionLoader"       9 samples (1-9)           priority 33 (base 33)
+  9  thread_start + 4 (libsystem_pthread.dylib + 3516) [0x181fa8dbc]
+    9  _pthread_start + 284 (libsystem_pthread.dylib + 14192) [0x181fab770]
+      9  _pthread_body + 240 (libsystem_pthread.dylib + 14432) [0x181fab860]
+        9  __NSThread__start__ + 1024 (Foundation + 1090828) [0x1839fe50c]
+          9  +[NSURLConnection(Loader) _resourceLoadLoop:] + 336 (CFNetwork + 838892) [0x1835dfcec]
+            9  CFRunLoopRunSpecific + 444 (CoreFoundation + 36936) [0x182df2048]
+              9  __CFRunLoopRun + 1132 (CoreFoundation + 895240) [0x182ec3908]
+                9  __CFRunLoopServiceMachPort + 192 (CoreFoundation + 904428) [0x182ec5cec]
+                  9  mach_msg + 72 (libsystem_kernel.dylib + 4060) [0x181ec7fdc]
+                    9  mach_msg_trap + 8 (libsystem_kernel.dylib + 4460) [0x181ec816c]
+                     *9  ??? [0xfffffff007091f80]
+
+  Binary Images:
+           0x100050000 -        0x100217fff  appstored (1.106.1)     <499EB111-9255-301C-B252-F04AA7245A32>  /System/Library/PrivateFrameworks/AppStoreDaemon.framework/appstored.bundle/appstored
+           0x181dd0000 -        0x181dd7fff  libdyld.dylib           <B69BC097-9DE9-3E7C-9CAC-9D89B284039F>  /usr/lib/system/libdyld.dylib
+           0x181ec7000 -        0x181eeefff  libsystem_kernel.dylib  <04E6664A-F080-30E1-AD7D-9F2249E47E18>  /usr/lib/system/libsystem_kernel.dylib
+           0x181fa8000 -        0x181fb3fff  libsystem_pthread.dylib <BE17C5DE-3FF8-3A86-9591-3479341C34EC>  /usr/lib/system/libsystem_pthread.dylib
+           0x182de9000 -        0x18316cfff  CoreFoundation          <C4824900-D70E-3FD5-B01D-BB079B63EAE1>  /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+           0x183513000 -        0x183882fff  CFNetwork               <CA09941B-FD35-3BB8-B6B6-79A0F14CAD1E>  /System/Library/Frameworks/CFNetwork.framework/CFNetwork
+           0x1838f4000 -        0x183bc3fff  Foundation              <A6AD1055-3017-396E-BB4E-BA2A4AD331D8>  /System/Library/Frameworks/Foundation.framework/Foundation
+
+
+Process:         apsd [88]
+Path:            /System/Library/PrivateFrameworks/ApplePushService.framework/apsd
+Architecture:    arm64
+Parent:          launchd [1]
+UID:             501
+Sudden Term:     Tracked
+Task size:       5 MB
+Note:            4 idle work queue threads omitted
+
+  Thread 0x44e              DispatchQueue 1           9 samples (1-9)           priority 31 (base 31)
+  9  start + 4 (libdyld.dylib + 17848) [0x181dd45b8]
+    9  ??? (apsd + 154316) [0x1000e1acc]
+      9  -[NSRunLoop(NSRunLoop) run] + 88 (Foundation + 397984) [0x1839552a0]
+        9  -[NSRunLoop(NSRunLoop) runMode:beforeDate:] + 304 (Foundation + 51996) [0x183900b1c]
+          9  CFRunLoopRunSpecific + 444 (CoreFoundation + 36936) [0x182df2048]
+            9  __CFRunLoopRun + 1132 (CoreFoundation + 895240) [0x182ec3908]
+              9  __CFRunLoopServiceMachPort + 192 (CoreFoundation + 904428) [0x182ec5cec]
+                9  mach_msg + 72 (libsystem_kernel.dylib + 4060) [0x181ec7fdc]
+                  9  mach_msg_trap + 8 (libsystem_kernel.dylib + 4460) [0x181ec816c]
+                   *9  ??? [0xfffffff007091f80]
+
+  Thread 0x6ad              Thread name "CommonUtilities-WiFi-Thread"           9 samples (1-9)           priority 31 (base 31)
+  9  thread_start + 4 (libsystem_pthread.dylib + 3516) [0x181fa8dbc]
+    9  _pthread_start + 284 (libsystem_pthread.dylib + 14192) [0x181fab770]
+      9  _pthread_body + 240 (libsystem_pthread.dylib + 14432) [0x181fab860]
+        9  __NSThread__start__ + 1024 (Foundation + 1090828) [0x1839fe50c]
+          9  ??? (CommonUtilities + 27680) [0x1851a8c20]
+            9  CFRunLoopRun + 112 (CoreFoundation + 354516) [0x182e3f8d4]
+              9  CFRunLoopRunSpecific + 444 (CoreFoundation + 36936) [0x182df2048]
+                9  __CFRunLoopRun + 1132 (CoreFoundation + 895240) [0x182ec3908]
+                  9  __CFRunLoopServiceMachPort + 192 (CoreFoundation + 904428) [0x182ec5cec]
+                    9  mach_msg + 72 (libsystem_kernel.dylib + 4060) [0x181ec7fdc]
+                      9  mach_msg_trap + 8 (libsystem_kernel.dylib + 4460) [0x181ec816c]
+                       *9  ??? [0xfffffff007091f80]
+
+  Thread 0x918              9 samples (1-9)           priority 31 (base 31)
+  9  <truncated backtrace>
+    9  mach_msg + 72 (libsystem_kernel.dylib + 4060) [0x181ec7fdc]
+      9  mach_msg_trap + 8 (libsystem_kernel.dylib + 4460) [0x181ec816c]
+       *9  ??? [0xfffffff007091f80]
+
+  Thread 0xdaf              Thread name "com.apple.NSURLConnectionLoader"       9 samples (1-9)           priority 33 (base 33)
+  9  <truncated backtrace>
+    9  mach_msg + 72 (libsystem_kernel.dylib + 4060) [0x181ec7fdc]
+      9  mach_msg_trap + 8 (libsystem_kernel.dylib + 4460) [0x181ec816c]
+       *9  ??? [0xfffffff007091f80]
+
+  Thread 0xdb9              Thread name "com.apple.CFSocket.private"            9 samples (1-9)           priority 31 (base 31)
+  9  thread_start + 4 (libsystem_pthread.dylib + 3516) [0x181fa8dbc]
+    9  _pthread_start + 284 (libsystem_pthread.dylib + 14192) [0x181fab770]
+      9  _pthread_body + 240 (libsystem_pthread.dylib + 14432) [0x181fab860]
+        9  __CFSocketManager + 640 (CoreFoundation + 932740) [0x182eccb84]
+          9  __select + 8 (libsystem_kernel.dylib + 127548) [0x181ee623c]
+           *9  ??? [0xfffffff0073a01a0]
+
+  Binary Images:
+           0x1000bc000 -        0x10013bfff  apsd (513.11)           <BFB51974-2762-3B7C-9F98-3D052A974600>  /System/Library/PrivateFrameworks/ApplePushService.framework/apsd
+           0x181dd0000 -        0x181dd7fff  libdyld.dylib           <B69BC097-9DE9-3E7C-9CAC-9D89B284039F>  /usr/lib/system/libdyld.dylib
+           0x181ec7000 -        0x181eeefff  libsystem_kernel.dylib  <04E6664A-F080-30E1-AD7D-9F2249E47E18>  /usr/lib/system/libsystem_kernel.dylib
+           0x181fa8000 -        0x181fb3fff  libsystem_pthread.dylib <BE17C5DE-3FF8-3A86-9591-3479341C34EC>  /usr/lib/system/libsystem_pthread.dylib
+           0x182de9000 -        0x18316cfff  CoreFoundation          <C4824900-D70E-3FD5-B01D-BB079B63EAE1>  /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+           0x1838f4000 -        0x183bc3fff  Foundation              <A6AD1055-3017-396E-BB4E-BA2A4AD331D8>  /System/Library/Frameworks/Foundation.framework/Foundation
+           0x1851a2000 -        0x1851b5fff  CommonUtilities         <0098D095-D667-3398-8B5A-6E73803F37A6>  /System/Library/PrivateFrameworks/CommonUtilities.framework/CommonUtilities
+
+
+Process:         aslmanager [2897]
+Path:            /usr/sbin/aslmanager
+Architecture:    arm64
+Parent:          launchd [1]
+UID:             0
+Sudden Term:     Tracked (allows idle exit)
+Task size:       1 MB
+Note:            2 idle work queue threads omitted
+
+  Thread 0x11b51e           DispatchQueue 11          9 samples (1-9)           priority 31 (base 31)
+  9  _dispatch_sig_thread + 44 (libdispatch.dylib + 78656) [0x181db3340]
+    9  _dispatch_sigsuspend + 28 (libdispatch.dylib + 78684) [0x181db335c]
+      9  __sigsuspend_nocancel + 8 (libsystem_kernel.dylib + 128772) [0x181ee6704]
+       *9  ??? [0xfffffff0073a01a0]
+
+  Binary Images:
+           0x100044000 -        0x10004ffff  aslmanager             <E5C0AFE6-514C-3EA4-BBC8-D0ADEA2581BA>  /usr/sbin/aslmanager
+           0x181da0000 -        0x181dcffff  libdispatch.dylib      <9DA4900C-6D95-3655-BBFC-C6B31C990E9C>  /usr/lib/system/libdispatch.dylib
+           0x181ec7000 -        0x181eeefff  libsystem_kernel.dylib <04E6664A-F080-30E1-AD7D-9F2249E47E18>  /usr/lib/system/libsystem_kernel.dylib
+
+
+Process:         assertiond [66]
+Path:            /usr/libexec/assertiond
+Architecture:    arm64
+Parent:          launchd [1]
+UID:             0
+Sudden Term:     Tracked
+Task size:       2 MB
+CPU Time:        <0.001
+Note:            3 idle work queue threads omitted
+
+  Thread 0x311              DispatchQueue 1           9 samples (1-9)           priority 4 (base 4)
+  9  start + 4 (libdyld.dylib + 17848) [0x181dd45b8]
+    9  ??? (assertiond + 61020) [0x10001ee5c]
+      9  -[NSRunLoop(NSRunLoop) run] + 88 (Foundation + 397984) [0x1839552a0]
+        9  -[NSRunLoop(NSRunLoop) runMode:beforeDate:] + 304 (Foundation + 51996) [0x183900b1c]
+          9  CFRunLoopRunSpecific + 444 (CoreFoundation + 36936) [0x182df2048]
+            9  __CFRunLoopRun + 1132 (CoreFoundation + 895240) [0x182ec3908]
+              9  __CFRunLoopServiceMachPort + 192 (CoreFoundation + 904428) [0x182ec5cec]
+                9  mach_msg + 72 (libsystem_kernel.dylib + 4060) [0x181ec7fdc]
+                  9  mach_msg_trap + 8 (libsystem_kernel.dylib + 4460) [0x181ec816c]
+                   *9  ??? [0xfffffff007091f80]
+
+  Binary Images:
+           0x100010000 -        0x10002bfff  assertiond (126.1.1)   <03C9B3FB-DF3F-349E-8828-0CF2FFD33963>  /usr/libexec/assertiond
+           0x181dd0000 -        0x181dd7fff  libdyld.dylib          <B69BC097-9DE9-3E7C-9CAC-9D89B284039F>  /usr/lib/system/libdyld.dylib
+           0x181ec7000 -        0x181eeefff  libsystem_kernel.dylib <04E6664A-F080-30E1-AD7D-9F2249E47E18>  /usr/lib/system/libsystem_kernel.dylib
+           0x182de9000 -        0x18316cfff  CoreFoundation         <C4824900-D70E-3FD5-B01D-BB079B63EAE1>  /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+           0x1838f4000 -        0x183bc3fff  Foundation             <A6AD1055-3017-396E-BB4E-BA2A4AD331D8>  /System/Library/Frameworks/Foundation.framework/Foundation
+
+
+Process:         AssetCacheLocatorService [3140]
+Path:            /System/Library/PrivateFrameworks/AssetCacheServices.framework/XPCServices/AssetCacheLocatorService.xpc/AssetCacheLocatorService
+Architecture:    arm64
+Parent:          launchd [1]
+UID:             501
+Sudden Term:     Tracked (allows idle exit)
+Task size:       1 MB
+Note:            1 idle work queue threads omitted
+
+  Thread 0x133411           DispatchQueue 1           9 samples (1-9)           priority 4 (base 4)
+  9  start + 4 (libdyld.dylib + 17848) [0x181dd45b8]
+    9  main + 68 (AssetCacheLocatorService + 23188) [0x100075a94]
+      9  -[AssetCacheLocatorService start] + 640 (AssetCacheLocatorService + 40080) [0x100079c90]
+        9  -[NSRunLoop(NSRunLoop) run] + 88 (Foundation + 397984) [0x1839552a0]
+          9  -[NSRunLoop(NSRunLoop) runMode:beforeDate:] + 304 (Foundation + 51996) [0x183900b1c]
+            9  CFRunLoopRunSpecific + 444 (CoreFoundation + 36936) [0x182df2048]
+              9  __CFRunLoopRun + 1132 (CoreFoundation + 895240) [0x182ec3908]
+                9  __CFRunLoopServiceMachPort + 192 (CoreFoundation + 904428) [0x182ec5cec]
+                  9  mach_msg + 72 (libsystem_kernel.dylib + 4060) [0x181ec7fdc]
+                    9  mach_msg_trap + 8 (libsystem_kernel.dylib + 4460) [0x181ec816c]
+                     *9  ??? [0xfffffff007091f80]
+
+  Thread 0x133421           Thread name "com.apple.NSURLConnectionLoader"       9 samples (1-9)           priority 4 (base 4)
+  9  thread_start + 4 (libsystem_pthread.dylib + 3516) [0x181fa8dbc]
+    9  _pthread_start + 284 (libsystem_pthread.dylib + 14192) [0x181fab770]
+      9  _pthread_body + 240 (libsystem_pthread.dylib + 14432) [0x181fab860]
+        9  __NSThread__start__ + 1024 (Foundation + 1090828) [0x1839fe50c]
+          9  +[NSURLConnection(Loader) _resourceLoadLoop:] + 336 (CFNetwork + 838892) [0x1835dfcec]
+            9  CFRunLoopRunSpecific + 444 (CoreFoundation + 36936) [0x182df2048]
+              9  __CFRunLoopRun + 1132 (CoreFoundation + 895240) [0x182ec3908]
+                9  __CFRunLoopServiceMachPort + 192 (CoreFoundation + 904428) [0x182ec5cec]
+                  9  mach_msg + 72 (libsystem_kernel.dylib + 4060) [0x181ec7fdc]
+                    9  mach_msg_trap + 8 (libsystem_kernel.dylib + 4460) [0x181ec816c]
+                     *9  ??? [0xfffffff007091f80]
+
+  Binary Images:
+           0x100070000 -        0x10009bfff  AssetCacheLocatorService <26D18F0C-55AA-320D-80FE-48381EE62384>  /System/Library/PrivateFrameworks/AssetCacheServices.framework/XPCServices/AssetCacheLocatorService.xpc/AssetCacheLocatorService
+           0x181dd0000 -        0x181dd7fff  libdyld.dylib            <B69BC097-9DE9-3E7C-9CAC-9D89B284039F>  /usr/lib/system/libdyld.dylib
+           0x181ec7000 -        0x181eeefff  libsystem_kernel.dylib   <04E6664A-F080-30E1-AD7D-9F2249E47E18>  /usr/lib/system/libsystem_kernel.dylib
+           0x181fa8000 -        0x181fb3fff  libsystem_pthread.dylib  <BE17C5DE-3FF8-3A86-9591-3479341C34EC>  /usr/lib/system/libsystem_pthread.dylib
+           0x182de9000 -        0x18316cfff  CoreFoundation           <C4824900-D70E-3FD5-B01D-BB079B63EAE1>  /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+           0x183513000 -        0x183882fff  CFNetwork                <CA09941B-FD35-3BB8-B6B6-79A0F14CAD1E>  /System/Library/Frameworks/CFNetwork.framework/CFNetwork
+           0x1838f4000 -        0x183bc3fff  Foundation               <A6AD1055-3017-396E-BB4E-BA2A4AD331D8>  /System/Library/Frameworks/Foundation.framework/Foundation
+
+
+Process:         assetsd [55]
+Path:            /System/Library/Frameworks/AssetsLibrary.framework/Support/assetsd
+Architecture:    arm64
+Parent:          launchd [1]
+UID:             501
+Sudden Term:     Tracked (allows idle exit)
+Task size:       12 MB
+CPU Time:        0.003
+Note:            4 idle work queue threads omitted
+
+  Thread 0x306              DispatchQueue 1           9 samples (1-9)           priority 31 (base 31)     cpu time 0.001
+  9  start + 4 (libdyld.dylib + 17848) [0x181dd45b8]
+    9  ??? (assetsd + 130912) [0x100047f60]
+      9  CFRunLoopRun + 112 (CoreFoundation + 354516) [0x182e3f8d4]
+        9  CFRunLoopRunSpecific + 444 (CoreFoundation + 36936) [0x182df2048]
+          9  __CFRunLoopRun + 1132 (CoreFoundation + 895240) [0x182ec3908]
+            9  __CFRunLoopServiceMachPort + 192 (CoreFoundation + 904428) [0x182ec5cec]
+              9  mach_msg + 72 (libsystem_kernel.dylib + 4060) [0x181ec7fdc]
+                9  mach_msg_trap + 8 (libsystem_kernel.dylib + 4460) [0x181ec816c]
+                 *9  ??? [0xfffffff007091f80]
+
+  Thread 0x68de             Thread name "com.apple.assetsd.momentAnalyzer.geoWorkThread"                  9 samples (1-9)           priority 31 (base 31)
+  9  <truncated backtrace>
+    9  mach_msg + 72 (libsystem_kernel.dylib + 4060) [0x181ec7fdc]
+      9  mach_msg_trap + 8 (libsystem_kernel.dylib + 4460) [0x181ec816c]
+       *9  ??? [0xfffffff007091f80]
+
+  Thread 0x68e6             Thread name "NetworkLoad" 9 samples (1-9)           priority 31 (base 31)
+  9  <truncated backtrace>
+    9  mach_msg + 72 (libsystem_kernel.dylib + 4060) [0x181ec7fdc]
+      9  mach_msg_trap + 8 (libsystem_kernel.dylib + 4460) [0x181ec816c]
+       *9  ??? [0xfffffff007091f80]
+
+  Thread 0x8c9db            Thread name "com.apple.NSURLConnectionLoader"       9 samples (1-9)           priority 33 (base 33)
+  9  thread_start + 4 (libsystem_pthread.dylib + 3516) [0x181fa8dbc]
+    9  _pthread_start + 284 (libsystem_pthread.dylib + 14192) [0x181fab770]
+      9  _pthread_body + 240 (libsystem_pthread.dylib + 14432) [0x181fab860]
+        9  __NSThread__start__ + 1024 (Foundation + 1090828) [0x1839fe50c]
+          9  +[NSURLConnection(Loader) _resourceLoadLoop:] + 336 (CFNetwork + 838892) [0x1835dfcec]
+            9  CFRunLoopRunSpecific + 444 (CoreFoundation + 36936) [0x182df2048]
+              9  __CFRunLoopRun + 1132 (CoreFoundation + 895240) [0x182ec3908]
+                9  __CFRunLoopServiceMachPort + 192 (CoreFoundation + 904428) [0x182ec5cec]
+                  9  mach_msg + 72 (libsystem_kernel.dylib + 4060) [0x181ec7fdc]
+                    9  mach_msg_trap + 8 (libsystem_kernel.dylib + 4460) [0x181ec816c]
+                     *9  ??? [0xfffffff007091f80]
+
+  Binary Images:
+           0x100028000 -        0x10005ffff  assetsd (3030.1.4)      <0952A253-E260-3162-8A56-690A5D6C658D>  /System/Library/Frameworks/AssetsLibrary.framework/Support/assetsd
+           0x181dd0000 -        0x181dd7fff  libdyld.dylib           <B69BC097-9DE9-3E7C-9CAC-9D89B284039F>  /usr/lib/system/libdyld.dylib
+           0x181ec7000 -        0x181eeefff  libsystem_kernel.dylib  <04E6664A-F080-30E1-AD7D-9F2249E47E18>  /usr/lib/system/libsystem_kernel.dylib
+           0x181fa8000 -        0x181fb3fff  libsystem_pthread.dylib <BE17C5DE-3FF8-3A86-9591-3479341C34EC>  /usr/lib/system/libsystem_pthread.dylib
+           0x182de9000 -        0x18316cfff  CoreFoundation          <C4824900-D70E-3FD5-B01D-BB079B63EAE1>  /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+           0x183513000 -        0x183882fff  CFNetwork               <CA09941B-FD35-3BB8-B6B6-79A0F14CAD1E>  /System/Library/Frameworks/CFNetwork.framework/CFNetwork
+           0x1838f4000 -        0x183bc3fff  Foundation              <A6AD1055-3017-396E-BB4E-BA2A4AD331D8>  /System/Library/Frameworks/Foundation.framework/Foundation
+
+
+Process:         assistantd [2887]
+Path:            /System/Library/PrivateFrameworks/AssistantServices.framework/assistantd
+Architecture:    arm64
+Parent:          launchd [1]
+UID:             501
+Sudden Term:     Tracked (allows idle exit)
+Task size:       4 MB
+Note:            1 idle work queue threads omitted
+
+  Thread 0x11b40f           DispatchQueue 1           9 samples (1-9)           priority 4 (base 4)
+  9  start + 4 (libdyld.dylib + 17848) [0x181dd45b8]
+    9  ??? (assistantd + 34288) [0x1000e85f0]
+      9  ??? (assistantd + 35240) [0x1000e89a8]
+        9  -[NSRunLoop(NSRunLoop) run] + 88 (Foundation + 397984) [0x1839552a0]
+          9  -[NSRunLoop(NSRunLoop) runMode:beforeDate:] + 304 (Foundation + 51996) [0x183900b1c]
+            9  CFRunLoopRunSpecific + 444 (CoreFoundation + 36936) [0x182df2048]
+              9  __CFRunLoopRun + 1132 (CoreFoundation + 895240) [0x182ec3908]
+                9  __CFRunLoopServiceMachPort + 192 (CoreFoundation + 904428) [0x182ec5cec]
+                  9  mach_msg + 72 (libsystem_kernel.dylib + 4060) [0x181ec7fdc]
+                    9  mach_msg_trap + 8 (libsystem_kernel.dylib + 4460) [0x181ec816c]
+                     *9  ??? [0xfffffff007091f80]
+
+  Binary Images:
+           0x1000e0000 -        0x100237fff  assistantd (1352.17)   <3995720B-4BA3-326C-830D-22F91EE87945>  /System/Library/PrivateFrameworks/AssistantServices.framework/assistantd
+           0x181dd0000 -        0x181dd7fff  libdyld.dylib          <B69BC097-9DE9-3E7C-9CAC-9D89B284039F>  /usr/lib/system/libdyld.dylib
+           0x181ec7000 -        0x181eeefff  libsystem_kernel.dylib <04E6664A-F080-30E1-AD7D-9F2249E47E18>  /usr/lib/system/libsystem_kernel.dylib
+           0x182de9000 -        0x18316cfff  CoreFoundation         <C4824900-D70E-3FD5-B01D-BB079B63EAE1>  /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+           0x1838f4000 -        0x183bc3fff  Foundation             <A6AD1055-3017-396E-BB4E-BA2A4AD331D8>  /System/Library/Frameworks/Foundation.framework/Foundation
+
+
+Process:         atc [39]
+Path:            /usr/libexec/atc
+Architecture:    arm64
+Parent:          launchd [1]
+UID:             501
+Sudden Term:     Tracked (allows idle exit)
+Task size:       5 MB
+Note:            2 idle work queue threads omitted
+
+  Thread 0x2f6              DispatchQueue 1           9 samples (1-9)           priority 31 (base 31)
+  9  start + 4 (libdyld.dylib + 17848) [0x181dd45b8]
+    9  ??? (atc + 14244) [0x1000a37a4]
+      9  -[NSRunLoop(NSRunLoop) run] + 88 (Foundation + 397984) [0x1839552a0]
+        9  -[NSRunLoop(NSRunLoop) runMode:beforeDate:] + 304 (Foundation + 51996) [0x183900b1c]
+          9  CFRunLoopRunSpecific + 444 (CoreFoundation + 36936) [0x182df2048]
+            9  __CFRunLoopRun + 1132 (CoreFoundation + 895240) [0x182ec3908]
+              9  __CFRunLoopServiceMachPort + 192 (CoreFoundation + 904428) [0x182ec5cec]
+                9  mach_msg + 72 (libsystem_kernel.dylib + 4060) [0x181ec7fdc]
+                  9  mach_msg_trap + 8 (libsystem_kernel.dylib + 4460) [0x181ec816c]
+                   *9  ??? [0xfffffff007091f80]
+
+  Binary Images:
+           0x1000a0000 -        0x1000a3fff  atc (666.1)            <B4B3E668-760F-36AF-A81F-3A164DCD2B38>  /usr/libexec/atc
+           0x181dd0000 -        0x181dd7fff  libdyld.dylib          <B69BC097-9DE9-3E7C-9CAC-9D89B284039F>  /usr/lib/system/libdyld.dylib
+           0x181ec7000 -        0x181eeefff  libsystem_kernel.dylib <04E6664A-F080-30E1-AD7D-9F2249E47E18>  /usr/lib/system/libsystem_kernel.dylib
+           0x182de9000 -        0x18316cfff  CoreFoundation         <C4824900-D70E-3FD5-B01D-BB079B63EAE1>  /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+           0x1838f4000 -        0x183bc3fff  Foundation             <A6AD1055-3017-396E-BB4E-BA2A4AD331D8>  /Syst

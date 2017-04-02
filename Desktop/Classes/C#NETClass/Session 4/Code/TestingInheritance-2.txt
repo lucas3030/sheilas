@@ -1,0 +1,4 @@
+private void OnTalk(object sender, TalkingEventArgs e)
+        {
+            lblEmployeeTalk.Text = e.SpeakerName + " said in a " + e.Voice + " voice: \"" + e.Message + "\"";
+        }

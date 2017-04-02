@@ -1,0 +1,8 @@
+Logging in build 2015.1.2.44 started at: Sun Apr 24 23:28:22 2016
+========================================
+[00:11:22.056] 23:39:44.605 | quitWithUI:Quitting Application. Called by: 
+[00:11:22.524] 23:39:45.074 | Quitting Application after 11.2 minutes. Called by: 
+
+==========
+Logging ended at: Sun Apr 24 23:39:47 2016
+

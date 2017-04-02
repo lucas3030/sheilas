@@ -1,0 +1,5 @@
+﻿[2016-10-15 19:19:36.035] [Info] Installation ID: 5d6e2d13-04bb-49ec-a3ce-a7382cbde15c
+[2016-10-15 19:19:36.050] [Info] Operating system: Mac OS X v10.10.5 (10.10.5; Mac OS X 10.10.5 (10.10.5 build version: 14F1713)), 64-bit
+[2016-10-15 19:19:36.050] [Info] Installer product: Xamarin
+[2016-10-15 19:19:36.051] [Info] Installer version: 3.4.0.22 (detached from 7aa1350) (7aa13505fc98649946aec126d6dd13fe533bc6fc on 08/06/2016 13:40:46)
+[2016-10-15 19:19:36.051] [Info] Status: in progress

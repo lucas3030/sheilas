@@ -1,0 +1,6 @@
+public string Talk(string message)
+{
+	mMsg = mName + " said: " + message;
+	return mMsg;
+}
+

@@ -1,0 +1,47 @@
+Thu Dec 24 2015 03:54:58: Total 1 update(s) available.
+Thu Dec 24 2015 03:55:02: Downloading 1 update(s).
+Thu Dec 24 2015 03:55:02: Downloading update with id 1
+Thu Dec 24 2015 03:55:03: Process completed successfully.
+Fri Dec 25 2015 23:47:18: Installation process started.
+Fri Dec 25 2015 23:47:18: Installing update with id 1
+Fri Dec 25 2015 23:47:18: Install completed successfully.
+Fri Apr 08 2016 23:37:49: Error: An error occurred while checking for updates - Bad HTTP status code
+Tue Apr 12 2016 00:05:03: Error: An error occurred while checking for updates - Bad HTTP status code
+Sun Apr 24 2016 23:20:46: Error: An error occurred while checking for updates - Bad HTTP status code
+Fri Apr 29 2016 00:13:45: Error: An error occurred while checking for updates - Bad HTTP status code
+Sat Apr 30 2016 17:13:58: Error: An error occurred while checking for updates - Bad HTTP status code
+Sun May 01 2016 19:33:38: Error: An error occurred while checking for updates - Bad HTTP status code
+Wed May 04 2016 01:22:26: Error: An error occurred while checking for updates - Bad HTTP status code
+Sun May 15 2016 11:29:21: Error: An error occurred while checking for updates - Bad HTTP status code
+Tue May 24 2016 23:32:11: Error: An error occurred while checking for updates - Bad HTTP status code
+Sat Jun 04 2016 21:41:36: Error: An error occurred while checking for updates - Bad HTTP status code
+Sun Jun 12 2016 22:05:43: Error: An error occurred while checking for updates - Bad HTTP status code
+Wed Jun 29 2016 22:18:07: Error: An error occurred while checking for updates - Bad HTTP status code
+Sun Jul 03 2016 12:10:05: Error: An error occurred while checking for updates - Bad HTTP status code
+Mon Jul 04 2016 23:09:22: Error: An error occurred while checking for updates - Bad HTTP status code
+Sun Jul 10 2016 23:55:36: Error: An error occurred while checking for updates - Bad HTTP status code
+Sat Jul 16 2016 14:07:41: Error: An error occurred while checking for updates - Bad HTTP status code
+Thu Jul 21 2016 00:59:37: Error: An error occurred while checking for updates - Bad HTTP status code
+Tue Jul 26 2016 18:20:50: Error: An error occurred while checking for updates - No server response
+Wed Jul 27 2016 19:29:38: Error: An error occurred while checking for updates - Bad HTTP status code
+Sat Jul 30 2016 13:27:57: Error: An error occurred while checking for updates - Bad HTTP status code
+Tue Aug 02 2016 18:13:22: Dreamweaver notification available.
+Tue Aug 09 2016 18:18:12: Error: An error occurred while checking for updates - Bad HTTP status code
+Tue Aug 16 2016 18:10:32: Error: An error occurred while checking for updates - Bad HTTP status code
+Thu Aug 18 2016 18:27:57: Error: An error occurred while checking for updates - Bad HTTP status code
+Tue Aug 23 2016 18:13:39: Error: An error occurred while checking for updates - No server response
+Tue Sep 06 2016 23:08:52: Total 1 update(s) available.
+Tue Sep 06 2016 23:09:08: Downloading 1 update(s).
+Tue Sep 06 2016 23:09:08: Downloading update with id 2
+Tue Sep 06 2016 23:09:09: Process completed successfully.
+Wed Sep 07 2016 21:38:28: Installation process started.
+Wed Sep 07 2016 21:38:28: Installing update with id 2
+Wed Sep 07 2016 21:38:28: Install completed successfully.
+Thu Sep 08 2016 23:40:04: Error: An error occurred while checking for updates - Invalid JSON file
+Mon Sep 19 2016 20:07:12: Error: An error occurred while checking for updates - Invalid JSON file
+Wed Sep 21 2016 13:20:23: Error: An error occurred while checking for updates - No server response
+Mon Oct 03 2016 00:29:56: Error: An error occurred while checking for updates - Invalid JSON file
+Tue Oct 04 2016 17:59:00: Error: An error occurred while checking for updates - No server response
+Thu Oct 13 2016 18:47:20: Error: An error occurred while checking for updates - No server response
+Sun Nov 13 2016 23:33:21: Dreamweaver notification available.
+Fri Feb 10 2017 17:49:47: Dreamweaver notification available.

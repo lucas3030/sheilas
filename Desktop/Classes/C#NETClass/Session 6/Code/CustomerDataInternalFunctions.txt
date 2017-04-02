@@ -1,0 +1,68 @@
+    #region "Internal Functions"
+
+    public bool CheckCustomerExists(string EmailAddress)
+    {
+        int x;
+        try
+        {
+            if (cn.State != ConnectionState.Open)
+                cn.Open();
+            cmd.CommandText = "SP_CheckCustomerExists";
+            cmd.Parameters.Clear();
+            cmd.Parameters.AddWithValue("@EmailAddress", EmailAddress);
+            cmd.Parameters.Add("@ReturnValue", SqlDbType.Int, 4).Direction = ParameterDirection.ReturnValue;
+            cmd.ExecuteNonQuery();
+            x = Convert.ToInt32(cmd.Parameters["@ReturnValue"].Value);
+            if (x == 10000)
+                return true;
+            else
+                return false;
+        }
+        catch (Exception Ex)
+        {
+            throw new Exception(Ex.Message);
+        }
+    }
+
+    public DataTable GetExistingStateInfo()
+    {
+        try
+        {
+            DataTable dt = new DataTable();
+            if (cn.State != ConnectionState.Open)
+                cn.Open();
+            cmd.CommandText = "SP_GetExistingStateInfo";
+            cmd.Parameters.Clear();
+            da.SelectCommand = cmd;
+            da.Fill(dt);
+            cn.Close();
+            return dt;
+        }
+        catch (Exception Ex)
+        {
+            throw new Exception(Ex.Message);
+        }
+    }
+
+
+    public DataTable GetStateInfo()
+    {
+        try
+        {
+            DataTable dt = new DataTable();
+            if (cn.State != ConnectionState.Open)
+                cn.Open();
+            cmd.CommandText = "SP_GetStateInfo";
+            cmd.Parameters.Clear();
+            da.SelectCommand = cmd;
+            da.Fill(dt);
+            cn.Close();
+            return dt;
+        }
+        catch (Exception Ex)
+        {
+            throw new Exception(Ex.Message);
+        }
+    }
+
+    #endregion //End of "Internal Functions" region

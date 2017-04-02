@@ -1,0 +1,3 @@
+<appSettings>
+    <add key="SMTPIP" value="10.51.45.56"/>
+</appSettings>

@@ -1,0 +1,79 @@
+<_UIKeyboardArbiter: 0x1742e5780; <<_UIKeyboardArbiter_ForSpringBoard: 0x174221720>; workspace = <SBUIWorkspace: 0x17446b400; identifier: com.apple.UIKit.KeyboardManagement.hosted> {
+    clientQueue = <FBSSerialQueue: 0x174273e80; dispatchQueue: com.apple.UIKit.keyboard-arbiter>;
+    scenes = {
+        <SBUIScene: 0x170477a00; identifier: com.apple.UIKit.remote-keyboard> {
+            display = <FBSDisplay: 0x1740e3380; name: Main ("LCD"); scale: 2.0; displayID: 1> {
+                bounds = {{0, 0}, {375, 667}};
+                seed = 2;
+                tags = 0;
+                pid = 0;
+                hidden = NO;
+            };
+            settings = <FBSSceneSettings: 0x1708aeac0> {
+                frame = {{0, 0}, {375, 667}};
+                level = 2.0;
+                interfaceOrientation = unknown;
+                backgrounded = NO;
+                occlusions = {
+                    <FBSSceneOcclusion: 0x17445e870; {{0, 0}, {1, 1}}>;
+                }
+            };
+            clientSettings = <FBSSceneClientSettings: 0x170e4ed90> {
+                preferredLevel = 2.0;
+                preferredInterfaceOrientation = unknown;
+                preferredSceneHostIdentifier = ;
+            };
+        };
+    }
+}; scene = <SBUIScene: 0x170477a00; identifier: com.apple.UIKit.remote-keyboard> {
+    display = <FBSDisplay: 0x1740e3380; name: Main ("LCD"); scale: 2.0; displayID: 1> {
+        bounds = {{0, 0}, {375, 667}};
+        seed = 2;
+        tags = 0;
+        pid = 0;
+        hidden = NO;
+    };
+    settings = <FBSSceneSettings: 0x1708aeac0> {
+        frame = {{0, 0}, {375, 667}};
+        level = 2.0;
+        interfaceOrientation = unknown;
+        backgrounded = NO;
+        occlusions = {
+            <FBSSceneOcclusion: 0x17445e870; {{0, 0}, {1, 1}}>;
+        }
+    };
+    clientSettings = <FBSSceneClientSettings: 0x170e4ed90> {
+        preferredLevel = 2.0;
+        preferredInterfaceOrientation = unknown;
+        preferredSceneHostIdentifier = ;
+    };
+}>current state = (null);
+active handle = (null);
+handles = (
+    "<_UIKeyboardArbiterHandle: 0x1746f0780; PID 57: com.apple.springboard <(null)>; hosting PIDs {(\n)}; level 0.000000; active NO [wants YES]; suppression 0>",
+    "<_UIKeyboardArbiterHandle: 0x1744fe880; PID 207: com.apple.AppPredictionWidget.extension <(null)> (suspended); hosting PIDs {(\n)}; level 0.000000; active NO [wants NO]; suppression 0>",
+    "<_UIKeyboardArbiterHandle: 0x1708e9580; PID 220: com.apple.UpNextWidget.extension <(null)> (suspended); hosting PIDs {(\n)}; level 0.000000; active NO [wants NO]; suppression 0>",
+    "<_UIKeyboardArbiterHandle: 0x1742efd00; PID 221: com.apple.news.widget <(null)> (suspended); hosting PIDs {(\n)}; level 0.000000; active NO [wants NO]; suppression 0>",
+    "<_UIKeyboardArbiterHandle: 0x1702eaa80; PID 280: (null) <(null)>; hosting PIDs {(\n)}; level 0.000000; active NO [wants NO]; suppression 0>"
+)>
+Handle detail:
+	<_UIKeyboardArbiterHandle: 0x1744fe880; PID 207: com.apple.AppPredictionWidget.extension <(null)> (suspended); hosting PIDs {(
+)}; level 0.000000; active NO [wants NO]; suppression 0>:
+	 -> State: Inactive  
+		 Process: Suspended
+	<_UIKeyboardArbiterHandle: 0x1708e9580; PID 220: com.apple.UpNextWidget.extension <(null)> (suspended); hosting PIDs {(
+)}; level 0.000000; active NO [wants NO]; suppression 0>:
+	 -> State: Inactive  
+		 Process: Suspended
+	<_UIKeyboardArbiterHandle: 0x1742efd00; PID 221: com.apple.news.widget <(null)> (suspended); hosting PIDs {(
+)}; level 0.000000; active NO [wants NO]; suppression 0>:
+	 -> State: Inactive  
+		 Process: Suspended
+	<_UIKeyboardArbiterHandle: 0x1746f0780; PID 57: com.apple.springboard <(null)>; hosting PIDs {(
+)}; level 0.000000; active NO [wants YES]; suppression 0>:
+	 -> State: Inactive  CMD-KBD-focus
+		 keyWindow: SBAlertWindow
+	<_UIKeyboardArbiterHandle: 0x1702eaa80; PID 280: (null) <(null)>; hosting PIDs {(
+)}; level 0.000000; active NO [wants NO]; suppression 0>:
+	 -> State: Inactive  
+		 Special: kbdebug

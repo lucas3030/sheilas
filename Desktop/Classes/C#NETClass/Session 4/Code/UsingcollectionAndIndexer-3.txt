@@ -1,0 +1,6 @@
+	    MyCollection<Person> myGroup = new MyCollection<Person>();
+            myGroup[1] = new Person("Yaxin", Convert.ToDateTime("12/11/1949"));
+            myGroup[2] = new Person("David", Convert.ToDateTime("10/18/1963"));
+            myGroup[0] = new Person("Mary", Convert.ToDateTime("08/23/1976"));
+            for (int i = 0; i < myGroup.Count; i++)
+                MessageBox.Show(myGroup[i].Name);

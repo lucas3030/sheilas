@@ -1,0 +1,40 @@
+ #region "SelectedIndexChanged and RowDeleting events"
+        protected void ddlCountries_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            if (ddlCountries.SelectedValue == "USA")
+            {
+                txtState.Visible = false;
+                ddlStates.Visible = true;
+            }
+            else
+            {
+                txtState.Visible = true;
+                ddlStates.Visible = false;
+            }
+        }
+        protected void ddlSports_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            string SportCode = ddlSports.SelectedValue;
+            string SprotName = ddlSports.SelectedItem.Text;
+            mySports = Session["Sports"] as DataTable;
+            string SportDescription = "";
+            DataRow dr = mySports.NewRow();
+            dr["SportCode"] = SportCode;
+            dr["SportName"] = SprotName;
+            dr["SportDescription"] = SportDescription;
+            mySports.Rows.Add(dr);
+            gvSports.DataSource = mySports;
+            gvSports.DataBind();
+        }
+
+        protected void gvSports_RowDeleting(object sender, GridViewDeleteEventArgs e)
+        {
+            mySports = Session["Sports"] as DataTable;
+            mySports.Rows[e.RowIndex].Delete();
+            mySports.AcceptChanges();
+            gvSports.DataSource = mySports;
+            gvSports.DataBind();
+        }
+        #endregion // End of "SelectedIndexChanged and other events" region
+
+        

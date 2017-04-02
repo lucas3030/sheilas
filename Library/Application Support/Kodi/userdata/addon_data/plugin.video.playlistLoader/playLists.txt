@@ -1,0 +1,10 @@
+[
+    {
+        "url": "http://pastebin.com/eKg1vEyR", 
+        "name": "Acestreams"
+    }, 
+    {
+        "url": "http://bit.ly/solomanhd", 
+        "name": "http://bit.ly/solomanhd"
+    }
+]

@@ -1,0 +1,5 @@
+Filesystem       Size   Used  Avail Capacity iused      ifree %iused  Mounted on
+/dev/disk0s1s1   3.9G   3.7G   129M    97%  140149 4294827130    0%   /
+devfs             50k    50k     0B   100%     168          0  100%   /dev
+/dev/disk0s1s2    12G    12G   165M    99%  121025 4294846254    0%   /private/var
+/dev/disk0s1s3    10M   2.3M   8.1M    23%       7 4294967272    0%   /private/var/wireless/baseband_data

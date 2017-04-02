@@ -1,0 +1,31 @@
+using System;
+using System.Drawing;
+using System.Windows.Forms;
+
+public class Greetings : Form
+{
+	private Label label1;
+
+	public Greetings()
+	{
+		this.Name = "Greetings";
+		this.Text = "Greetings";
+		this.ClientSize = new Size(536, 266);
+		label1 = new Label();
+		label1.Location = new Point(40, 24);
+		label1.Name = "label1";
+		label1.Size = new Size(424, 32);
+		label1.Text = "Welcome to my First C# Application!";
+		label1.Font = new Font("Times New Roman", 18F, FontStyle.Bold);
+		label1.BackColor = Color.Blue;
+		label1.ForeColor = Color.White;
+		label1.TextAlign = ContentAlignment.MiddleCenter;
+		this.Controls.AddRange(new Control[] {label1});
+	}
+
+	static void Main() 
+	{
+		Application.Run(new Greetings());
+	}
+}
+

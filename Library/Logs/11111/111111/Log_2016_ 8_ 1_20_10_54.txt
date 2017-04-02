@@ -1,0 +1,19 @@
+Product: 111111
+Version: 3.1.0.4
+
+Mac Model:MacBookAir6,2
+OS Version:10.10.5
+CPU Type:Intel
+CPU SubType:Intel
+CPU Number:4
+CPU Speed:1.37 GHz
+Memory Size:4.00 GB
+
+Current User:Lucas Da SIlva   
+App startup path:
+/Volumes/Wondershare Video Converter Ultimate
+For current user the app folder is:
+    readable
+    not writeable
+    exectuteable
+

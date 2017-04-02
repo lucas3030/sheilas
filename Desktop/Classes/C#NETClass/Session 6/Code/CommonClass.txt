@@ -1,0 +1,39 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Configuration;
+
+namespace LearnCS
+{
+    public class Common
+    {
+        public static string GetCnStr()
+        {
+            string cnStr = ConfigurationManager.ConnectionStrings["StoreCnStr"].ConnectionString;
+            return cnStr;
+        }
+
+        public static bool IsNumeric(object Expression)
+        {
+            bool isNum;
+            double retNum;
+            isNum = Double.TryParse(Convert.ToString(Expression), System.Globalization.NumberStyles.Any, System.Globalization.NumberFormatInfo.InvariantInfo, out retNum);
+            return isNum;
+        }
+
+        public static bool IsDate(string strDate)
+        {
+            DateTime x;
+            try
+            {
+                x = DateTime.Parse(strDate);
+                return true;
+            }
+            catch (Exception ex)
+            {
+                return false;
+            }
+        }
+    }
+}

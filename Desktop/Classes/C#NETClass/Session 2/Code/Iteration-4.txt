@@ -1,0 +1,12 @@
+outcome.Text = "";
+            	int i = 0;
+            while (true)
+            {
+                string line = "Test continue/break in loop " + i;
+                outcome.Text += line + "\r\n";
+                i++;
+                if (i < 8)
+                    continue;
+                else
+                    break;
+            }

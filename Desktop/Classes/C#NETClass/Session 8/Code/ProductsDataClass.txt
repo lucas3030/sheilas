@@ -1,0 +1,53 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Web;
+using System.Web.Configuration;
+using System.Data;
+using System.Data.SqlClient;
+
+namespace AdventureStore
+{
+    public class ProductsData
+    {
+        SqlConnection cn;
+        SqlCommand cmd;
+        SqlDataAdapter da;
+
+        public ProductsData()
+        {
+            cn = new SqlConnection(GetCnStr());
+            cmd = new SqlCommand();
+            cmd.Connection = cn;
+            cmd.CommandType = CommandType.StoredProcedure;
+            da = new SqlDataAdapter();
+            da.SelectCommand = cmd;
+        }
+        public string GetCnStr()
+        {
+            string cnStr = WebConfigurationManager.ConnectionStrings["AdvCnString"].ConnectionString;
+            return cnStr;
+        }
+        public DataTable GetCategoryList()
+        {
+            DataTable dtCategories = new DataTable();
+            cmd.CommandText = "SP_GetCategoryList";
+            cmd.Parameters.Clear();
+            if (cn.State != ConnectionState.Open)
+                cn.Open();
+            da.Fill(dtCategories);
+            return dtCategories;
+        }
+        public DataTable GetProductsByProductType(int pType)
+        {
+            DataTable dtProducts = new DataTable();
+            cmd.CommandText = "SP_GetProductsByProductType";
+            cmd.Parameters.Clear();
+            if (cn.State != ConnectionState.Open)
+                cn.Open();
+            cmd.Parameters.AddWithValue("@ProductType", pType);
+            da.Fill(dtProducts);
+            return dtProducts;
+        }
+    }
+}

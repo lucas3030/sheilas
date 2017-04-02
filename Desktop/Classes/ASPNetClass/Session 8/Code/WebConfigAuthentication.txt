@@ -1,0 +1,4 @@
+<authentication mode="Forms">
+	<forms name="GASACookie" loginUrl="Login.aspx" protection="All" timeout="30" defaultUrl="Default.aspx"/>
+</authentication>
+

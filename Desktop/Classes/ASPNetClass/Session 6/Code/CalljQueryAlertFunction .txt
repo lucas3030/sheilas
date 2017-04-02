@@ -1,0 +1,5 @@
+// using jQuery Alert to display infomation or notice
+JQueryAlertMessageBoxOnClick("Your registration has been successful done and enjoy your surfing.", "info"); 
+
+// using jQuery Alert to display error message
+JQueryAlertMessageBoxOnClick(ex.Message + ". Sorry, the registration failed, please try it again.", "error");

@@ -1,0 +1,88 @@
+#region "General Functions"
+
+       public string GenerateNewMemberID(string CountryCode)
+       {
+           string latestMemberID = "";
+           string newClassID = "";
+           string year = "";
+           string lastYear = "";
+           string ID = "";
+           try
+           {
+               if (cn.State != ConnectionState.Open)
+                   cn.Open();
+               cmd.CommandText = "SP_GetLatestMemberID";
+               cmd.Parameters.Clear();
+               cmd.Parameters.AddWithValue("@CountryCode", CountryCode);
+               cmd.Parameters.Add("@LatestMemberID", SqlDbType.NVarChar, 20).Direction = ParameterDirection.Output;
+               cmd.ExecuteNonQuery();
+               latestMemberID = cmd.Parameters["@LatestMemberID"].Value.ToString();
+               if (latestMemberID!="")
+                    lastYear = latestMemberID.Substring(4, 4);
+               year = DateTime.Today.Year.ToString();
+               if (latestMemberID == "" || year != lastYear)
+                   newClassID = CountryCode + "-" + year + "-0000001";
+               else
+               {
+                   int n = Convert.ToInt32(latestMemberID.Substring(9, 7));
+               	   n++;
+                   ID = n.ToString();
+                   while (ID.Length < 7)
+                       ID = "0" + ID; //Add leading 0's if needed
+                   newClassID = CountryCode + "-" + year + "-" + ID;
+                   cn.Close();
+               }
+               return newClassID;
+           }
+           catch (Exception Ex)
+           {
+               throw new Exception(Ex.Message);
+           }
+       }
+
+       public bool CheckMemberExists(CMember M)
+        {
+            DataTable dt = new DataTable();
+            try
+            {
+                if (cn.State != ConnectionState.Open)
+                    cn.Open();
+                cmd.CommandText = "SP_CheckMemberExists";
+                cmd.Parameters.Clear();
+                cmd.Parameters.AddWithValue("@CountryCode", M.CountryCode);
+                cmd.Parameters.AddWithValue("@FirstName", M.FirstName);
+                cmd.Parameters.AddWithValue("@LastName", M.LastName);
+                cmd.Parameters.AddWithValue("@EmailAddress", M.EmailAddress);
+                da.SelectCommand = cmd;
+                da.Fill(dt);
+               if (dt.Rows.Count == 1)
+                    return true;
+                else
+                    return false;
+            }
+            catch (Exception Ex)
+            {
+                throw new Exception(Ex.Message);
+            }
+        }
+
+       public string CheckMemberStatus(string MemberID)
+       {
+           string status = string.Empty;
+           try
+           {
+               if (cn.State != ConnectionState.Open)
+                   cn.Open();
+               cmd.CommandText = "SP_CheckMemberStatus";
+               cmd.Parameters.Clear();
+               cmd.Parameters.AddWithValue("@MemberID", MemberID);
+               status = cmd.ExecuteScalar().ToString();
+               cn.Close();
+               return status;
+           }
+           catch (Exception Ex)
+           {
+               throw new Exception(Ex.Message);
+           }
+       }
+       #endregion //End of "Internal Functions" region

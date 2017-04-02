@@ -1,0 +1,76 @@
+    #region "Create, Update or Delete Methods"
+    public void SaveCustomer(Customer C)
+    {
+        try
+        {
+            if (CheckCustomerExists(C.EmailAddress))
+            {
+                throw new Exception("The customer already exists.");
+            }
+            else
+            {
+                if (cn.State != ConnectionState.Open)
+                    cn.Open();
+                cmd.CommandText = "SP_InsertCustomer";
+                cmd.Parameters.Clear();
+                cmd.Parameters.AddWithValue("@EmailAddress", C.EmailAddress);
+                cmd.Parameters.AddWithValue("@FirstName", C.FirstName);
+                cmd.Parameters.AddWithValue("@LastName", C.LastName);
+                cmd.Parameters.AddWithValue("@Address", C.Address);
+                cmd.Parameters.AddWithValue("@City", C.City);
+                cmd.Parameters.AddWithValue("@State", C.State);
+                cmd.Parameters.AddWithValue("@Zip", C.Zip);
+                cmd.Parameters.AddWithValue("@Phone", C.Phone);
+                cmd.ExecuteNonQuery();
+                cn.Close();
+            }
+        }
+        catch (Exception Ex)
+        {
+            throw new Exception(Ex.Message);
+        }
+    }
+
+    public void UpdateCustomer(Customer C)
+    {
+        try
+        {
+            if (cn.State != ConnectionState.Open)
+                cn.Open();
+            cmd.CommandText = "SP_UpdateCustomer";
+            cmd.Parameters.Clear();
+            cmd.Parameters.AddWithValue("@EmailAddress", C.EmailAddress);
+            cmd.Parameters.AddWithValue("@FirstName", C.FirstName);
+            cmd.Parameters.AddWithValue("@LastName", C.LastName);
+            cmd.Parameters.AddWithValue("@Address", C.Address);
+            cmd.Parameters.AddWithValue("@City", C.City);
+            cmd.Parameters.AddWithValue("@State", C.State);
+            cmd.Parameters.AddWithValue("@Zip", C.Zip);
+            cmd.Parameters.AddWithValue("@Phone", C.Phone);
+            cmd.ExecuteNonQuery();
+            cn.Close();
+        }
+        catch (Exception Ex)
+        {
+            throw new Exception(Ex.Message);
+        }
+    }
+
+    public void DeleteCustomer(string EmailAddress)
+    {
+        try
+        {
+            if (cn.State != ConnectionState.Open)
+                cn.Open();
+            cmd.CommandText = "SP_DeleteCustomer";
+            cmd.Parameters.Clear();
+            cmd.Parameters.AddWithValue("@EmailAddress", EmailAddress);
+            cmd.ExecuteNonQuery();
+            cn.Close();
+        }
+        catch (Exception Ex)
+        {
+            throw new Exception(Ex.Message);
+        }
+    }
+    #endregion        //End of "Save/Update/Delete Methods" Region

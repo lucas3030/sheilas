@@ -1,0 +1,9 @@
+public CustomerData()
+{
+     cnStr = Common.GetCnStr();
+     cmd = new SqlCommand();
+     cn = new SqlConnection(cnStr);
+     cmd.Connection = cn;
+     cmd.CommandType = CommandType.StoredProcedure;
+     da = new SqlDataAdapter();
+}

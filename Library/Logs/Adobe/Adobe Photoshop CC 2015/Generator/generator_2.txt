@@ -1,0 +1,48 @@
+Log file created on Fri Aug 19 2016 18:08:08 GMT-0400 (EDT)
+
+[debug:core 18:08:08.872 generator.js:105:17] Launching with config:
+{}
+[debug:core 18:08:08.876 generator.js:107:21] provided PS information:
+ version 16.1.2
+ path/Applications/Adobe Photoshop CC 2015/Adobe Photoshop CC 2015.app/
+
+[info:core 18:08:08.908 generator.js:223:25] Detected Photoshop version: 16.1.2
+[1;31mPotential problem with plugin at '/Applications/Adobe Photoshop CC 2015/Plug-ins/Generator/reflow.generate': Warning: Plugin 'reflow-generator' did not specify which versions of generator-core it is compatible with. It will be loaded anyway, but providing generator-core-version in its package.json is recommended.
+[0m[debug:core 18:08:09.006 generator.js:1751:21] Loading plugin: generator-assets
+[debug:core 18:08:09.160 generator.js:1767:21] Plugin loaded: generator-assets
+[debug:core 18:08:09.161 generator.js:1751:21] Loading plugin: generator-spaces
+[debug:core 18:08:09.455 generator.js:1767:21] Plugin loaded: generator-spaces
+[debug:core 18:08:09.457 generator.js:1751:21] Loading plugin: crema
+[debug:core 18:08:09.757 generator.js:1767:21] Plugin loaded: crema
+[debug:core 18:08:09.758 generator.js:1751:21] Loading plugin: adobe-preview-generator-plugin
+[debug:core 18:08:10.816 generator.js:1767:21] Plugin loaded: adobe-preview-generator-plugin
+[warning:core 18:08:10.822 generator.js:1740:21] Warning: Plugin 'reflow-generator' did not specify which versions of generator-core it is compatible with. It will be loaded anyway, but providing generator-core-version in its package.json is recommended.
+[debug:core 18:08:10.824 generator.js:1751:21] Loading plugin: reflow-generator
+[1;31mWarning: Native modules not compiled.  XOR performance will be degraded.
+[0m[1;31mWarning: Native modules not compiled.  UTF-8 validation disabled.
+[0m[debug:core 18:08:10.932 generator.js:1767:21] Plugin loaded: reflow-generator
+[info:generator-spaces 18:08:10.938 main.js:36:20] Starting websocket server...
+[warning:core 18:08:13.430 generator.js:124:25] Photoshop error { id: 22, body: 'Error: No image open' }
+[warning:crema 18:08:13.434 documentmanager.js:336:26] Error: No image open
+Fri Aug 19 2016 18:08:13 GMT-0400 (EDT) Server is listening on port 8010
+wrote token, name to /Users/lucasdasilva/Library/Application Support/EdgeReflow/comm.dat
+[warning:core 18:08:13.859 generator.js:124:25] Photoshop error { id: 28, body: 'Error: No image open' }
+[error:generator-assets 18:08:13.860 documentmanager.js:258:26] Failed to get document: Error: No image open
+[warning:generator-assets 18:08:13.862 main.js:110:25] Error getting document during a document changed event, document was likely closed. Error: No image open
+[warning:core 18:08:14.052 generator.js:124:25] Photoshop error { id: 30, body: 'Error: No image open' }
+[warning:adobe-preview-generator-plugin 18:08:14.053 documentmanager.js:336:26] Error: No image open
+[info:generator-spaces 18:08:14.155 main.js:39:28] Started websocket server on port 59596
+[warning:core 18:08:14.260 generator.js:124:25] Photoshop error { id: 34, body: 'Error: No image open' }
+[warning:core 18:08:14.341 generator.js:124:25] Photoshop error { id: 35, body: 'Error: No image open' }
+[warning:generator-spaces 18:08:14.342 documentmanager.js:336:26] Error: No image open
+[info:generator-spaces 18:08:14.455 main.js:44:28] For kicks, fetched stored port from generator:  59596
+active document is /Users/lucasdasilva/Desktop/Real_Estate_Project/images/8.jpg 200
+wrote token, name to /Users/lucasdasilva/Library/Application Support/EdgeReflow/comm.dat
+[warning:generator-assets 23:36:59.643 document.js:114:34] Unhandled property in raw constructor: profile Untagged RGB
+[warning:generator-assets 23:36:59.646 document.js:114:34] Unhandled property in raw constructor: mode RGBColor
+[warning:generator-assets 23:36:59.649 document.js:114:34] Unhandled property in raw constructor: depth 8
+active document is null null
+wrote token, name to /Users/lucasdasilva/Library/Application Support/EdgeReflow/comm.dat
+[info:core 00:34:26.694 generator.js:119:25] Photoshop connection closed
+[1;31mExiting with code 0: Generator close event
+[0m

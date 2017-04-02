@@ -1,0 +1,79 @@
+HELPID_DIALOG_ADD_LAYOUT	http://helpx.adobe.com/muse/using/creating-website-mobile-devices.html	Page &gt; Add Alternate Layout &gt; Tablet &gt; Add Phone Layout	
+HELPID_DIALOG_ADD_TAB_LAYOUT	http://helpx.adobe.com/en/muse/using/typography.html	&nbsp;	
+HELPID_DIALOG_ADD_EDGE_WEB_FONTS	https://helpx.adobe.com/muse/using/typekit-web-fonts.html#Working%20with%20Edge%20Web%20Fonts	&nbsp;	
+HELPID_DIALOG_ADD_TYPEKIT_WEB_FONTS	https://helpx.adobe.com/muse/using/typekit-web-fonts.html#Working%20with%20Typekit%20Fonts	File &gt; Add/Remove Web Fonts &gt; Add Web Fonts	
+HELPID_DIALOG_CHARACTER_STYLE_OPTIONS	http://helpx.adobe.com/en/muse/using/creating-using-character-paragraph-styles.html#Creating and applying Character styles	Character Styles Options Dialog	
+HELPID_DIALOG_EXPORT_HTML	http://helpx.adobe.com/en/muse/using/publishing-websites.html#Exporting HTML	File &gt; Export as HTML &gt; Export as HTML	
+HELPID_DIALOG_GOTO_PAGE	http://helpx.adobe.com/en/muse/using/creating-website-mobile-devices.html#Using Go to Page to copy site content between layouts	Page &gt; Go to Page… &gt; Go to Page	
+HELPID_DIALOG_GRAPHIC_STYLE_OPTIONS	http://helpx.adobe.com/en/muse/using/creating-applying-graphic-styles.html	Graphic Styles Options Dialog	
+HELPID_DIALOG_HIDPI_WARNING	http://helpx.adobe.com/en/muse/using/retina-display.html	&nbsp;	
+HELPID_DIALOG_IMAGE_PROPERTIES	http://helpx.adobe.com/en/muse/using/strategies-optimizing-sites-search-engines.html#id_76433	Image Properties Dialog	
+HELPID_DIALOG_IN_BROWSER_EDITING_SITE_CHANGED	http://helpx.adobe.com/en/muse/using/in-browser-editing.html#Syncing the .Muse file to match the edited live site	&amp;nbsp;	
+HELPID_DIALOG_IN_BROWSER_EDITING_MERGE	http://helpx.adobe.com/en/muse/using/in-browser-editing.html#Syncing the .Muse file to match the edited live site	&amp;nbsp;	
+HELPID_DIALOG_IN_BROWSER_EDITING_NEVER_PUBLISHED	http://helpx.adobe.com/en/muse/using/in-browser-editing.html	&amp;nbsp;	
+HELPID_DIALOG_INSERT_HTML	http://helpx.adobe.com/en/muse/using/embedding-videos-html-content.html#id_92206	Object &gt; Insert HTML &gt; Edit HTML	
+HELPID_DIALOG_NEW_SITE	http://helpx.adobe.com/en/muse/using/setting-website.html#id_43061	File &gt; New &gt; New Site	
+HELPID_DIALOG_PAGE_PROPERTIES_METADATA	http://helpx.adobe.com/en/muse/using/setting-website.html#Setting page properties	Page &gt; Page Properties &gt; Page Properties for &amp;lt;page_name&gt; &gt; Metadata	
+HELPID_DIALOG_PAGE_PROPERTIES_OPTIONS	http://helpx.adobe.com/en/muse/using/setting-website.html#Setting page properties	Page &gt; Page Properties &gt; Page Properties for &amp;lt;page_name&gt; &gt; Options	
+HELPID_DIALOG_PARAGRAPH_STYLE_OPTIONS	http://helpx.adobe.com/en/muse/using/creating-using-character-paragraph-styles.html#Creating and applying paragraph styles	Paragraph Styles Options Dialog	
+HELPID_DIALOG_PHOTOSHOP_BUTTON	http://helpx.adobe.com/en/muse/using/objects.html#Placing a Photoshop file as rollover button	Place Photoshop Button Dialog	
+HELPID_DIALOG_PHOTOSHOP_LAYERS	http://helpx.adobe.com/en/muse/using/objects.html#Placing a Photoshop file as rollover button	Place image (w layers) Dialog	
+HELPID_DIALOG_PREFERENCES	http://helpx.adobe.com/en/muse/using/setting-website.html#Setting preferences	Edit &gt; Preferences &gt; Preferences	
+HELPID_DIALOG_PUBLISH	http://helpx.adobe.com/en/muse/using/publishing-websites.html	File &gt; Publish &gt; Publish	
+HELPID_DIALOG_RENAME_ANCHOR	http://helpx.adobe.com/en/muse/using/creating-hyperlinks.html#Working with anchor tag regions and active states	Object &gt; Insert an Anchor Link &gt; Rename Anchor	
+HELPID_DIALOG_SELF_HOSTED_WEB_FONTS	http://helpx.adobe.com/en/muse/using/typography.html#Working with Self-hosted web fonts	&nbsp;	
+HELPID_DIALOG_SELF_HOSTED_WEB_FONTS_FILES	http://helpx.adobe.com/en/muse/using/typography.html#Working with Self-hosted web fonts	&nbsp;	
+HELPID_DIALOG_SELF_HOSTED_WEB_FONTS_MATCH	http://helpx.adobe.com/en/muse/using/typography.html#Working with Self-hosted web fonts	&nbsp;	
+HELPID_DIALOG_SELF_HOSTED_WEB_FONTS_LICENSE_REQS	http://helpx.adobe.com/en/muse/using/typography.html#Working with Self-hosted web fonts	&nbsp;	
+HELPID_DIALOG_SITE_PROPERTIES_CONTENT	http://helpx.adobe.com/en/muse/using/setting-website.html#id_43061	File &gt; Site Properties &gt; Site Properties	
+HELPID_DIALOG_SITE_PROPERTIES_LAYOUT	http://helpx.adobe.com/en/muse/using/setting-website.html#id_43061	File &gt; Site Properties &gt; Site Properties	
+HELPID_DIALOG_UPLOAD_FTP_HOST	http://helpx.adobe.com/en/muse/using/uploading-site-third-party-hosting.html	File &gt; Upload to FTP Host &gt; Upload to FTP Host	
+HELPID_DIALOG_UPLOAD_FTP_HOST_TROUBLESHOOTING	http://helpx.adobe.com/en/muse/using/uploading-site-third-party-hosting.html	&nbsp;	
+HELPID_DIALOG_WELCOME_SCREEN	http://helpx.adobe.com/en/muse/using/whats-new.html	&nbsp;	
+HELPID_MUSE_WORKSPACE	http://helpx.adobe.com/en/muse/using/muse-workspaces.html	&nbsp;	
+HELPID_OPTION_RESOLUTION_SITE_PROPERTIES	http://helpx.adobe.com/en/muse/using/retina-display.html	&nbsp;	
+HELPID_PANEL_ALIGN	http://helpx.adobe.com/en/muse/using/using-align-panel-objects.html	Align	
+HELPID_PANEL_ASSETS	http://helpx.adobe.com/en/muse/using/working-assets.html	Assets	
+HELPID_PANEL_BROWSER_FILL	http://helpx.adobe.com/en/muse/using/using-fill-browser-fill-options.html	Browser Fill Dropdown	
+HELPID_PANEL_BULLET_STYLES	http://helpx.adobe.com/muse/using/bullets-numbering.html	&nbsp;	
+HELPID_PANEL_CHARACTERS	http://helpx.adobe.com/en/muse/using/text-typography.html	&nbsp;	
+HELPID_PANEL_CHARACTER_STYLES	http://helpx.adobe.com/en/muse/using/creating-using-character-paragraph-styles.html#Creating and applying Character styles	Character Styles	
+HELPID_PANEL_CONTENT	http://helpx.adobe.com/muse/using/synchronized-text.html	Content Panel	
+HELPID_PANEL_EFFECTS	http://helpx.adobe.com/en/muse/using/strokes-effects.html	Effects Dropdown	
+HELPID_PANEL_FILL	http://helpx.adobe.com/en/muse/using/using-fill-browser-fill-options.html	Fill Dropdown (common content Fill Panel)	
+HELPID_PANEL_GRAPHIC_STYLES	http://helpx.adobe.com/en/muse/using/creating-applying-graphic-styles.html	Graphic Styles	
+HELPID_PANEL_HYPERLINKS	http://helpx.adobe.com/en/muse/using/creating-hyperlinks.html	Hyperlinks Dropdown	
+HELPID_PANEL_LAYERS	http://helpx.adobe.com/en/muse/using/layers.html	Layers	
+HELPID_PANEL_LIBRARY	http://helpx.adobe.com/en/muse/using/organizing-reusing-design-elements-using-library-panel.html	Library Panel	
+HELPID_PANEL_PARAGRAPH_STYLES	http://helpx.adobe.com/en/muse/using/creating-using-character-paragraph-styles.html#Creating and applying paragraph styles	Paragraph Styles	
+HELPID_PANEL_SCROLL_EFFECTS	http://helpx.adobe.com/en/muse/using/scroll-effects.html	Scroll Effects	
+HELPID_PANEL_SPACING	http://helpx.adobe.com/muse/using/objects.html#Using the space panel	Spacing	
+HELPID_PANEL_STATES	http://helpx.adobe.com/en/muse/using/assigning-states-objects.html	States	
+HELPID_PANEL_STROKE	http://helpx.adobe.com/en/muse/using/strokes-effects.html	Stroke Dropdown	
+HELPID_PANEL_SWATCHES	http://helpx.adobe.com/en/muse/using/using-swatches-panel.html	Swatches Panel	
+HELPID_PANEL_TEXT	http://helpx.adobe.com/en/muse/using/text-typography.html	Text Panel	
+HELPID_PANEL_TEXT_WRAP	http://helpx.adobe.com/en/muse/using/wrapping-text-image.html	Wrap Dropdown	
+HELPID_PANEL_TRANSFORM	http://helpx.adobe.com/muse/using/objects.html#Scaling and rotating objects using Transform panel	Transform	
+HELPID_PANEL_WARNINGS	http://helpx.adobe.com/muse/using/muse-workspaces.html#Warnings panel	Warnings	
+HELPID_PANEL_WIDGETS_LIBRARY	http://helpx.adobe.com/en/muse/using/widgets.html	Widgets Library	
+HELPID_WIDGET_ACCORDION	http://helpx.adobe.com/en/muse/using/panel-widgets-tabbed-accordion.html	Object &gt; Insert Panel &gt; Accordion &gt; Options	
+HELPID_WIDGET_COMPOSITION	http://helpx.adobe.com/en/muse/using/composition-widgets.html	Object &gt; Insert Composition &gt; Lightbox Display &gt; Composition Options	
+HELPID_WIDGET_FACEBOOK_COMMENTS	http://helpx.adobe.com/en/muse/using/social-widgets.html	Object &gt; Insert Widget &gt; Social &gt; Facebook Comments	
+HELPID_WIDGET_FACEBOOK_FOLLOW	http://helpx.adobe.com/en/muse/using/social-widgets.html	Object &gt; Insert Widget &gt; Social &gt; Facebook Follow	
+HELPID_WIDGET_FACEBOOK_LIKE	http://helpx.adobe.com/en/muse/using/social-widgets.html	Object &gt; Insert Widget &gt; Social &gt; Facebook Like	
+HELPID_WIDGET_FORM	http://helpx.adobe.com/en/muse/using/form-widgets.html	Object &gt; Insert Form &gt; Detailed Contacts &gt; Options	
+HELPID_WIDGET_GOOGLE_MAPS	http://helpx.adobe.com/en/muse/using/social-widgets.html	Object &gt; Insert Widget &gt; Social &gt; Google Maps	
+HELPID_WIDGET_GOOGLE_PLUS	http://helpx.adobe.com/en/muse/using/social-widgets.html	Object &gt; Insert Widget &gt; Social &gt; Google Plus	
+HELPID_WIDGET_LINKEDIN	http://helpx.adobe.com/en/muse/using/social-widgets.html	Object &gt; Insert Widget &gt; Social &gt; LinkedIn	
+HELPID_WIDGET_MENU	http://helpx.adobe.com/en/muse/using/menu-widgets.html	Object &gt; Insert Menu &gt; Horizontal &gt; Options	
+HELPID_WIDGET_MUSE_BADGE	http://helpx.adobe.com/en/muse/using/social-widgets.html	Object &gt; Insert Widget &gt; Social &gt; Adobe Muse Badge	
+HELPID_WIDGET_PAYPAL	http://helpx.adobe.com/en/muse/using/social-widgets.html	Object &gt; Insert Widget &gt; Social &gt; Paypal	
+HELPID_WIDGET_PINTEREST	http://helpx.adobe.com/en/muse/using/social-widgets.html	Object &gt; Insert Widget &gt; Social &gt; Pinterest	
+HELPID_WIDGET_SLIDESHOW	http://helpx.adobe.com/en/muse/using/slideshow-widgets.html	Object &gt; Insert Slideshows &gt; Basic &gt; Options	
+HELPID_WIDGET_TABBED	http://helpx.adobe.com/en/muse/using/panel-widgets-tabbed-accordion.html	Object &gt; Insert Panel &gt; Tabbed Panels &gt; Options	
+HELPID_WIDGET_TWITTER_FOLLOW	http://helpx.adobe.com/en/muse/using/social-widgets.html	Object &gt; Insert Widget &gt; Social &gt; Twitter Follow	
+HELPID_WIDGET_TWITTER_TWEET	http://helpx.adobe.com/en/muse/using/social-widgets.html	Object &gt; Insert Widget &gt; Social &gt; Twitter Tweet	
+HELPID_WIDGET_VIMEO	http://helpx.adobe.com/en/muse/using/social-widgets.html	Object &gt; Insert Widget &gt; Social &gt; Vimeo	
+HELPID_WIDGET_YOUTUBE	http://helpx.adobe.com/en/muse/using/social-widgets.html	Object &gt; Insert Widget &gt; Social &gt; Youtube	
+AH_HOME	http://helpx.adobe.com/en/muse/topics.html	Default	
+HELPID_FEATURE_TOUR_RESPONSIVE&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	http://helpx.adobe.com/en/muse/using/responsive-web-design-muse.html	File &gt; New Site dialog box	

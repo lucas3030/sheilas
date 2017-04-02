@@ -1,0 +1,76 @@
+#region "Button Click Event Handlers"
+
+        private void btnSave_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                if (ValidateRequiredFields())
+                {
+                    if (fMode == "New")
+                    {
+                        C = CollectInputData();
+                        cData.SaveMember(C);
+                        MessageBox.Show("The record has been successfully saved.", "Record Saved", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
+                    }
+                    else if (fMode == "Update")
+                    {
+                        C = CollectInputData();
+                        cData.UpdateCustomer(C);
+                        MessageBox.Show("The record has been successfully updated.", "Record Saved", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
+                        if (sMode == "ByState")
+                        {
+                            string stateCode = cboStates.SelectedValue.ToString();
+                            GetRecordsByState(stateCode);
+                        }
+                    }
+                    ChangeMode("New");
+                    ClearScreen();
+                }
+            }
+            catch (Exception ex)
+            {
+                string errMessage = string.Empty;
+                if (fMode == "New")
+                    errMessage = "Sorry, due to the system error, the record saving failed. Please try it later.";
+                else if (fMode == "Update")
+                    errMessage = "Sorry, due to the system error, the record updating failed. Please try it later.";
+                MessageBox.Show(errMessage, "Error Message", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+        }
+
+        private void btnDelete_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                DialogResult d = MessageBox.Show("Are you sure you want to delete the record?", "Confirmation of Deleting", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
+                if (d == DialogResult.Yes)
+                {
+                    string email = C.EmailAddress;
+                    if (email == "")
+                        MessageBox.Show("No record selected to delete.", "Record Deleted", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
+                    else
+                    {
+                        cData.DeleteCustomer(email);
+                        MessageBox.Show("The record has been deleted.", "Record Deleted", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
+                        if (sMode=="ByState")
+                        {
+                            string stateCode = cboStates.SelectedValue.ToString();
+                            GetRecordsByState(stateCode);
+                        }
+                    }
+                    ChangeMode("New");
+                    ClearScreen();
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Sorry, due to the system error, the record deleting failed. Please try it later.", "Error Message", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+
+        }
+
+        private void btnCancel_Click(object sender, EventArgs e)
+        {
+                ClearScreen();
+        }
+       #endregion // End of "Button Click Event Handlers" region

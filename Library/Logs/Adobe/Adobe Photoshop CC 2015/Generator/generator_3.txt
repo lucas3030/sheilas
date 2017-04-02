@@ -1,0 +1,29 @@
+Log file created on Sun Jul 17 2016 13:41:02 GMT-0400 (EDT)
+
+[debug:core 13:41:02.950 generator.js:105:17] Launching with config:
+{}
+[debug:core 13:41:02.968 generator.js:107:21] provided PS information:
+ version 16.1.2
+ path/Applications/Adobe Photoshop CC 2015/Adobe Photoshop CC 2015.app/
+
+[info:core 13:41:02.998 generator.js:223:25] Detected Photoshop version: 16.1.2
+[1;31mPotential problem with plugin at '/Applications/Adobe Photoshop CC 2015/Plug-ins/Generator/reflow.generate': Warning: Plugin 'reflow-generator' did not specify which versions of generator-core it is compatible with. It will be loaded anyway, but providing generator-core-version in its package.json is recommended.
+[0m[debug:core 13:41:03.099 generator.js:1751:21] Loading plugin: generator-assets
+[debug:core 13:41:03.598 generator.js:1767:21] Plugin loaded: generator-assets
+[debug:core 13:41:03.604 generator.js:1751:21] Loading plugin: generator-spaces
+[debug:core 13:41:04.523 generator.js:1767:21] Plugin loaded: generator-spaces
+[debug:core 13:41:04.526 generator.js:1751:21] Loading plugin: crema
+[debug:core 13:41:05.419 generator.js:1767:21] Plugin loaded: crema
+[debug:core 13:41:05.423 generator.js:1751:21] Loading plugin: adobe-preview-generator-plugin
+[debug:core 13:41:06.857 generator.js:1767:21] Plugin loaded: adobe-preview-generator-plugin
+[warning:core 13:41:06.861 generator.js:1740:21] Warning: Plugin 'reflow-generator' did not specify which versions of generator-core it is compatible with. It will be loaded anyway, but providing generator-core-version in its package.json is recommended.
+[debug:core 13:41:06.863 generator.js:1751:21] Loading plugin: reflow-generator
+[1;31mWarning: Native modules not compiled.  XOR performance will be degraded.
+[0m[1;31mWarning: Native modules not compiled.  UTF-8 validation disabled.
+[0m[debug:core 13:41:07.086 generator.js:1767:21] Plugin loaded: reflow-generator
+[info:generator-spaces 13:41:07.096 main.js:36:20] Starting websocket server...
+[info:core 13:41:07.125 generator.js:119:25] Photoshop connection closed
+[warning:core 13:41:07.130 generator.js:124:25] Photoshop error Pipe error: Error: EPIPE, write
+[info:core 13:41:07.135 generator.js:119:25] Photoshop connection closed
+[1;31mExiting with code 0: Generator close event
+[0m

@@ -1,0 +1,38 @@
+Log file created on Mon Sep 26 2016 11:51:10 GMT-0400 (EDT)
+
+[debug:core 11:51:10.801 generator.js:105:17] Launching with config:
+{}
+[debug:core 11:51:10.804 generator.js:107:21] provided PS information:
+ version 16.1.2
+ path/Applications/Adobe Photoshop CC 2015/Adobe Photoshop CC 2015.app/
+
+[info:core 11:51:10.812 generator.js:223:25] Detected Photoshop version: 16.1.2
+[1;31mPotential problem with plugin at '/Applications/Adobe Photoshop CC 2015/Plug-ins/Generator/reflow.generate': Warning: Plugin 'reflow-generator' did not specify which versions of generator-core it is compatible with. It will be loaded anyway, but providing generator-core-version in its package.json is recommended.
+[0m[debug:core 11:51:10.839 generator.js:1751:21] Loading plugin: generator-assets
+[debug:core 11:51:11.003 generator.js:1767:21] Plugin loaded: generator-assets
+[debug:core 11:51:11.005 generator.js:1751:21] Loading plugin: generator-spaces
+[debug:core 11:51:11.657 generator.js:1767:21] Plugin loaded: generator-spaces
+[debug:core 11:51:11.658 generator.js:1751:21] Loading plugin: crema
+[debug:core 11:51:12.105 generator.js:1767:21] Plugin loaded: crema
+[debug:core 11:51:12.107 generator.js:1751:21] Loading plugin: adobe-preview-generator-plugin
+[debug:core 11:51:12.789 generator.js:1767:21] Plugin loaded: adobe-preview-generator-plugin
+[warning:core 11:51:12.790 generator.js:1740:21] Warning: Plugin 'reflow-generator' did not specify which versions of generator-core it is compatible with. It will be loaded anyway, but providing generator-core-version in its package.json is recommended.
+[debug:core 11:51:12.793 generator.js:1751:21] Loading plugin: reflow-generator
+[1;31mWarning: Native modules not compiled.  XOR performance will be degraded.
+[0m[1;31mWarning: Native modules not compiled.  UTF-8 validation disabled.
+[0m[debug:core 11:51:12.928 generator.js:1767:21] Plugin loaded: reflow-generator
+[info:generator-spaces 11:51:12.933 main.js:36:20] Starting websocket server...
+Mon Sep 26 2016 11:51:22 GMT-0400 (EDT) Server is listening on port 8010
+wrote token, name to /Users/lucasdasilva/Library/Application Support/EdgeReflow/comm.dat
+[warning:generator-assets 11:51:22.765 document.js:114:34] Unhandled property in raw constructor: profile sRGB IEC61966-2.1
+[warning:generator-assets 11:51:22.773 document.js:114:34] Unhandled property in raw constructor: mode RGBColor
+[warning:generator-assets 11:51:22.774 document.js:114:34] Unhandled property in raw constructor: depth 8
+[info:generator-spaces 11:51:23.123 main.js:39:28] Started websocket server on port 59596
+active document is /Users/lucasdasilva/Desktop/WEBSITES/Restaurants/Juice_Box_Cafe/Restaurant/sources/psd/01-Home.psd 195
+wrote token, name to /Users/lucasdasilva/Library/Application Support/EdgeReflow/comm.dat
+[info:generator-spaces 11:51:23.987 main.js:44:28] For kicks, fetched stored port from generator:  59596
+active document is null null
+wrote token, name to /Users/lucasdasilva/Library/Application Support/EdgeReflow/comm.dat
+[info:core 18:18:57.262 generator.js:119:25] Photoshop connection closed
+[1;31mExiting with code 0: Generator close event
+[0m

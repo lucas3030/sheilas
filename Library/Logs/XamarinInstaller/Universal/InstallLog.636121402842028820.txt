@@ -1,0 +1,537 @@
+﻿[2016-10-15 18:58:04.331] [Info] Installation ID: cddafd00-edd9-4dd9-bf6a-64cb334ffed7
+[2016-10-15 18:58:04.346] [Info] Operating system: Mac OS X v10.10.5 (10.10.5; Mac OS X 10.10.5 (10.10.5 build version: 14F1713)), 64-bit
+[2016-10-15 18:58:04.346] [Info] Installer product: Xamarin
+[2016-10-15 18:58:04.346] [Info] Installer version: 3.4.0.22 (detached from 7aa1350) (7aa13505fc98649946aec126d6dd13fe533bc6fc on 08/06/2016 13:40:46)
+[2016-10-15 18:58:04.346] [Info] Status: in progress
+[2016-10-15 18:58:11.841] [Debug] Waiting for manifests to finish downloading.
+[2016-10-15 18:58:11.841] [Debug] Initial task executing (WaitingForActivation). Waiting for it to finish.
+[2016-10-15 18:58:12.145] [Info] Retrieving installation manifest.
+[2016-10-15 18:58:12.153] [Info] Downloading from 'https://www.xamarin.com/installer_assets/v3/Mac/Universal//InstallationManifest.xml'.
+[2016-10-15 18:58:12.154] [Debug] Setting download timeout for 'https://www.xamarin.com/installer_assets/v3/Mac/Universal//InstallationManifest.xml' to 60s
+[2016-10-15 18:58:12.861] [Info] Retrieving installation size manifest.
+[2016-10-15 18:58:12.861] [Info] Downloading from 'https://www.xamarin.com/installer_assets/v3/Mac/Universal//InstallationSizes.xml'.
+[2016-10-15 18:58:12.861] [Debug] Setting download timeout for 'https://www.xamarin.com/installer_assets/v3/Mac/Universal//InstallationSizes.xml' to 60s
+[2016-10-15 18:58:13.065] [Exception] Failed to retrieve response for URL 'https://www.xamarin.com/installer_assets/v3/Mac/Universal//InstallationSizes.xml'
+[2016-10-15 18:58:13.065] [Exception] System.Net.WebException: The remote server returned an error: (403) Forbidden.
+[2016-10-15 18:58:13.065] [Exception] at System.Net.HttpWebRequest.EndGetResponse (IAsyncResult asyncResult) [0x00065] in /Library/Frameworks/Xamarin.Mac.framework/Versions/2.8.0.58/src/mono/mcs/class/System/System.Net/HttpWebRequest.cs:1007
+[2016-10-15 18:58:13.065] [Exception] at System.Net.HttpWebRequest.GetResponse () [0x0000e] in /Library/Frameworks/Xamarin.Mac.framework/Versions/2.8.0.58/src/mono/mcs/class/System/System.Net/HttpWebRequest.cs:1019
+[2016-10-15 18:58:13.065] [Exception] at Xamarin.Components.Ide.Web.RequestHelper.GetResponse (System.Func`1 createRequest, System.Action`1 prepareRequest) [0x0023e] in /Users/builder/data/lanes/3274/7aa13505/source/installer/Xamarin.Web.Installer/MonoDevelop.Core.Web/RequestHelper.cs:83
+[2016-10-15 18:58:13.073] [Exception] Failed to download resource from 'https://www.xamarin.com/installer_assets/v3/Mac/Universal//InstallationSizes.xml'
+[2016-10-15 18:58:13.073] [Exception] System.Net.WebException: The remote server returned an error: (403) Forbidden.
+[2016-10-15 18:58:13.073] [Exception] at System.Net.HttpWebRequest.EndGetResponse (IAsyncResult asyncResult) [0x00065] in /Library/Frameworks/Xamarin.Mac.framework/Versions/2.8.0.58/src/mono/mcs/class/System/System.Net/HttpWebRequest.cs:1007
+[2016-10-15 18:58:13.073] [Exception] at System.Net.HttpWebRequest.GetResponse () [0x0000e] in /Library/Frameworks/Xamarin.Mac.framework/Versions/2.8.0.58/src/mono/mcs/class/System/System.Net/HttpWebRequest.cs:1019
+[2016-10-15 18:58:13.073] [Exception] at Xamarin.Components.Ide.Web.RequestHelper.GetResponse (System.Func`1 createRequest, System.Action`1 prepareRequest) [0x0023e] in /Users/builder/data/lanes/3274/7aa13505/source/installer/Xamarin.Web.Installer/MonoDevelop.Core.Web/RequestHelper.cs:83
+[2016-10-15 18:58:13.073] [Info] Installation size manifest: reading from assembly.
+[2016-10-15 18:58:13.177] [Info] Determining list of software items to install.
+[2016-10-15 18:58:13.185] [Debug] Processing update nodes from the manifest.
+[2016-10-15 18:58:13.185] [Debug] Creating and initializing software item 'Mono Framework'
+[2016-10-15 18:58:13.907] [Debug] Creating and initializing software item 'Java SDK'
+[2016-10-15 18:58:13.907] [Debug] Creating and initializing software item 'Android SDK'
+[2016-10-15 18:58:13.907] [Debug] Creating and initializing software item 'Xamarin Studio'
+[2016-10-15 18:58:13.907] [Debug] Creating and initializing software item 'Xamarin.Android'
+[2016-10-15 18:58:13.908] [Debug] Creating and initializing software item 'Xamarin.iOS'
+[2016-10-15 18:58:13.908] [Debug] Creating and initializing software item 'Xamarin.Mac'
+[2016-10-15 18:58:14.008] [Debug] Creating and initializing software item 'Intel® HAXM'
+[2016-10-15 18:58:14.008] [Debug] Detecting software item 'Mono Framework'
+[2016-10-15 18:58:14.009] [Info] Checking whether Mono needs update/installation
+[2016-10-15 18:58:14.111] [Info] Mono runtime found in /Library/Frameworks/Mono.framework/Versions/4.6.1
+[2016-10-15 18:58:14.118] [Info] Mono version 4.6.1 was found in /Library/Frameworks/Mono.framework/Versions
+[2016-10-15 18:58:14.118] [Info] Status: successful
+[2016-10-15 18:58:14.118] [Info] Component 'Mono Framework' v. 4.6.1 present
+[2016-10-15 18:58:14.119] [Info] Software item 'Mono Framework': up to date
+[2016-10-15 18:58:14.119] [Debug] Detecting software item 'Java SDK'
+[2016-10-15 18:58:14.119] [Info] Checking whether Oracle JDK needs update/installation
+[2016-10-15 18:58:14.119] [Info] Oracle JDK Oracle needs to be installed.
+[2016-10-15 18:58:14.119] [Info] Status: successful
+[2016-10-15 18:58:14.119] [Info] Software item 'Java SDK': not up to date
+[2016-10-15 18:58:14.119] [Info] Component 'Java SDK' v. 1.7.0 absent
+[2016-10-15 18:58:14.224] [Debug] Component Java SDK enqueuing URL http://download.xamarin.com/Installer/MonoForAndroid/jdk-7u71-macosx-x64.dmg
+[2016-10-15 18:58:14.232] [Debug] Detecting software item 'Android SDK'
+[2016-10-15 18:58:14.232] [Info] Checking if Android SDK needs to be updated/installed
+[2016-10-15 18:58:14.232] [Info] Using default samples:
+[2016-10-15 18:58:14.232] [Info] Downloading from 'http://download.xamarin.com/Installer/xamarin-android-sdk.xml'.
+[2016-10-15 18:58:14.232] [Debug] Setting download timeout for 'http://download.xamarin.com/Installer/xamarin-android-sdk.xml' to 60s
+[2016-10-15 18:58:14.636] [Warning] Cannot map element 'lldb' to descriptor type.
+[2016-10-15 18:58:14.636] [Warning] Cannot map element 'licenses' to descriptor type.
+[2016-10-15 18:58:14.741] [Debug] Detecting Android SDK in '/Users/lucasdasilva/Library/Developer/Xamarin/android-sdk-macosx'
+[2016-10-15 18:58:14.742] [Debug] Android package 'platform-tools' has no revision defined
+[2016-10-15 18:58:14.742] [Info] File '/Users/lucasdasilva/Library/Developer/Xamarin/android-sdk-macosx/platform-tools/adb' not found for 'Component: platform-tools'
+[2016-10-15 18:58:14.742] [Debug] Android package 'platform-tools' has no revision defined
+[2016-10-15 18:58:14.742] [Info] File '/Users/lucasdasilva/Library/Developer/Xamarin/android-sdk-macosx/platform-tools/adb' not found for 'Component: platform-tools'
+[2016-10-15 18:58:14.743] [Debug] Android package 'tools' has no revision defined
+[2016-10-15 18:58:14.743] [Info] File '/Users/lucasdasilva/Library/Developer/Xamarin/android-sdk-macosx/tools/android' not found for 'Component: tools'
+[2016-10-15 18:58:14.743] [Info] File '/Users/lucasdasilva/Library/Developer/Xamarin/android-sdk-macosx/tools/mksdcard' not found for 'Component: tools'
+[2016-10-15 18:58:14.743] [Info] File '/Users/lucasdasilva/Library/Developer/Xamarin/android-sdk-macosx/tools/emulator' not found for 'Component: tools'
+[2016-10-15 18:58:14.744] [Debug] Android package 'tools' has no revision defined
+[2016-10-15 18:58:14.744] [Info] File '/Users/lucasdasilva/Library/Developer/Xamarin/android-sdk-macosx/tools/android' not found for 'Component: tools'
+[2016-10-15 18:58:14.744] [Info] File '/Users/lucasdasilva/Library/Developer/Xamarin/android-sdk-macosx/tools/mksdcard' not found for 'Component: tools'
+[2016-10-15 18:58:14.744] [Info] File '/Users/lucasdasilva/Library/Developer/Xamarin/android-sdk-macosx/tools/emulator' not found for 'Component: tools'
+[2016-10-15 18:58:14.946] [Debug] Download size for 'http://dl-ssl.google.com/android/repository/android-ndk-r11c-darwin-x86_64.zip': 772428792
+[2016-10-15 18:58:15.048] [Debug] Download size for 'http://dl-ssl.google.com/android/repository/android-ndk-r12-beta1-darwin-x86_64.zip': 743934465
+[2016-10-15 18:58:15.060] [Debug] Android package 'android-4' has no revision defined
+[2016-10-15 18:58:15.061] [Info] File '/Users/lucasdasilva/Library/Developer/Xamarin/android-sdk-macosx/platforms/android-4/android.jar' not found for 'Component: android-4'
+[2016-10-15 18:58:15.061] [Debug] Android package 'android-5' has no revision defined
+[2016-10-15 18:58:15.061] [Info] File '/Users/lucasdasilva/Library/Developer/Xamarin/android-sdk-macosx/platforms/android-5/android.jar' not found for 'Component: android-5'
+[2016-10-15 18:58:15.062] [Debug] Android package 'android-6' has no revision defined
+[2016-10-15 18:58:15.062] [Info] File '/Users/lucasdasilva/Library/Developer/Xamarin/android-sdk-macosx/platforms/android-6/android.jar' not found for 'Component: android-6'
+[2016-10-15 18:58:15.062] [Debug] Android package 'android-7' has no revision defined
+[2016-10-15 18:58:15.062] [Info] File '/Users/lucasdasilva/Library/Developer/Xamarin/android-sdk-macosx/platforms/android-7/android.jar' not found for 'Component: android-7'
+[2016-10-15 18:58:15.062] [Debug] Android package 'android-8' has no revision defined
+[2016-10-15 18:58:15.063] [Info] File '/Users/lucasdasilva/Library/Developer/Xamarin/android-sdk-macosx/platforms/android-8/android.jar' not found for 'Component: android-8'
+[2016-10-15 18:58:15.063] [Debug] Android package 'android-9' has no revision defined
+[2016-10-15 18:58:15.063] [Info] File '/Users/lucasdasilva/Library/Developer/Xamarin/android-sdk-macosx/platforms/android-9/android.jar' not found for 'Component: android-9'
+[2016-10-15 18:58:15.063] [Debug] Android package 'android-10' has no revision defined
+[2016-10-15 18:58:15.063] [Info] File '/Users/lucasdasilva/Library/Developer/Xamarin/android-sdk-macosx/platforms/android-10/android.jar' not found for 'Component: android-10'
+[2016-10-15 18:58:15.063] [Debug] Android package 'android-11' has no revision defined
+[2016-10-15 18:58:15.064] [Info] File '/Users/lucasdasilva/Library/Developer/Xamarin/android-sdk-macosx/platforms/android-11/android.jar' not found for 'Component: android-11'
+[2016-10-15 18:58:15.064] [Debug] Android package 'android-12' has no revision defined
+[2016-10-15 18:58:15.064] [Info] File '/Users/lucasdasilva/Library/Developer/Xamarin/android-sdk-macosx/platforms/android-12/android.jar' not found for 'Component: android-12'
+[2016-10-15 18:58:15.064] [Debug] Android package 'android-13' has no revision defined
+[2016-10-15 18:58:15.064] [Info] File '/Users/lucasdasilva/Library/Developer/Xamarin/android-sdk-macosx/platforms/android-13/android.jar' not found for 'Component: android-13'
+[2016-10-15 18:58:15.064] [Debug] Android package 'android-14' has no revision defined
+[2016-10-15 18:58:15.064] [Info] File '/Users/lucasdasilva/Library/Developer/Xamarin/android-sdk-macosx/platforms/android-14/android.jar' not found for 'Component: android-14'
+[2016-10-15 18:58:15.064] [Debug] Android package 'android-15' has no revision defined
+[2016-10-15 18:58:15.065] [Info] File '/Users/lucasdasilva/Library/Developer/Xamarin/android-sdk-macosx/platforms/android-15/android.jar' not found for 'Component: android-15'
+[2016-10-15 18:58:15.065] [Debug] Android package 'android-16' has no revision defined
+[2016-10-15 18:58:15.072] [Info] File '/Users/lucasdasilva/Library/Developer/Xamarin/android-sdk-macosx/platforms/android-16/android.jar' not found for 'Component: android-16'
+[2016-10-15 18:58:15.072] [Debug] Android package 'android-17' has no revision defined
+[2016-10-15 18:58:15.072] [Info] File '/Users/lucasdasilva/Library/Developer/Xamarin/android-sdk-macosx/platforms/android-17/android.jar' not found for 'Component: android-17'
+[2016-10-15 18:58:15.072] [Debug] Android package 'android-18' has no revision defined
+[2016-10-15 18:58:15.073] [Info] File '/Users/lucasdasilva/Library/Developer/Xamarin/android-sdk-macosx/platforms/android-18/android.jar' not found for 'Component: android-18'
+[2016-10-15 18:58:15.073] [Debug] Android package 'android-19' has no revision defined
+[2016-10-15 18:58:15.073] [Info] File '/Users/lucasdasilva/Library/Developer/Xamarin/android-sdk-macosx/platforms/android-19/android.jar' not found for 'Component: android-19'
+[2016-10-15 18:58:15.073] [Debug] Android package 'android-20' has no revision defined
+[2016-10-15 18:58:15.073] [Info] File '/Users/lucasdasilva/Library/Developer/Xamarin/android-sdk-macosx/platforms/android-20/android.jar' not found for 'Component: android-20'
+[2016-10-15 18:58:15.073] [Debug] Android package 'android-21' has no revision defined
+[2016-10-15 18:58:15.073] [Info] File '/Users/lucasdasilva/Library/Developer/Xamarin/android-sdk-macosx/platforms/android-21/android.jar' not found for 'Component: android-21'
+[2016-10-15 18:58:15.073] [Debug] Android package 'android-22' has no revision defined
+[2016-10-15 18:58:15.073] [Info] File '/Users/lucasdasilva/Library/Developer/Xamarin/android-sdk-macosx/platforms/android-22/android.jar' not found for 'Component: android-22'
+[2016-10-15 18:58:15.074] [Debug] Android package 'android-23' has no revision defined
+[2016-10-15 18:58:15.074] [Info] File '/Users/lucasdasilva/Library/Developer/Xamarin/android-sdk-macosx/platforms/android-23/android.jar' not found for 'Component: android-23'
+[2016-10-15 18:58:15.074] [Debug] Android package 'android-23' has no revision defined
+[2016-10-15 18:58:15.074] [Info] File '/Users/lucasdasilva/Library/Developer/Xamarin/android-sdk-macosx/platforms/android-23/android.jar' not found for 'Component: android-23'
+[2016-10-15 18:58:15.074] [Debug] Android package 'build-tool 19.1.0' has no revision defined
+[2016-10-15 18:58:15.074] [Info] File '/Users/lucasdasilva/Library/Developer/Xamarin/android-sdk-macosx/build-tools/19.1.0/aapt' not found for 'Component: build-tool 19.1.0'
+[2016-10-15 18:58:15.074] [Info] File '/Users/lucasdasilva/Library/Developer/Xamarin/android-sdk-macosx/build-tools/19.1.0/aidl' not found for 'Component: build-tool 19.1.0'
+[2016-10-15 18:58:15.074] [Debug] Android package 'build-tool 20.0.0' has no revision defined
+[2016-10-15 18:58:15.074] [Info] File '/Users/lucasdasilva/Library/Developer/Xamarin/android-sdk-macosx/build-tools/20.0.0/aapt' not found for 'Component: build-tool 20.0.0'
+[2016-10-15 18:58:15.075] [Info] File '/Users/lucasdasilva/Library/Developer/Xamarin/android-sdk-macosx/build-tools/20.0.0/aidl' not found for 'Component: build-tool 20.0.0'
+[2016-10-15 18:58:15.075] [Debug] Android package 'build-tool 21.1.2' has no revision defined
+[2016-10-15 18:58:15.075] [Info] File '/Users/lucasdasilva/Library/Developer/Xamarin/android-sdk-macosx/build-tools/21.1.2/aapt' not found for 'Component: build-tool 21.1.2'
+[2016-10-15 18:58:15.075] [Info] File '/Users/lucasdasilva/Library/Developer/Xamarin/android-sdk-macosx/build-tools/21.1.2/aidl' not found for 'Component: build-tool 21.1.2'
+[2016-10-15 18:58:15.075] [Debug] Android package 'build-tool 22.0.1' has no revision defined
+[2016-10-15 18:58:15.075] [Info] File '/Users/lucasdasilva/Library/Developer/Xamarin/android-sdk-macosx/build-tools/22.0.1/aapt' not found for 'Component: build-tool 22.0.1'
+[2016-10-15 18:58:15.075] [Info] File '/Users/lucasdasilva/Library/Developer/Xamarin/android-sdk-macosx/build-tools/22.0.1/aidl' not found for 'Component: build-tool 22.0.1'
+[2016-10-15 18:58:15.076] [Debug] Android package 'build-tool 23.0.1' has no revision defined
+[2016-10-15 18:58:15.076] [Info] File '/Users/lucasdasilva/Library/Developer/Xamarin/android-sdk-macosx/build-tools/23.0.1/aapt' not found for 'Component: build-tool 23.0.1'
+[2016-10-15 18:58:15.076] [Info] File '/Users/lucasdasilva/Library/Developer/Xamarin/android-sdk-macosx/build-tools/23.0.1/aidl' not found for 'Component: build-tool 23.0.1'
+[2016-10-15 18:58:15.076] [Debug] Android package 'build-tool 23.0.2' has no revision defined
+[2016-10-15 18:58:15.076] [Info] File '/Users/lucasdasilva/Library/Developer/Xamarin/android-sdk-macosx/build-tools/23.0.2/aapt' not found for 'Component: build-tool 23.0.2'
+[2016-10-15 18:58:15.076] [Info] File '/Users/lucasdasilva/Library/Developer/Xamarin/android-sdk-macosx/build-tools/23.0.2/aidl' not found for 'Component: build-tool 23.0.2'
+[2016-10-15 18:58:15.076] [Debug] Android package has no revision defined
+[2016-10-15 18:58:15.077] [Info] Could not retrieve Pkg.Revision from /Users/lucasdasilva/Library/Developer/Xamarin/android-sdk-macosx/tools/source.properties, r0 assumed
+[2016-10-15 18:58:15.177] [Debug] AVD paths: base: /Users/lucasdasilva/.android/avd; AVD: /Users/lucasdasilva/.android/avd
+[2016-10-15 18:58:15.177] [Debug] Checking whether AVD exists at /Users/lucasdasilva/.android/avd/Android_Accelerated_x86.avd
+[2016-10-15 18:58:15.178] [Debug] AVD directory does not exist
+[2016-10-15 18:58:15.178] [Info] AVD 'Android Accelerated x86' needs to be created.
+[2016-10-15 18:58:15.178] [Debug] AVD paths: base: /Users/lucasdasilva/.android/avd; AVD: /Users/lucasdasilva/.android/avd
+[2016-10-15 18:58:15.178] [Debug] Checking whether AVD exists at /Users/lucasdasilva/.android/avd/Android_ARMv7a.avd
+[2016-10-15 18:58:15.178] [Debug] AVD directory does not exist
+[2016-10-15 18:58:15.179] [Info] AVD 'Android ARMv7a' needs to be created.
+[2016-10-15 18:58:15.179] [Info] Android SDK needs to be updated/installed
+[2016-10-15 18:58:15.180] [Info] Asking user to select the Android SDK to update
+[2016-10-15 18:58:15.180] [Info] Status: successful
+[2016-10-15 18:58:15.180] [Info] Software item 'Android SDK': not up to date
+[2016-10-15 18:58:15.180] [Info] Component 'Android SDK' v. 24.4.1 absent
+[2016-10-15 18:58:15.180] [Debug] Detecting software item 'Xamarin Studio'
+[2016-10-15 18:58:15.181] [Info] Checking whether Xamarin Studio needs installation/updating
+[2016-10-15 18:58:15.181] [Info] Status: successful
+[2016-10-15 18:58:15.181] [Info] Component 'Xamarin Studio' v. 6.1.1 present
+[2016-10-15 18:58:15.181] [Info] Software item 'Xamarin Studio': up to date
+[2016-10-15 18:58:15.181] [Debug] Detecting software item 'Xamarin.Android'
+[2016-10-15 18:58:15.182] [Info] Checking whether Xamarin.Android SDK needs installation/updating
+[2016-10-15 18:58:15.182] [Info] Xamarin.Android build files not found.
+[2016-10-15 18:58:15.182] [Info] Base Xamarin.Android directory not found.
+[2016-10-15 18:58:15.182] [Info] Xamarin.Android SDK 7.0.0 requires installation.
+[2016-10-15 18:58:15.182] [Info] Status: successful
+[2016-10-15 18:58:15.182] [Info] Software item 'Xamarin.Android': not up to date
+[2016-10-15 18:58:15.183] [Info] Component 'Xamarin.Android' v. 7.0.0 absent
+[2016-10-15 18:58:15.183] [Debug] Detecting software item 'Xamarin.iOS'
+[2016-10-15 18:58:15.183] [Info] Checking whether Xamarin.iOS needs update/installation
+[2016-10-15 18:58:15.183] [Info] Xamarin.iOS base directory not found.
+[2016-10-15 18:58:15.183] [Info] Xamarin.iOS base directory not found.
+[2016-10-15 18:58:15.184] [Info] Xamarin.iOS 10.0.1.8 needs to be installed.
+[2016-10-15 18:58:15.184] [Info] Status: successful
+[2016-10-15 18:58:15.184] [Info] Software item 'Xamarin.iOS': not up to date
+[2016-10-15 18:58:15.184] [Info] Component 'Xamarin.iOS' v. 10.0.1 absent
+[2016-10-15 18:58:15.184] [Debug] Detecting software item 'Xamarin.Mac'
+[2016-10-15 18:58:15.184] [Info] Checking whether Xamarin.Mac needs update/installation
+[2016-10-15 18:58:15.185] [Info] Xamarin.Mac base directory not found.
+[2016-10-15 18:58:15.185] [Info] Xamarin.Mac 2.10.0.103 needs to be installed.
+[2016-10-15 18:58:15.185] [Info] Status: successful
+[2016-10-15 18:58:15.185] [Info] Software item 'Xamarin.Mac': not up to date
+[2016-10-15 18:58:15.185] [Info] Component 'Xamarin.Mac' v. 2.10.0 absent
+[2016-10-15 18:58:15.185] [Debug] Detecting software item 'Intel® HAXM'
+[2016-10-15 18:58:15.186] [Info] Checking whether HAXM needs to be installed/updated
+[2016-10-15 18:58:16.099] [Info] HAXM info sheet doesn't exist at
+[2016-10-15 18:58:16.106] [Debug] Detecting CPU and its capabilities
+[2016-10-15 18:58:16.106] [Debug] CPU Manufacturer: GenuineIntel
+[2016-10-15 18:58:16.107] [Debug] CPU Name: Intel(R) Core(TM) i5-4260U CPU @ 1.40GHz
+[2016-10-15 18:58:16.107] [Info] Status: successful
+[2016-10-15 18:58:16.107] [Info] Software item 'Intel® HAXM': not up to date
+[2016-10-15 18:58:16.107] [Info] Component 'Intel® HAXM' v. 6.0.1 absent
+[2016-10-15 18:58:16.107] [Info] Detection complete
+[2016-10-15 18:58:16.107] [Info] Initial task completed successfully
+[2016-10-15 18:58:16.108] [Debug] Detection complete on the introduction page, determining the next step.
+[2016-10-15 18:58:18.539] [Info] Xcode must be installed.
+[2016-10-15 18:58:18.540] [Warning] User chose no SDK to use in installation.
+[2016-10-15 18:58:18.540] [Info] Retrieving installation size manifest.
+[2016-10-15 18:58:18.541] [Info] Downloading from 'https://www.xamarin.com/installer_assets/v3/Mac/Universal//InstallationSizes.xml'.
+[2016-10-15 18:58:18.541] [Debug] Setting download timeout for 'https://www.xamarin.com/installer_assets/v3/Mac/Universal//InstallationSizes.xml' to 60s
+[2016-10-15 18:58:18.741] [Exception] Failed to retrieve response for URL 'https://www.xamarin.com/installer_assets/v3/Mac/Universal//InstallationSizes.xml'
+[2016-10-15 18:58:18.741] [Exception] System.Net.WebException: The remote server returned an error: (403) Forbidden.
+[2016-10-15 18:58:18.741] [Exception] at System.Net.HttpWebRequest.EndGetResponse (IAsyncResult asyncResult) [0x00065] in /Library/Frameworks/Xamarin.Mac.framework/Versions/2.8.0.58/src/mono/mcs/class/System/System.Net/HttpWebRequest.cs:1007
+[2016-10-15 18:58:18.741] [Exception] at System.Net.HttpWebRequest.GetResponse () [0x0000e] in /Library/Frameworks/Xamarin.Mac.framework/Versions/2.8.0.58/src/mono/mcs/class/System/System.Net/HttpWebRequest.cs:1019
+[2016-10-15 18:58:18.741] [Exception] at Xamarin.Components.Ide.Web.RequestHelper.GetResponse (System.Func`1 createRequest, System.Action`1 prepareRequest) [0x0023e] in /Users/builder/data/lanes/3274/7aa13505/source/installer/Xamarin.Web.Installer/MonoDevelop.Core.Web/RequestHelper.cs:83
+[2016-10-15 18:58:18.750] [Exception] Failed to download resource from 'https://www.xamarin.com/installer_assets/v3/Mac/Universal//InstallationSizes.xml'
+[2016-10-15 18:58:18.750] [Exception] System.Net.WebException: The remote server returned an error: (403) Forbidden.
+[2016-10-15 18:58:18.750] [Exception] at System.Net.HttpWebRequest.EndGetResponse (IAsyncResult asyncResult) [0x00065] in /Library/Frameworks/Xamarin.Mac.framework/Versions/2.8.0.58/src/mono/mcs/class/System/System.Net/HttpWebRequest.cs:1007
+[2016-10-15 18:58:18.750] [Exception] at System.Net.HttpWebRequest.GetResponse () [0x0000e] in /Library/Frameworks/Xamarin.Mac.framework/Versions/2.8.0.58/src/mono/mcs/class/System/System.Net/HttpWebRequest.cs:1019
+[2016-10-15 18:58:18.750] [Exception] at Xamarin.Components.Ide.Web.RequestHelper.GetResponse (System.Func`1 createRequest, System.Action`1 prepareRequest) [0x0023e] in /Users/builder/data/lanes/3274/7aa13505/source/installer/Xamarin.Web.Installer/MonoDevelop.Core.Web/RequestHelper.cs:83
+[2016-10-15 18:58:18.750] [Info] Installation size manifest: reading from assembly.
+[2016-10-15 18:58:21.386] [Info] User chose to update Android SDK at: /Users/lucasdasilva/Library/Developer/Xamarin/android-sdk-macosx
+[2016-10-15 18:58:21.387] [Debug] Main Android SDK download URL: http://dl.google.com/android/android-sdk_r24.4.1-macosx.zip
+[2016-10-15 18:58:21.387] [Debug] Android SDK component 'http://dl-ssl.google.com/android/repository/tools_r25.1.1-macosx.zip' download URL: http://dl-ssl.google.com/android/repository/tools_r25.1.1-macosx.zip
+[2016-10-15 18:58:21.387] [Debug] Android SDK component 'http://dl-ssl.google.com/android/repository/tools_r25.1.2-macosx.zip' download URL: http://dl-ssl.google.com/android/repository/tools_r25.1.2-macosx.zip
+[2016-10-15 18:58:21.387] [Debug] Android SDK component 'http://dl-ssl.google.com/android/repository/build-tools_r23.0.2-macosx.zip' download URL: http://dl-ssl.google.com/android/repository/build-tools_r23.0.2-macosx.zip
+[2016-10-15 18:58:21.388] [Debug] Android SDK component 'http://dl-ssl.google.com/android/repository/platform-tools_r23.1.0-macosx.zip' download URL: http://dl-ssl.google.com/android/repository/platform-tools_r23.1.0-macosx.zip
+[2016-10-15 18:58:21.388] [Debug] Android SDK component 'http://dl-ssl.google.com/android/repository/platform-tools_r24rc2-macosx_rc2.zip' download URL: http://dl-ssl.google.com/android/repository/platform-tools_r24rc2-macosx_rc2.zip
+[2016-10-15 18:58:21.388] [Debug] Android SDK component 'http://dl-ssl.google.com/android/repository/platform-23_r03.zip' download URL: http://dl-ssl.google.com/android/repository/platform-23_r03.zip
+[2016-10-15 18:58:21.389] [Debug] Android SDK component 'http://dl-ssl.google.com/android/repository/sys-img/google_apis/sysimg_arm-23_r07.zip' download URL: http://dl-ssl.google.com/android/repository/sys-img/google_apis/sysimg_arm-23_r07.zip
+[2016-10-15 18:58:21.389] [Debug] Android SDK component 'http://dl-ssl.google.com/android/repository/sys-img/google_apis/sysimg_x86-23_r12.zip' download URL: http://dl-ssl.google.com/android/repository/sys-img/google_apis/sysimg_x86-23_r12.zip
+[2016-10-15 18:58:21.389] [Debug] Android SDK component 'http://dl-ssl.google.com/android/repository/sys-img/google_apis/sysimg_arm-23_r07.zip' download URL: http://dl-ssl.google.com/android/repository/sys-img/google_apis/sysimg_arm-23_r07.zip
+[2016-10-15 18:58:21.389] [Debug] Android SDK component 'http://dl-ssl.google.com/android/repository/sys-img/google_apis/sysimg_x86-23_r12.zip' download URL: http://dl-ssl.google.com/android/repository/sys-img/google_apis/sysimg_x86-23_r12.zip
+[2016-10-15 18:58:21.390] [Debug] Android SDK component 'http://dl-ssl.google.com/android/repository/google_apis-23_r01.zip' download URL: http://dl-ssl.google.com/android/repository/google_apis-23_r01.zip
+[2016-10-15 18:58:21.390] [Debug] Android NDK download URL: http://dl-ssl.google.com/android/repository/android-ndk-r11c-darwin-x86_64.zip
+[2016-10-15 18:58:21.390] [Info] 13 Android SDK components need to be downloaded.
+[2016-10-15 18:58:21.390] [Debug] Enqueueing Android SDK component: Android SDK ("Main Android SDK Archive")
+[2016-10-15 18:58:21.390] [Debug] Enqueueing Android SDK component: tools ("tools")
+[2016-10-15 18:58:21.391] [Debug] Enqueueing Android SDK component: tools ("tools")
+[2016-10-15 18:58:21.391] [Debug] Enqueueing Android SDK component: build-tool 23.0.2 ("Android Build Tools r23.0.2")
+[2016-10-15 18:58:21.391] [Debug] Enqueueing Android SDK component: platform-tools ("platform tools")
+[2016-10-15 18:58:21.391] [Debug] Enqueueing Android SDK component: platform-tools ("platform tools")
+[2016-10-15 18:58:21.391] [Debug] Enqueueing Android SDK component: android-23 ("Android SDK Platform 23, rev 3")
+[2016-10-15 18:58:21.391] [Debug] Enqueueing Android SDK component: system-image-23-armeabi-v7a-google ("Google APIs ARM EABI v7a System Image")
+[2016-10-15 18:58:21.392] [Debug] Enqueueing Android SDK component: system-image-23-x86-google ("Google APIs Intel x86 Atom System Image")
+[2016-10-15 18:58:21.392] [Debug] Enqueueing Android SDK component: system-image-23-armeabi-v7a-google ("Google APIs ARM EABI v7a System Image")
+[2016-10-15 18:58:21.392] [Debug] Enqueueing Android SDK component: system-image-23-x86-google ("Google APIs Intel x86 Atom System Image")
+[2016-10-15 18:58:21.392] [Debug] Enqueueing Android SDK component: addon-23-google-Google Inc.-google_apis-Google APIs ("Android + Google APIs")
+[2016-10-15 18:58:21.392] [Debug] Enqueueing Android SDK component: Android NDK ("Android NDK Installer")
+[2016-10-15 18:58:21.392] [Debug] Component Xamarin.Android enqueuing URL http://download.xamarin.com/MonoforAndroid/Mac/xamarin.android-7.0.0-18.pkg
+[2016-10-15 18:58:21.393] [Debug] Component Xamarin.iOS enqueuing URL http://download.xamarin.com/MonoTouch/Mac/xamarin.ios-10.0.1.8.pkg
+[2016-10-15 18:58:21.393] [Debug] Component Xamarin.Mac enqueuing URL http://download.xamarin.com/XamarinforMac/Mac/xamarin.mac-2.10.0.103.pkg
+[2016-10-15 18:58:21.393] [Debug] Component Intel® HAXM enqueuing URL http://download.xamarin.com/Installer/haxm-macosx_v6_0_1.zip
+[2016-10-15 18:58:22.914] [Debug] Download service starting.
+[2016-10-15 18:58:23.014] [Debug] Download size for 'http://download.xamarin.com/Installer/MonoForAndroid/jdk-7u71-macosx-x64.dmg': 194865778
+[2016-10-15 18:58:23.126] [Debug] Download size for 'http://dl.google.com/android/android-sdk_r24.4.1-macosx.zip': 102781947
+[2016-10-15 18:58:23.227] [Debug] Download size for 'http://dl.google.com/android/android-sdk_r24.4.1-macosx.zip': 102781947
+[2016-10-15 18:58:23.335] [Debug] Download size for 'http://dl-ssl.google.com/android/repository/tools_r25.1.1-macosx.zip': 161124317
+[2016-10-15 18:58:23.447] [Debug] Download size for 'http://dl-ssl.google.com/android/repository/tools_r25.1.2-macosx.zip': 161183399
+[2016-10-15 18:58:23.559] [Debug] Download size for 'http://dl-ssl.google.com/android/repository/build-tools_r23.0.2-macosx.zip': 38060914
+[2016-10-15 18:58:23.667] [Debug] Download size for 'http://dl-ssl.google.com/android/repository/platform-tools_r23.1.0-macosx.zip': 2743031
+[2016-10-15 18:58:23.775] [Debug] Download size for 'http://dl-ssl.google.com/android/repository/platform-tools_r24rc2-macosx_rc2.zip': 3034894
+[2016-10-15 18:58:23.884] [Debug] Download size for 'http://dl-ssl.google.com/android/repository/platform-23_r03.zip': 70433421
+[2016-10-15 18:58:23.992] [Debug] Download size for 'http://dl-ssl.google.com/android/repository/sys-img/google_apis/sysimg_arm-23_r07.zip': 329355876
+[2016-10-15 18:58:24.192] [Debug] Download size for 'http://dl-ssl.google.com/android/repository/sys-img/google_apis/sysimg_x86-23_r12.zip': 395967293
+[2016-10-15 18:58:24.200] [Debug] Download size for 'http://dl-ssl.google.com/android/repository/sys-img/google_apis/sysimg_arm-23_r07.zip': 329355876
+[2016-10-15 18:58:24.301] [Debug] Download size for 'http://dl-ssl.google.com/android/repository/sys-img/google_apis/sysimg_x86-23_r12.zip': 395967293
+[2016-10-15 18:58:24.412] [Debug] Download size for 'http://dl-ssl.google.com/android/repository/google_apis-23_r01.zip': 179900
+[2016-10-15 18:58:24.524] [Debug] Download size for 'http://dl-ssl.google.com/android/repository/android-ndk-r11c-darwin-x86_64.zip': 772428792
+[2016-10-15 18:58:24.532] [Debug] Download size for 'http://download.xamarin.com/MonoforAndroid/Mac/xamarin.android-7.0.0-18.pkg': 266089312
+[2016-10-15 18:58:24.632] [Debug] Download size for 'http://download.xamarin.com/MonoTouch/Mac/xamarin.ios-10.0.1.8.pkg': 416118896
+[2016-10-15 18:58:24.641] [Debug] Download size for 'http://download.xamarin.com/XamarinforMac/Mac/xamarin.mac-2.10.0.103.pkg': 101161138
+[2016-10-15 18:58:24.743] [Debug] Download size for 'http://download.xamarin.com/Installer/haxm-macosx_v6_0_1.zip': 223812
+[2016-10-15 18:58:24.751] [Info] Downloading from 'http://download.xamarin.com/Installer/MonoForAndroid/jdk-7u71-macosx-x64.dmg'.
+[2016-10-15 18:58:24.751] [Debug] Setting download timeout for 'http://download.xamarin.com/Installer/MonoForAndroid/jdk-7u71-macosx-x64.dmg' to 60s
+[2016-10-15 18:58:27.477] [Info] Installation of software items starting.
+[2016-10-15 18:58:27.477] [Debug] Checking software item 'Mono Framework'
+[2016-10-15 18:58:27.478] [Info] Software item 'Mono Framework' does not need to be installed
+[2016-10-15 18:58:27.478] [Debug] Checking software item 'Java SDK'
+[2016-10-15 18:58:27.478] [Debug] Checking software item 'Android SDK'
+[2016-10-15 18:58:27.478] [Debug] Checking software item 'Xamarin Studio'
+[2016-10-15 18:58:27.478] [Info] Software item 'Xamarin Studio' does not need to be installed
+[2016-10-15 18:58:27.478] [Debug] Checking software item 'Xamarin.Android'
+[2016-10-15 18:58:27.478] [Debug] Checking software item 'Xamarin.iOS'
+[2016-10-15 18:58:27.479] [Debug] Checking software item 'Xamarin.Mac'
+[2016-10-15 18:58:27.479] [Debug] Checking software item 'Intel® HAXM'
+[2016-10-15 18:58:27.479] [Debug] Starting installation task.
+[2016-10-15 18:58:27.479] [Info] Background installation worker called.
+[2016-10-15 18:58:27.481] [Info] Processing software items
+[2016-10-15 18:58:27.481] [Info] Skipping installation of software item 'Mono Framework'
+[2016-10-15 18:58:27.481] [Info] Installing software item 'Java SDK'
+[2016-10-15 18:58:27.481] [Info] Java SDK is waiting for download to finish.
+[2016-10-15 18:58:38.476] [Info] Downloading from 'http://dl.google.com/android/android-sdk_r24.4.1-macosx.zip'.
+[2016-10-15 18:58:38.485] [Debug] Setting download timeout for 'http://dl.google.com/android/android-sdk_r24.4.1-macosx.zip' to 60s
+[2016-10-15 18:58:42.212] [Debug] Running '/usr/sbin/installer -pkg /private/tmp/dmg.2MAVgv/JDK 7 Update 71.pkg -target / -verboseR' with privileges
+[2016-10-15 18:58:42.212] [Debug] Preauthenticating the command
+[2016-10-15 18:58:46.157] [Info] Downloading from 'http://dl.google.com/android/android-sdk_r24.4.1-macosx.zip'.
+[2016-10-15 18:58:46.158] [Debug] Setting download timeout for 'http://dl.google.com/android/android-sdk_r24.4.1-macosx.zip' to 60s
+[2016-10-15 18:58:46.461] [Debug] File /Users/lucasdasilva/Library/Caches/XamarinInstaller/Universal/downloads/android-sdk_r24.4.1-macosx.zip is a valid ZIP archive
+[2016-10-15 18:58:46.469] [Debug] URL http://dl.google.com/android/android-sdk_r24.4.1-macosx.zip already fully downloaded.
+[2016-10-15 18:58:46.470] [Info] Downloading from 'http://dl-ssl.google.com/android/repository/tools_r25.1.1-macosx.zip'.
+[2016-10-15 18:58:46.470] [Debug] Setting download timeout for 'http://dl-ssl.google.com/android/repository/tools_r25.1.1-macosx.zip' to 60s
+[2016-10-15 18:58:59.970] [Info] Downloading from 'http://dl-ssl.google.com/android/repository/tools_r25.1.2-macosx.zip'.
+[2016-10-15 18:58:59.972] [Debug] Setting download timeout for 'http://dl-ssl.google.com/android/repository/tools_r25.1.2-macosx.zip' to 60s
+[2016-10-15 18:59:07.663] [Info] Waiting for the child process to finish running with root privileges.
+[2016-10-15 18:59:07.664] [Debug] Installer finished with success. Exit code was 0
+[2016-10-15 18:59:07.765] [Info] Software item 'Java SDK' installed successfully.
+[2016-10-15 18:59:07.765] [Info] Status: successful
+[2016-10-15 18:59:07.766] [Info] Status: successful
+[2016-10-15 18:59:07.867] [Info] Installing software item 'Android SDK'
+[2016-10-15 18:59:07.867] [Debug] Main Android SDK download URL: http://dl.google.com/android/android-sdk_r24.4.1-macosx.zip
+[2016-10-15 18:59:07.867] [Debug] Android SDK component 'http://dl-ssl.google.com/android/repository/tools_r25.1.1-macosx.zip' download URL: http://dl-ssl.google.com/android/repository/tools_r25.1.1-macosx.zip
+[2016-10-15 18:59:07.867] [Debug] Android SDK component 'http://dl-ssl.google.com/android/repository/tools_r25.1.2-macosx.zip' download URL: http://dl-ssl.google.com/android/repository/tools_r25.1.2-macosx.zip
+[2016-10-15 18:59:07.868] [Debug] Android SDK component 'http://dl-ssl.google.com/android/repository/build-tools_r23.0.2-macosx.zip' download URL: http://dl-ssl.google.com/android/repository/build-tools_r23.0.2-macosx.zip
+[2016-10-15 18:59:07.868] [Debug] Android SDK component 'http://dl-ssl.google.com/android/repository/platform-tools_r23.1.0-macosx.zip' download URL: http://dl-ssl.google.com/android/repository/platform-tools_r23.1.0-macosx.zip
+[2016-10-15 18:59:07.868] [Debug] Android SDK component 'http://dl-ssl.google.com/android/repository/platform-tools_r24rc2-macosx_rc2.zip' download URL: http://dl-ssl.google.com/android/repository/platform-tools_r24rc2-macosx_rc2.zip
+[2016-10-15 18:59:07.868] [Debug] Android SDK component 'http://dl-ssl.google.com/android/repository/platform-23_r03.zip' download URL: http://dl-ssl.google.com/android/repository/platform-23_r03.zip
+[2016-10-15 18:59:07.868] [Debug] Android SDK component 'http://dl-ssl.google.com/android/repository/sys-img/google_apis/sysimg_arm-23_r07.zip' download URL: http://dl-ssl.google.com/android/repository/sys-img/google_apis/sysimg_arm-23_r07.zip
+[2016-10-15 18:59:07.869] [Debug] Android SDK component 'http://dl-ssl.google.com/android/repository/sys-img/google_apis/sysimg_x86-23_r12.zip' download URL: http://dl-ssl.google.com/android/repository/sys-img/google_apis/sysimg_x86-23_r12.zip
+[2016-10-15 18:59:07.869] [Debug] Android SDK component 'http://dl-ssl.google.com/android/repository/sys-img/google_apis/sysimg_arm-23_r07.zip' download URL: http://dl-ssl.google.com/android/repository/sys-img/google_apis/sysimg_arm-23_r07.zip
+[2016-10-15 18:59:07.869] [Debug] Android SDK component 'http://dl-ssl.google.com/android/repository/sys-img/google_apis/sysimg_x86-23_r12.zip' download URL: http://dl-ssl.google.com/android/repository/sys-img/google_apis/sysimg_x86-23_r12.zip
+[2016-10-15 18:59:07.869] [Debug] Android SDK component 'http://dl-ssl.google.com/android/repository/google_apis-23_r01.zip' download URL: http://dl-ssl.google.com/android/repository/google_apis-23_r01.zip
+[2016-10-15 18:59:07.869] [Debug] Android NDK download URL: http://dl-ssl.google.com/android/repository/android-ndk-r11c-darwin-x86_64.zip
+[2016-10-15 18:59:07.870] [Info] Android SDK is waiting for download to finish.
+[2016-10-15 18:59:11.817] [Info] Downloading from 'http://dl-ssl.google.com/android/repository/build-tools_r23.0.2-macosx.zip'.
+[2016-10-15 18:59:11.818] [Debug] Setting download timeout for 'http://dl-ssl.google.com/android/repository/build-tools_r23.0.2-macosx.zip' to 60s
+[2016-10-15 18:59:14.644] [Info] Downloading from 'http://dl-ssl.google.com/android/repository/platform-tools_r23.1.0-macosx.zip'.
+[2016-10-15 18:59:14.644] [Debug] Setting download timeout for 'http://dl-ssl.google.com/android/repository/platform-tools_r23.1.0-macosx.zip' to 60s
+[2016-10-15 18:59:15.048] [Info] Downloading from 'http://dl-ssl.google.com/android/repository/platform-tools_r24rc2-macosx_rc2.zip'.
+[2016-10-15 18:59:15.048] [Debug] Setting download timeout for 'http://dl-ssl.google.com/android/repository/platform-tools_r24rc2-macosx_rc2.zip' to 60s
+[2016-10-15 18:59:15.556] [Info] Downloading from 'http://dl-ssl.google.com/android/repository/platform-23_r03.zip'.
+[2016-10-15 18:59:15.557] [Debug] Setting download timeout for 'http://dl-ssl.google.com/android/repository/platform-23_r03.zip' to 60s
+[2016-10-15 18:59:20.593] [Info] Downloading from 'http://dl-ssl.google.com/android/repository/sys-img/google_apis/sysimg_arm-23_r07.zip'.
+[2016-10-15 18:59:20.593] [Debug] Setting download timeout for 'http://dl-ssl.google.com/android/repository/sys-img/google_apis/sysimg_arm-23_r07.zip' to 60s
+[2016-10-15 18:59:44.605] [Info] Downloading from 'http://dl-ssl.google.com/android/repository/sys-img/google_apis/sysimg_x86-23_r12.zip'.
+[2016-10-15 18:59:44.606] [Debug] Setting download timeout for 'http://dl-ssl.google.com/android/repository/sys-img/google_apis/sysimg_x86-23_r12.zip' to 60s
+[2016-10-15 19:00:13.690] [Info] Downloading from 'http://dl-ssl.google.com/android/repository/sys-img/google_apis/sysimg_arm-23_r07.zip'.
+[2016-10-15 19:00:13.691] [Debug] Setting download timeout for 'http://dl-ssl.google.com/android/repository/sys-img/google_apis/sysimg_arm-23_r07.zip' to 60s
+[2016-10-15 19:00:13.791] [Debug] File /Users/lucasdasilva/Library/Caches/XamarinInstaller/Universal/downloads/sysimg_arm-23_r07.zip is a valid ZIP archive
+[2016-10-15 19:00:13.792] [Debug] URL http://dl-ssl.google.com/android/repository/sys-img/google_apis/sysimg_arm-23_r07.zip already fully downloaded.
+[2016-10-15 19:00:13.792] [Info] Downloading from 'http://dl-ssl.google.com/android/repository/sys-img/google_apis/sysimg_x86-23_r12.zip'.
+[2016-10-15 19:00:13.792] [Debug] Setting download timeout for 'http://dl-ssl.google.com/android/repository/sys-img/google_apis/sysimg_x86-23_r12.zip' to 60s
+[2016-10-15 19:00:13.793] [Debug] File /Users/lucasdasilva/Library/Caches/XamarinInstaller/Universal/downloads/sysimg_x86-23_r12.zip is a valid ZIP archive
+[2016-10-15 19:00:13.793] [Debug] URL http://dl-ssl.google.com/android/repository/sys-img/google_apis/sysimg_x86-23_r12.zip already fully downloaded.
+[2016-10-15 19:00:13.793] [Info] Downloading from 'http://dl-ssl.google.com/android/repository/google_apis-23_r01.zip'.
+[2016-10-15 19:00:13.793] [Debug] Setting download timeout for 'http://dl-ssl.google.com/android/repository/google_apis-23_r01.zip' to 60s
+[2016-10-15 19:00:13.996] [Info] Downloading from 'http://dl-ssl.google.com/android/repository/android-ndk-r11c-darwin-x86_64.zip'.
+[2016-10-15 19:00:13.997] [Debug] Setting download timeout for 'http://dl-ssl.google.com/android/repository/android-ndk-r11c-darwin-x86_64.zip' to 60s
+[2016-10-15 19:01:12.722] [Info] Installing Android SDK and components.
+[2016-10-15 19:01:12.722] [Info] Downloading from 'http://download.xamarin.com/MonoforAndroid/Mac/xamarin.android-7.0.0-18.pkg'.
+[2016-10-15 19:01:12.726] [Debug] Setting download timeout for 'http://download.xamarin.com/MonoforAndroid/Mac/xamarin.android-7.0.0-18.pkg' to 60s
+[2016-10-15 19:01:12.726] [Info] Installing Android archive 'Android SDK'
+[2016-10-15 19:01:12.727] [Info] Unzipping file '/Users/lucasdasilva/Library/Caches/XamarinInstaller/Universal/downloads/android-sdk_r24.4.1-macosx.zip' to directory '/var/folders/m4/ss3vll3566z8mp9fvy6zb4_m0000gn/T/2553df4b
+[2016-10-15 19:01:12.827] [Debug] Processing ZIP archive with external utility
+[2016-10-15 19:01:17.170] [Info] Archive unzipped to '/var/folders/m4/ss3vll3566z8mp9fvy6zb4_m0000gn/T/2553df4b/android-sdk-macosx'
+[2016-10-15 19:01:17.188] [Debug] Android archive 'Android SDK' unpacked in directory '/var/folders/m4/ss3vll3566z8mp9fvy6zb4_m0000gn/T/2553df4b/android-sdk-macosx'
+[2016-10-15 19:01:17.188] [Debug] Archive's destination path: /Users/lucasdasilva/Library/Developer/Xamarin/android-sdk-macosx
+[2016-10-15 19:01:17.188] [Info] Creating Android component's parent path '/Users/lucasdasilva/Library/Developer/Xamarin'
+[2016-10-15 19:01:17.188] [Info] Moving component to its destination path.
+[2016-10-15 19:01:21.518] [Info] Installing component: tools ("tools")
+[2016-10-15 19:01:21.520] [Info] Installing Android SDK Tools
+[2016-10-15 19:01:21.521] [Info] Installing Android archive 'tools'
+[2016-10-15 19:01:21.521] [Info] Unzipping file '/Users/lucasdasilva/Library/Caches/XamarinInstaller/Universal/downloads/tools_r25.1.2-macosx.zip' to directory '/var/folders/m4/ss3vll3566z8mp9fvy6zb4_m0000gn/T/106ad092
+[2016-10-15 19:01:21.522] [Debug] Processing ZIP archive with external utility
+[2016-10-15 19:01:29.889] [Info] Archive unzipped to '/var/folders/m4/ss3vll3566z8mp9fvy6zb4_m0000gn/T/106ad092/tools'
+[2016-10-15 19:01:29.890] [Debug] Android archive 'tools' unpacked in directory '/var/folders/m4/ss3vll3566z8mp9fvy6zb4_m0000gn/T/106ad092/tools'
+[2016-10-15 19:01:29.890] [Debug] Archive's destination path: /Users/lucasdasilva/Library/Developer/Xamarin/android-sdk-macosx/tools
+[2016-10-15 19:01:29.890] [Info] Moving old directory '/Users/lucasdasilva/Library/Developer/Xamarin/android-sdk-macosx/tools' to '/Users/lucasdasilva/Library/Developer/Xamarin/android-sdk-macosx/tools.old1484049898'
+[2016-10-15 19:01:31.399] [Info] Downloading from 'http://download.xamarin.com/MonoTouch/Mac/xamarin.ios-10.0.1.8.pkg'.
+[2016-10-15 19:01:31.400] [Debug] Setting download timeout for 'http://download.xamarin.com/MonoTouch/Mac/xamarin.ios-10.0.1.8.pkg' to 60s
+[2016-10-15 19:01:33.826] [Info] Moving component to its destination path.
+[2016-10-15 19:01:40.282] [Info] Installing component: tools ("tools")
+[2016-10-15 19:01:40.288] [Info] Installing Android SDK Tools
+[2016-10-15 19:01:40.295] [Info] Installing Android archive 'tools'
+[2016-10-15 19:01:40.302] [Info] Unzipping file '/Users/lucasdasilva/Library/Caches/XamarinInstaller/Universal/downloads/tools_r25.1.2-macosx.zip' to directory '/var/folders/m4/ss3vll3566z8mp9fvy6zb4_m0000gn/T/7306d648
+[2016-10-15 19:01:40.306] [Debug] Processing ZIP archive with external utility
+[2016-10-15 19:01:47.187] [Info] Archive unzipped to '/var/folders/m4/ss3vll3566z8mp9fvy6zb4_m0000gn/T/7306d648/tools'
+[2016-10-15 19:01:47.206] [Debug] Android archive 'tools' unpacked in directory '/var/folders/m4/ss3vll3566z8mp9fvy6zb4_m0000gn/T/7306d648/tools'
+[2016-10-15 19:01:47.225] [Debug] Archive's destination path: /Users/lucasdasilva/Library/Developer/Xamarin/android-sdk-macosx/tools
+[2016-10-15 19:01:47.226] [Info] Moving old directory '/Users/lucasdasilva/Library/Developer/Xamarin/android-sdk-macosx/tools' to '/Users/lucasdasilva/Library/Developer/Xamarin/android-sdk-macosx/tools.old199488153'
+[2016-10-15 19:01:52.598] [Info] Moving component to its destination path.
+[2016-10-15 19:01:59.610] [Info] Installing component: build-tool 23.0.2 ("Android Build Tools r23.0.2")
+[2016-10-15 19:01:59.611] [Info] Installing Android SDK Build Tools component
+[2016-10-15 19:01:59.611] [Info] Installing Android archive 'build-tool 23.0.2'
+[2016-10-15 19:01:59.611] [Info] Unzipping file '/Users/lucasdasilva/Library/Caches/XamarinInstaller/Universal/downloads/build-tools_r23.0.2-macosx.zip' to directory '/var/folders/m4/ss3vll3566z8mp9fvy6zb4_m0000gn/T/18b6824d
+[2016-10-15 19:01:59.611] [Debug] Processing ZIP archive with external utility
+[2016-10-15 19:02:01.435] [Info] Archive unzipped to '/var/folders/m4/ss3vll3566z8mp9fvy6zb4_m0000gn/T/18b6824d/android-6.0'
+[2016-10-15 19:02:01.436] [Debug] Android archive 'build-tool 23.0.2' unpacked in directory '/var/folders/m4/ss3vll3566z8mp9fvy6zb4_m0000gn/T/18b6824d/android-6.0'
+[2016-10-15 19:02:01.436] [Debug] Archive's destination path: /Users/lucasdasilva/Library/Developer/Xamarin/android-sdk-macosx/build-tools/23.0.2
+[2016-10-15 19:02:01.436] [Info] Creating Android component's parent path '/Users/lucasdasilva/Library/Developer/Xamarin/android-sdk-macosx/build-tools'
+[2016-10-15 19:02:01.436] [Info] Moving component to its destination path.
+[2016-10-15 19:02:02.138] [Info] Installing component: platform-tools ("platform tools")
+[2016-10-15 19:02:02.149] [Info] Installing Android SDK Platform Tools component
+[2016-10-15 19:02:02.149] [Info] Installing Android archive 'platform-tools'
+[2016-10-15 19:02:02.149] [Info] Unzipping file '/Users/lucasdasilva/Library/Caches/XamarinInstaller/Universal/downloads/platform-tools_r24rc2-macosx_rc2.zip' to directory '/var/folders/m4/ss3vll3566z8mp9fvy6zb4_m0000gn/T/62af728e
+[2016-10-15 19:02:02.149] [Debug] Processing ZIP archive with external utility
+[2016-10-15 19:02:02.159] [Info] Downloading from 'http://download.xamarin.com/XamarinforMac/Mac/xamarin.mac-2.10.0.103.pkg'.
+[2016-10-15 19:02:02.159] [Debug] Setting download timeout for 'http://download.xamarin.com/XamarinforMac/Mac/xamarin.mac-2.10.0.103.pkg' to 60s
+[2016-10-15 19:02:02.160] [Info] Archive unzipped to '/var/folders/m4/ss3vll3566z8mp9fvy6zb4_m0000gn/T/62af728e/platform-tools'
+[2016-10-15 19:02:02.160] [Debug] Android archive 'platform-tools' unpacked in directory '/var/folders/m4/ss3vll3566z8mp9fvy6zb4_m0000gn/T/62af728e/platform-tools'
+[2016-10-15 19:02:02.160] [Debug] Archive's destination path: /Users/lucasdasilva/Library/Developer/Xamarin/android-sdk-macosx/platform-tools
+[2016-10-15 19:02:02.160] [Info] Moving component to its destination path.
+[2016-10-15 19:02:02.368] [Info] Installing component: platform-tools ("platform tools")
+[2016-10-15 19:02:02.369] [Info] Installing Android SDK Platform Tools component
+[2016-10-15 19:02:02.369] [Info] Installing Android archive 'platform-tools'
+[2016-10-15 19:02:02.369] [Info] Unzipping file '/Users/lucasdasilva/Library/Caches/XamarinInstaller/Universal/downloads/platform-tools_r24rc2-macosx_rc2.zip' to directory '/var/folders/m4/ss3vll3566z8mp9fvy6zb4_m0000gn/T/25fa7aaf
+[2016-10-15 19:02:02.370] [Debug] Processing ZIP archive with external utility
+[2016-10-15 19:02:02.470] [Info] Archive unzipped to '/var/folders/m4/ss3vll3566z8mp9fvy6zb4_m0000gn/T/25fa7aaf/platform-tools'
+[2016-10-15 19:02:02.470] [Debug] Android archive 'platform-tools' unpacked in directory '/var/folders/m4/ss3vll3566z8mp9fvy6zb4_m0000gn/T/25fa7aaf/platform-tools'
+[2016-10-15 19:02:02.475] [Debug] Archive's destination path: /Users/lucasdasilva/Library/Developer/Xamarin/android-sdk-macosx/platform-tools
+[2016-10-15 19:02:02.475] [Info] Moving old directory '/Users/lucasdasilva/Library/Developer/Xamarin/android-sdk-macosx/platform-tools' to '/Users/lucasdasilva/Library/Developer/Xamarin/android-sdk-macosx/platform-tools.old1894934827'
+[2016-10-15 19:02:02.584] [Info] Moving component to its destination path.
+[2016-10-15 19:02:02.584] [Info] Installing component: android-23 ("Android SDK Platform 23, rev 3")
+[2016-10-15 19:02:02.584] [Info] Installing Android SDK Platform API level 23 component
+[2016-10-15 19:02:02.585] [Info] Installing Android archive 'android-23'
+[2016-10-15 19:02:02.585] [Info] Unzipping file '/Users/lucasdasilva/Library/Caches/XamarinInstaller/Universal/downloads/platform-23_r03.zip' to directory '/var/folders/m4/ss3vll3566z8mp9fvy6zb4_m0000gn/T/2415315
+[2016-10-15 19:02:02.585] [Debug] Processing ZIP archive with external utility
+[2016-10-15 19:02:09.138] [Info] Downloading from 'http://download.xamarin.com/Installer/haxm-macosx_v6_0_1.zip'.
+[2016-10-15 19:02:09.138] [Debug] Setting download timeout for 'http://download.xamarin.com/Installer/haxm-macosx_v6_0_1.zip' to 60s
+[2016-10-15 19:02:10.147] [Info] Archive unzipped to '/var/folders/m4/ss3vll3566z8mp9fvy6zb4_m0000gn/T/2415315/android-6.0'
+[2016-10-15 19:02:10.147] [Debug] Android archive 'android-23' unpacked in directory '/var/folders/m4/ss3vll3566z8mp9fvy6zb4_m0000gn/T/2415315/android-6.0'
+[2016-10-15 19:02:10.149] [Debug] Archive's destination path: /Users/lucasdasilva/Library/Developer/Xamarin/android-sdk-macosx/platforms/android-23
+[2016-10-15 19:02:10.150] [Info] Moving component to its destination path.
+[2016-10-15 19:02:19.157] [Info] Installing component: system-image-23-armeabi-v7a-google ("Google APIs ARM EABI v7a System Image")
+[2016-10-15 19:02:19.158] [Info] Installing Android SDK Platform API level 23, ABI armeabi-v7a, tag google_apis system image.
+[2016-10-15 19:02:19.158] [Info] Installing Android archive 'system-image-23-armeabi-v7a-google'
+[2016-10-15 19:02:19.158] [Info] Unzipping file '/Users/lucasdasilva/Library/Caches/XamarinInstaller/Universal/downloads/sysimg_arm-23_r07.zip' to directory '/var/folders/m4/ss3vll3566z8mp9fvy6zb4_m0000gn/T/65a07786
+[2016-10-15 19:02:19.158] [Debug] Processing ZIP archive with external utility
+[2016-10-15 19:02:38.853] [Info] Archive unzipped to '/var/folders/m4/ss3vll3566z8mp9fvy6zb4_m0000gn/T/65a07786/armeabi-v7a'
+[2016-10-15 19:02:38.872] [Debug] Android archive 'system-image-23-armeabi-v7a-google' unpacked in directory '/var/folders/m4/ss3vll3566z8mp9fvy6zb4_m0000gn/T/65a07786/armeabi-v7a'
+[2016-10-15 19:02:38.885] [Debug] Archive's destination path: /Users/lucasdasilva/Library/Developer/Xamarin/android-sdk-macosx/system-images/android-23/google_apis/armeabi-v7a
+[2016-10-15 19:02:38.895] [Info] Creating Android component's parent path '/Users/lucasdasilva/Library/Developer/Xamarin/android-sdk-macosx/system-images/android-23/google_apis'
+[2016-10-15 19:02:38.905] [Info] Moving component to its destination path.
+[2016-10-15 19:03:01.889] [Info] Installing component: system-image-23-x86-google ("Google APIs Intel x86 Atom System Image")
+[2016-10-15 19:03:01.906] [Info] Installing Android SDK Platform API level 23, ABI x86, tag google_apis system image.
+[2016-10-15 19:03:01.912] [Info] Installing Android archive 'system-image-23-x86-google'
+[2016-10-15 19:03:01.918] [Info] Unzipping file '/Users/lucasdasilva/Library/Caches/XamarinInstaller/Universal/downloads/sysimg_x86-23_r12.zip' to directory '/var/folders/m4/ss3vll3566z8mp9fvy6zb4_m0000gn/T/77e8f28c
+[2016-10-15 19:03:01.924] [Debug] Processing ZIP archive with external utility
+[2016-10-15 19:03:22.135] [Info] Archive unzipped to '/var/folders/m4/ss3vll3566z8mp9fvy6zb4_m0000gn/T/77e8f28c/x86'
+[2016-10-15 19:03:22.146] [Debug] Android archive 'system-image-23-x86-google' unpacked in directory '/var/folders/m4/ss3vll3566z8mp9fvy6zb4_m0000gn/T/77e8f28c/x86'
+[2016-10-15 19:03:22.154] [Debug] Archive's destination path: /Users/lucasdasilva/Library/Developer/Xamarin/android-sdk-macosx/system-images/android-23/google_apis/x86
+[2016-10-15 19:03:22.159] [Info] Moving component to its destination path.
+[2016-10-15 19:03:32.266] [Info] Installing component: system-image-23-armeabi-v7a-google ("Google APIs ARM EABI v7a System Image")
+[2016-10-15 19:03:32.278] [Info] Installing Android SDK Platform API level 23, ABI armeabi-v7a, tag google_apis system image.
+[2016-10-15 19:03:32.284] [Info] Installing Android archive 'system-image-23-armeabi-v7a-google'
+[2016-10-15 19:03:32.290] [Info] Unzipping file '/Users/lucasdasilva/Library/Caches/XamarinInstaller/Universal/downloads/sysimg_arm-23_r07.zip' to directory '/var/folders/m4/ss3vll3566z8mp9fvy6zb4_m0000gn/T/ac9fdf0
+[2016-10-15 19:03:32.295] [Debug] Processing ZIP archive with external utility
+[2016-10-15 19:03:52.499] [Info] Archive unzipped to '/var/folders/m4/ss3vll3566z8mp9fvy6zb4_m0000gn/T/ac9fdf0/armeabi-v7a'
+[2016-10-15 19:03:52.523] [Debug] Android archive 'system-image-23-armeabi-v7a-google' unpacked in directory '/var/folders/m4/ss3vll3566z8mp9fvy6zb4_m0000gn/T/ac9fdf0/armeabi-v7a'
+[2016-10-15 19:03:52.532] [Debug] Archive's destination path: /Users/lucasdasilva/Library/Developer/Xamarin/android-sdk-macosx/system-images/android-23/google_apis/armeabi-v7a
+[2016-10-15 19:03:52.544] [Info] Moving old directory '/Users/lucasdasilva/Library/Developer/Xamarin/android-sdk-macosx/system-images/android-23/google_apis/armeabi-v7a' to '/Users/lucasdasilva/Library/Developer/Xamarin/android-sdk-macosx/system-images/android-23/google_apis/armeabi-v7a.old1478374167'
+[2016-10-15 19:04:04.868] [Info] Moving component to its destination path.
+[2016-10-15 19:04:17.947] [Info] Installing component: system-image-23-x86-google ("Google APIs Intel x86 Atom System Image")
+[2016-10-15 19:04:18.137] [Info] Installing Android SDK Platform API level 23, ABI x86, tag google_apis system image.
+[2016-10-15 19:04:18.139] [Info] Installing Android archive 'system-image-23-x86-google'
+[2016-10-15 19:04:18.139] [Info] Unzipping file '/Users/lucasdasilva/Library/Caches/XamarinInstaller/Universal/downloads/sysimg_x86-23_r12.zip' to directory '/var/folders/m4/ss3vll3566z8mp9fvy6zb4_m0000gn/T/29e0057
+[2016-10-15 19:04:18.140] [Debug] Processing ZIP archive with external utility
+[2016-10-15 19:04:36.739] [Info] Archive unzipped to '/var/folders/m4/ss3vll3566z8mp9fvy6zb4_m0000gn/T/29e0057/x86'
+[2016-10-15 19:04:36.745] [Debug] Android archive 'system-image-23-x86-google' unpacked in directory '/var/folders/m4/ss3vll3566z8mp9fvy6zb4_m0000gn/T/29e0057/x86'
+[2016-10-15 19:04:36.746] [Debug] Archive's destination path: /Users/lucasdasilva/Library/Developer/Xamarin/android-sdk-macosx/system-images/android-23/google_apis/x86
+[2016-10-15 19:04:36.746] [Info] Moving old directory '/Users/lucasdasilva/Library/Developer/Xamarin/android-sdk-macosx/system-images/android-23/google_apis/x86' to '/Users/lucasdasilva/Library/Developer/Xamarin/android-sdk-macosx/system-images/android-23/google_apis/x86.old77991157'
+[2016-10-15 19:04:47.512] [Info] Moving component to its destination path.
+[2016-10-15 19:05:02.335] [Info] Installing component: addon-23-google-Google Inc.-google_apis-Google APIs ("Android + Google APIs")
+[2016-10-15 19:05:02.386] [Info] Installing Android SDK AddOn [Vendor = Google Inc. (google); Name = Google APIs (google_apis)]
+[2016-10-15 19:05:02.387] [Info] Installing Android archive 'addon-23-google-Google Inc.-google_apis-Google APIs'
+[2016-10-15 19:05:02.387] [Info] Unzipping file '/Users/lucasdasilva/Library/Caches/XamarinInstaller/Universal/downloads/google_apis-23_r01.zip' to directory '/var/folders/m4/ss3vll3566z8mp9fvy6zb4_m0000gn/T/1620d178
+[2016-10-15 19:05:02.490] [Debug] Processing ZIP archive with external utility
+[2016-10-15 19:05:02.594] [Info] Archive unzipped to '/var/folders/m4/ss3vll3566z8mp9fvy6zb4_m0000gn/T/1620d178/google_phone_x86-2166657-mac-x86'
+[2016-10-15 19:05:02.594] [Debug] Android archive 'addon-23-google-Google Inc.-google_apis-Google APIs' unpacked in directory '/var/folders/m4/ss3vll3566z8mp9fvy6zb4_m0000gn/T/1620d178/google_phone_x86-2166657-mac-x86'
+[2016-10-15 19:05:02.594] [Debug] Archive's destination path: /Users/lucasdasilva/Library/Developer/Xamarin/android-sdk-macosx/add-ons/addon-google_apis-google-23
+[2016-10-15 19:05:02.595] [Info] Moving component to its destination path.
+[2016-10-15 19:05:02.903] [Info] Instaling Android NDK r11c
+[2016-10-15 19:05:02.903] [Info] Installing Android NDK r11c
+[2016-10-15 19:05:02.904] [Info] Installing Android archive 'NDK r11c'
+[2016-10-15 19:05:02.904] [Info] Unzipping file '/Users/lucasdasilva/Library/Caches/XamarinInstaller/Universal/downloads/android-ndk-r11c-darwin-x86_64.zip' to directory '/var/folders/m4/ss3vll3566z8mp9fvy6zb4_m0000gn/T/7ae87876
+[2016-10-15 19:05:02.904] [Debug] Processing ZIP archive with external utility
+[2016-10-15 19:06:07.473] [Info] Archive unzipped to '/var/folders/m4/ss3vll3566z8mp9fvy6zb4_m0000gn/T/7ae87876/android-ndk-r11c'
+[2016-10-15 19:06:07.474] [Debug] Android archive 'NDK r11c' unpacked in directory '/var/folders/m4/ss3vll3566z8mp9fvy6zb4_m0000gn/T/7ae87876/android-ndk-r11c'
+[2016-10-15 19:06:07.474] [Debug] Archive's destination path: /Users/lucasdasilva/Library/Developer/Xamarin/android-ndk/android-ndk-r11c
+[2016-10-15 19:06:07.474] [Info] Creating Android component's parent path '/Users/lucasdasilva/Library/Developer/Xamarin/android-ndk'
+[2016-10-15 19:06:07.474] [Info] Moving component to its destination path.
+[2016-10-15 19:07:42.383] [Info] Resetting IDE's Android SDK location to '/Users/lucasdasilva/Library/Developer/Xamarin/android-sdk-macosx'
+[2016-10-15 19:07:42.396] [Debug] Creating AVDs
+[2016-10-15 19:07:42.402] [Debug] Creating AVD Android_Accelerated_x86
+[2016-10-15 19:07:42.409] [Debug] Checking whether AVD exists at /Users/lucasdasilva/.android/avd/Android_Accelerated_x86.avd
+[2016-10-15 19:07:42.418] [Debug] AVD directory does not exist
+[2016-10-15 19:07:42.424] [Debug] Generating AVD configuration file /Users/lucasdasilva/.android/avd/Android_Accelerated_x86.ini
+[2016-10-15 19:07:42.431] [Debug] System image in /Users/lucasdasilva/Library/Developer/Xamarin/android-sdk-macosx/system-images/android-23/google_apis/x86 appears to be an add-on. Using three-elemment target
+[2016-10-15 19:07:42.455] [Debug] Generating emulator configuration file /Users/lucasdasilva/.android/avd/Android_Accelerated_x86.avd/config.ini
+[2016-10-15 19:07:42.461] [Debug] Copying user data image from /Users/lucasdasilva/Library/Developer/Xamarin/android-sdk-macosx/system-images/android-23/google_apis/x86/userdata.img to /Users/lucasdasilva/.android/avd/Android_Accelerated_x86.avd/userdata.img
+[2016-10-15 19:07:42.467] [Debug] Generating SD card image /Users/lucasdasilva/.android/avd/Android_Accelerated_x86.avd/sdcard.img
+[2016-10-15 19:07:51.762] [Debug] AVD 'Android_Accelerated_x86' created in '/Users/lucasdasilva/.android/avd/Android_Accelerated_x86.avd'.
+[2016-10-15 19:07:51.763] [Debug] Creating AVD Android_ARMv7a
+[2016-10-15 19:07:51.775] [Debug] Checking whether AVD exists at /Users/lucasdasilva/.android/avd/Android_ARMv7a.avd
+[2016-10-15 19:07:51.775] [Debug] AVD directory does not exist
+[2016-10-15 19:07:51.775] [Debug] Generating AVD configuration file /Users/lucasdasilva/.android/avd/Android_ARMv7a.ini
+[2016-10-15 19:07:51.775] [Debug] System image in /Users/lucasdasilva/Library/Developer/Xamarin/android-sdk-macosx/system-images/android-23/google_apis/armeabi-v7a appears to be an add-on. Using three-elemment target
+[2016-10-15 19:07:51.775] [Debug] Generating emulator configuration file /Users/lucasdasilva/.android/avd/Android_ARMv7a.avd/config.ini
+[2016-10-15 19:07:51.775] [Debug] Copying user data image from /Users/lucasdasilva/Library/Developer/Xamarin/android-sdk-macosx/system-images/android-23/google_apis/armeabi-v7a/userdata.img to /Users/lucasdasilva/.android/avd/Android_ARMv7a.avd/userdata.img
+[2016-10-15 19:07:51.776] [Debug] Generating SD card image /Users/lucasdasilva/.android/avd/Android_ARMv7a.avd/sdcard.img
+[2016-10-15 19:07:51.776] [Debug] AVD 'Android_ARMv7a' created in '/Users/lucasdasilva/.android/avd/Android_ARMv7a.avd'.
+[2016-10-15 19:07:51.776] [Info] Software item 'Android SDK' installed successfully.
+[2016-10-15 19:07:51.776] [Info] Status: successful
+[2016-10-15 19:07:51.776] [Info] Status: successful
+[2016-10-15 19:07:51.777] [Info] Skipping installation of software item 'Xamarin Studio'
+[2016-10-15 19:07:51.777] [Info] Installing software item 'Xamarin.Android'
+[2016-10-15 19:07:51.777] [Debug] Running '/usr/sbin/installer -pkg /Users/lucasdasilva/Library/Caches/XamarinInstaller/Universal/downloads/xamarin.android-7.0.0-18.pkg -target / -verboseR' with privileges
+[2016-10-15 19:08:16.480] [Info] Waiting for the child process to finish running with root privileges.
+[2016-10-15 19:08:16.480] [Debug] Installer finished with success. Exit code was 0
+[2016-10-15 19:08:16.490] [Info] Software item 'Xamarin.Android' installed successfully.
+[2016-10-15 19:08:16.491] [Info] Status: successful
+[2016-10-15 19:08:16.492] [Info] Status: successful
+[2016-10-15 19:08:16.492] [Info] Installing software item 'Xamarin.iOS'
+[2016-10-15 19:08:16.498] [Debug] Running '/usr/sbin/installer -pkg /Users/lucasdasilva/Library/Caches/XamarinInstaller/Universal/downloads/xamarin.ios-10.0.1.8.pkg -target / -verboseR' with privileges
+[2016-10-15 19:08:36.997] [Info] Waiting for the child process to finish running with root privileges.
+[2016-10-15 19:08:36.998] [Debug] Installer finished with success. Exit code was 0
+[2016-10-15 19:08:36.998] [Info] Software item 'Xamarin.iOS' installed successfully.
+[2016-10-15 19:08:36.998] [Info] Status: successful
+[2016-10-15 19:08:37.011] [Info] Status: successful
+[2016-10-15 19:08:37.012] [Info] Installing software item 'Xamarin.Mac'
+[2016-10-15 19:08:37.012] [Debug] Running '/usr/sbin/installer -pkg /Users/lucasdasilva/Library/Caches/XamarinInstaller/Universal/downloads/xamarin.mac-2.10.0.103.pkg -target / -verboseR' with privileges
+[2016-10-15 19:08:48.177] [Info] Waiting for the child process to finish running with root privileges.
+[2016-10-15 19:08:48.179] [Debug] Installer finished with success. Exit code was 0
+[2016-10-15 19:08:48.179] [Info] Software item 'Xamarin.Mac' installed successfully.
+[2016-10-15 19:08:48.179] [Info] Status: successful
+[2016-10-15 19:08:48.179] [Info] Status: successful
+[2016-10-15 19:08:48.179] [Info] Installing software item 'Intel® HAXM'
+[2016-10-15 19:08:48.180] [Info] Unzipping file '/Users/lucasdasilva/Library/Caches/XamarinInstaller/Universal/downloads/haxm-macosx_v6_0_1.zip' to directory '/var/folders/m4/ss3vll3566z8mp9fvy6zb4_m0000gn/T/x-haxm-5f6577
+[2016-10-15 19:08:48.180] [Debug] Processing ZIP archive with external utility
+[2016-10-15 19:08:48.180] [Info] Archive unzipped to '/var/folders/m4/ss3vll3566z8mp9fvy6zb4_m0000gn/T/x-haxm-5f6577'
+[2016-10-15 19:08:48.180] [Debug] Running '/var/folders/m4/ss3vll3566z8mp9fvy6zb4_m0000gn/T/x-haxm-5f6577/silent_install.sh -c' with privileges
+[2016-10-15 19:08:48.181] [Debug] Preauthenticating the command
+[2016-10-15 19:08:58.137] [Info] Waiting for the child process to finish running with root privileges.
+[2016-10-15 19:08:58.143] [Debug] HAXM check output:
+[2016-10-15 19:08:58.145] [Debug] VT support -- Yes
+[2016-10-15 19:08:58.145] [Debug] NX support -- Yes
+[2016-10-15 19:08:58.145] [Info] Invoking HAXM silent installation script
+[2016-10-15 19:08:58.145] [Info] Invalid format: Using default HAXM RAM size ({1}MB)
+[2016-10-15 19:08:58.145] [Info] HAXM installation log file (created by HAXM installer, it may NOT exist): /Users/lucasdasilva/Library/Logs/XamarinInstaller/Universal/InstallLog.636121402842028820-haxm.txt
+[2016-10-15 19:08:58.145] [Debug] Running '/var/folders/m4/ss3vll3566z8mp9fvy6zb4_m0000gn/T/x-haxm-5f6577/silent_install.sh -log /Users/lucasdasilva/Library/Logs/XamarinInstaller/Universal/InstallLog.636121402842028820-haxm.txt' with privileges
+[2016-10-15 19:09:45.745] [Info] Waiting for the child process to finish running with root privileges.
+[2016-10-15 19:09:45.746] [Debug] HAXM install output:
+[2016-10-15 19:09:45.746] [Debug] Silent installation Pass!
+[2016-10-15 19:09:46.248] [Debug] HAXM extension dir: /Library/Extensions/intelhaxm.kext
+[2016-10-15 19:09:46.249] [Debug] HAXM extension status:
+[2016-10-15 19:09:46.249] [Debug] Index Refs Address            Size       Wired      Name (Version) <Linked Against>
+[2016-10-15 19:09:46.249] [Debug] 145    0 0xffffff7f82aae000 0x14000    0x14000    com.intel.kext.intelhaxm (6.0.1) <7 5 4 3 1>
+[2016-10-15 19:09:46.249] [Info] Software item 'Intel® HAXM' installed successfully.
+[2016-10-15 19:09:46.249] [Info] Status: successful
+[2016-10-15 19:09:46.250] [Info] Status: successful
+[2016-10-15 19:09:46.854] [Debug] Starting installation complete task.
+[2016-10-15 19:09:47.059] [Info] Background installation worker completed.
+[2016-10-15 19:09:47.059] [Info] Installation completed successfully
+[2016-10-15 19:09:47.059] [Info] Status: successful
+[2016-10-15 19:10:09.435] [Info] Done. All steps completed. Failure: False; Status: Successful
+[2016-10-15 19:10:09.640] [Info] Status: successful
+[2016-10-15 19:10:09.648] [Info] Status: completed

@@ -1,0 +1,4 @@
+private string mName;
+private DateTime mDob;
+private string mMsg;
+static int sCount;

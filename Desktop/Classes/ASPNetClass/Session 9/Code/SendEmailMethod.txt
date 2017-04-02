@@ -1,0 +1,26 @@
+﻿public static void SendMailBySMTP(string Password, string Email, string LoginName, string userName)
+        {
+            AppSettingsReader myReader = new AppSettingsReader();
+            string SMTPIP = myReader.GetValue("SMTPIP",Type.GetType("System.String")).ToString();
+            SmtpClient pwdMail = new SmtpClient(SMTPIP);
+            MailMessage mmN = new MailMessage();
+            mmN.From = new MailAddress("GASAAdmin@GASASport.com");
+            mmN.To.Add(Email);
+            mmN.Subject = "Your password for accessing GASA Sports Web Site";
+            mmN.Body = "Dear Mr. or Ms. " + userName + ",<br/><br/>";
+            mmN.Body += "This is to inform you that your new password for accessing the GASA Sports Web Site is:.<br/><br/>";
+            mmN.Body += Password + "<br/><br/>";
+            mmN.Body += "Please use your login name " + LoginName + "  and the new password to access to the web site and then you can reset your password.</br></br>";
+            mmN.Body += "Thank you very much for bisiting our web site.</br></br></br>";
+            mmN.Body += "<br><br>GASA sports Assoication";
+            mmN.IsBodyHtml = true;
+            mmN.Priority = MailPriority.Normal;
+            try
+            {
+                pwdMail.Send(mmN);
+            }
+            catch (Exception ex)
+            {
+                throw new Exception(ex.Message);
+            }
+        }

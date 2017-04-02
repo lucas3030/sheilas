@@ -1,0 +1,5 @@
+MessageBox.Show("Welcome to Visual C# using VS 2012 class! Your name is " +
+                        txtFirstName.Text + " " + txtLastName.Text + " and your title is " + cboTitle.Text + ".",
+                        "User Input Data", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            lblInputData.Text = "Welcome to Visual C# using VS 2012 class! Your name is " +
+                        txtFirstName.Text + " " + txtLastName.Text + " and your title is " + cboTitle.Text + ".";

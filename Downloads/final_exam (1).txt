@@ -1,0 +1,117 @@
+Lucas F Dasilva
+Final Exam
+
+1)
+
+The program prints 9 90 and 8100.
+
+2) The program value for X is equal to 1. The program value for y is equals 2.
+
+3)
+def concatint(x,y,z):
+    a=str(x)
+    b=str(y)
+    c=str(z)
+    con_cat=a+b+c
+    con_cat=int(con_cat)
+    return con_cat
+
+result = concatint(4,5,6)
+print(result)
+
+4)
+import math
+
+def check_fermat(a,b,c,n):
+    left=math.pow(a,n)+math.pow(b,n)
+    right=math.pow(c,n)
+    if left == right and n>2:
+        print("Holy smokes, Fermat was wrong!")
+
+    else:
+        print(" No that doesn't work.")
+
+
+check_fermat(3,4,5,8)
+check_fermat(7,12,15,19)
+
+5)
+def factorial(n):
+    if n >=0:
+        if n==0:
+            return 1
+        else:
+            return n* factorial(n-1)
+    else:
+        print("n is not negative")
+
+6)
+def palindrome(name):
+    reverse= name[::-1]
+    if reverse== name:
+        print(" is a palindrome")
+    else:
+        print(" it is not palindrome")
+
+palindrome("lucas")
+palindrome("racecar")
+palindrome("pop")
+
+7)
+def collapse_list(t):
+    result=[]
+    length=len(t)
+    for x in t:
+        if type(x) is list:
+            for y in x:
+                result.append(y)
+        else:
+            result.append(x)
+    print(result)
+
+collapse_list([1,2,3])
+collapse_list([[4,5],1,22,33,[7,9]])
+
+8)
+def collapse_list(t):
+    result=[]
+    length=len(t)
+    for x in t:
+        if type(x) is list:
+            for y in x:
+                result.append(y)
+        else:
+            result.append(x)
+    print(result)
+
+collapse_list([1,2,3])
+collapse_list([[4,5],1,22,33,[7,9]])
+
+9)
+import collections
+
+def hist(c):
+    x=collections.Counter(c)
+    print(x)
+
+hist(["hello","spam","spam","good evening", 42, "spam"])
+
+10)
+def average(L):
+    Sum= 0
+    i=0
+    for x in L:
+        if type (x)!= str:
+            Sum=Sum+x
+            i=i+1
+    average=Sum/float(i)
+
+    print(average)
+
+average([3.5,5,1.5,'hello'])
+
+
+
+
+
+

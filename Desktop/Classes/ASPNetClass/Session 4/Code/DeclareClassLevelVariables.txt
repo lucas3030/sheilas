@@ -1,0 +1,5 @@
+private string cnStr;
+private SqlDataAdapter da;
+private SqlCommand cmd;
+private SqlConnection cn;
+private SqlTransaction tran;

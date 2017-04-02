@@ -1,0 +1,11 @@
+cmd.CommandType = CommandType.StoredProcedure;
+cmd.CommandText = "SP_GetCategoriesProducts";
+da = new SqlDataAdapter(cmd);
+ds = new DataSet();
+da.Fill(ds);
+ds.Tables[0].TableName = "Categories";
+ds.Tables[1].TableName = "Products";
+cboCategories.DataSource = ds.Tables[0];
+cboCategories.DisplayMember = "CategoryName";
+cboCategories.ValueMember = "ProductType";
+cboCategories.Text = "Select a Category";

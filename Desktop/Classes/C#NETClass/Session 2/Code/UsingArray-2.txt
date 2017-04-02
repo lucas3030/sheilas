@@ -1,0 +1,14 @@
+Employees = new string[5] { "George", "David", "Linda", "Liz", "Peter" };
+            string[] x = Employees;
+            Employees[0] = "Patricia";
+            Employees[2] = "Richard";
+            Employees[4] = "Mary";
+            lblResult.Text = "";
+            str = "Employee names in the array employees are changed. \n";
+            for (int i = 0; i < Employees.Length; i++)
+                str += "\n" + Employees[i];
+            str += "\n\n";
+            str += "Employee names in the array x are also changed. \n";
+            for (int i = 0; i < x.Length; i++)
+                str += "\n" + x[i];
+            lblResult.Text = str;

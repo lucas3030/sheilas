@@ -1,0 +1,11 @@
+public string Name
+{
+	get {return mName;}
+	set {mName = value;}
+}
+
+public DateTime BirthDate
+{
+	get { return mDob;}
+	set { mDob = value;}
+}

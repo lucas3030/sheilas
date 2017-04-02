@@ -1,0 +1,10 @@
+	if (lbtnSignInOut.Text == "Sign In")
+        {
+            Response.Redirect("~/Login.aspx");
+        }
+        else if (lbtnSignInOut.Text == "Sign Out")
+        {
+            lbtnSignInOut.Text = "Sign In";
+            FormsAuthentication.SignOut();
+            Response.Redirect("~/Default.aspx");
+        }

@@ -1,0 +1,103 @@
+    #region "Internal functions"
+    private void populateDropdowns()
+    {
+        DataSet ds = Session["DataForDropDowns"] as DataSet;
+        DataTable dtCountries = (DataTable)ds.Tables["Countries"];
+        DataTable dtStates = (DataTable)ds.Tables["States"];
+        DataTable dtSports = (DataTable)ds.Tables["Sports"];
+        DataTable dtQuestions = (DataTable)ds.Tables["Questions"];
+
+        ddlCountries.DataSource = dtCountries;
+        ddlCountries.DataTextField = "CountryName";
+        ddlCountries.DataValueField = "CountryCode";
+        ddlCountries.DataBind();
+        ListItem liCountry = new ListItem("Select a country", "");
+        ddlCountries.Items.Insert(0, liCountry);
+
+        ddlStates.DataSource = dtStates;
+        ddlStates.DataTextField = "StateName";
+        ddlStates.DataValueField = "StateCode";
+        ddlStates.DataBind();
+        ListItem liState = new ListItem("Select a State", "");
+        ddlStates.Items.Insert(0, liState);
+
+        ddlSports.DataSource = dtSports;
+        ddlSports.DataTextField = "SportName";
+        ddlSports.DataValueField = "Sportcode";
+        ddlSports.DataBind();
+        ListItem liSport = new ListItem("Select a sport", "");
+        ddlSports.Items.Insert(0, liSport);
+
+        ddlSecurityQuestions.DataSource = dtQuestions;
+        ddlSecurityQuestions.DataTextField = "SecurityQuestion";
+        ddlSecurityQuestions.DataValueField = "SecurityQuestionID";
+        ddlSecurityQuestions.DataBind();
+        ListItem liSecurityQuestion = new ListItem("Select a question", "");
+        ddlSecurityQuestions.Items.Insert(0, liSecurityQuestion);
+
+    }
+
+    private DataTable CreateSportsTable()
+    {
+        DataTable dt = new DataTable();
+        dt.Columns.Add("SportCode", Type.GetType("System.String"));
+        dt.Columns.Add("SportName", Type.GetType("System.String"));
+        dt.Columns.Add("SportDescription", Type.GetType("System.String"));
+        return dt;
+    }
+
+    private CMember CollectData()
+    {
+        // Generate a new random password string
+        string myPassword = txtPassword.Text;
+        // Generate a new random salt
+        int mySalt = Password.CreateRandomSalt();
+        // Initialize the Password class with the password and salt
+        Password pwd = new Password(myPassword, mySalt);
+        // Compute the salted hash
+        // NOTE: you store the salt and the salted hash in the datbase
+        string strHashedPassword = pwd.ComputeSaltedHash();
+        CMember M = new CMember();
+        M.FirstName = txtFirstName.Text;
+        M.LastName = txtLastName.Text;
+        M.EmailAddress = txtEmail.Text;
+        M.CountryCode = ddlCountries.SelectedValue;
+        if (txtState.Visible == true)
+            M.StateName = txtState.Text;
+        else if (ddlStates.Visible == true)
+            M.StateName = ddlStates.SelectedValue;
+        M.City = txtCity.Text;
+        M.LoginID = txtLoginName.Text;
+        M.Password = strHashedPassword;
+        M.PwdSalt = mySalt;
+        M.SecurityQuestion = ddlSecurityQuestions.SelectedValue;
+        M.SecurityAnswer = txtAnswer.Text;
+        M.Comments = txtComments.Text;
+        M.Sports = Session["Sports"] as DataTable;
+        return M;
+    }
+
+    private void ClearForm()
+    {
+        txtFirstName.Text = "";
+        txtLastName.Text = "";
+        txtEmail.Text = "";
+        ddlCountries.SelectedValue = "";
+        ddlSports.SelectedValue = "";
+        ddlStates.SelectedValue = "";
+        ddlStates.Visible = false;
+        txtState.Visible = true;
+	txtState.Text = "";
+        txtCity.Text = "";
+        txtLoginName.Text = "";
+        txtPassword.Text = "";
+        txtConfirmPassword.Text = "";
+        txtComments.Text = "";
+        mySports = Session["Sports"] as DataTable;
+        mySports.Clear();
+        gvSports.DataSource = mySports;
+        gvSports.DataBind();
+	lblMessage.Text = "";
+    }
+
+    #endregion // End of the "Internal Functions" region

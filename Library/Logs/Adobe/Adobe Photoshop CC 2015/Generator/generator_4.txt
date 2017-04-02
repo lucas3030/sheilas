@@ -1,0 +1,87 @@
+Log file created on Sat Jul 16 2016 14:13:08 GMT-0400 (EDT)
+
+[debug:core 14:13:08.673 generator.js:105:17] Launching with config:
+{}
+[debug:core 14:13:08.675 generator.js:107:21] provided PS information:
+ version 16.1.2
+ path/Applications/Adobe Photoshop CC 2015/Adobe Photoshop CC 2015.app/
+
+[info:core 14:13:08.686 generator.js:223:25] Detected Photoshop version: 16.1.2
+[1;31mPotential problem with plugin at '/Applications/Adobe Photoshop CC 2015/Plug-ins/Generator/reflow.generate': Warning: Plugin 'reflow-generator' did not specify which versions of generator-core it is compatible with. It will be loaded anyway, but providing generator-core-version in its package.json is recommended.
+[0m[debug:core 14:13:08.725 generator.js:1751:21] Loading plugin: generator-assets
+[debug:core 14:13:08.878 generator.js:1767:21] Plugin loaded: generator-assets
+[debug:core 14:13:08.879 generator.js:1751:21] Loading plugin: generator-spaces
+[debug:core 14:13:09.183 generator.js:1767:21] Plugin loaded: generator-spaces
+[debug:core 14:13:09.185 generator.js:1751:21] Loading plugin: crema
+[debug:core 14:13:09.602 generator.js:1767:21] Plugin loaded: crema
+[debug:core 14:13:09.604 generator.js:1751:21] Loading plugin: adobe-preview-generator-plugin
+[debug:core 14:13:10.662 generator.js:1767:21] Plugin loaded: adobe-preview-generator-plugin
+[warning:core 14:13:10.664 generator.js:1740:21] Warning: Plugin 'reflow-generator' did not specify which versions of generator-core it is compatible with. It will be loaded anyway, but providing generator-core-version in its package.json is recommended.
+[debug:core 14:13:10.665 generator.js:1751:21] Loading plugin: reflow-generator
+[1;31mWarning: Native modules not compiled.  XOR performance will be degraded.
+[0m[1;31mWarning: Native modules not compiled.  UTF-8 validation disabled.
+[0m[debug:core 14:13:10.735 generator.js:1767:21] Plugin loaded: reflow-generator
+[info:generator-spaces 14:13:10.740 main.js:36:20] Starting websocket server...
+Sat Jul 16 2016 14:13:13 GMT-0400 (EDT) Server is listening on port 8010
+wrote token, name to /Users/lucasdasilva/Library/Application Support/EdgeReflow/comm.dat
+[warning:generator-assets 14:13:13.956 document.js:114:34] Unhandled property in raw constructor: profile Untagged RGB
+[warning:generator-assets 14:13:13.957 document.js:114:34] Unhandled property in raw constructor: mode RGBColor
+[warning:generator-assets 14:13:13.958 document.js:114:34] Unhandled property in raw constructor: depth 8
+[info:generator-spaces 14:13:14.398 main.js:39:28] Started websocket server on port 59596
+active document is /Users/lucasdasilva/Desktop/Real_Estate_2/Images/real_estate_4.jpeg 195
+wrote token, name to /Users/lucasdasilva/Library/Application Support/EdgeReflow/comm.dat
+[info:generator-spaces 14:13:14.900 main.js:44:28] For kicks, fetched stored port from generator:  59596
+active document is null null
+wrote token, name to /Users/lucasdasilva/Library/Application Support/EdgeReflow/comm.dat
+active document is /Users/lucasdasilva/Desktop/Real_Estate_2/Images/real_estate.jpeg 200
+wrote token, name to /Users/lucasdasilva/Library/Application Support/EdgeReflow/comm.dat
+[warning:generator-assets 14:13:19.502 document.js:114:34] Unhandled property in raw constructor: profile Untagged RGB
+[warning:generator-assets 14:13:19.510 document.js:114:34] Unhandled property in raw constructor: mode RGBColor
+[warning:generator-assets 14:13:19.512 document.js:114:34] Unhandled property in raw constructor: depth 8
+active document is null null
+wrote token, name to /Users/lucasdasilva/Library/Application Support/EdgeReflow/comm.dat
+active document is /Users/lucasdasilva/Desktop/Real_Estate_2/Images/rss1.jpeg 204
+wrote token, name to /Users/lucasdasilva/Library/Application Support/EdgeReflow/comm.dat
+[warning:generator-assets 14:13:28.307 document.js:114:34] Unhandled property in raw constructor: profile Untagged RGB
+[warning:generator-assets 14:13:28.315 document.js:114:34] Unhandled property in raw constructor: mode RGBColor
+[warning:generator-assets 14:13:28.316 document.js:114:34] Unhandled property in raw constructor: depth 8
+active document is null null
+wrote token, name to /Users/lucasdasilva/Library/Application Support/EdgeReflow/comm.dat
+active document is /Users/lucasdasilva/Desktop/Real_Estate_2/Images/rss5.jpeg 208
+wrote token, name to /Users/lucasdasilva/Library/Application Support/EdgeReflow/comm.dat
+[warning:generator-assets 14:13:33.037 document.js:114:34] Unhandled property in raw constructor: profile Untagged RGB
+[warning:generator-assets 14:13:33.045 document.js:114:34] Unhandled property in raw constructor: mode RGBColor
+[warning:generator-assets 14:13:33.046 document.js:114:34] Unhandled property in raw constructor: depth 8
+active document is null null
+wrote token, name to /Users/lucasdasilva/Library/Application Support/EdgeReflow/comm.dat
+active document is /Users/lucasdasilva/Desktop/Real_Estate_2/Images/rss3.jpeg 212
+wrote token, name to /Users/lucasdasilva/Library/Application Support/EdgeReflow/comm.dat
+[warning:generator-assets 14:13:37.700 document.js:114:34] Unhandled property in raw constructor: profile Untagged RGB
+[warning:generator-assets 14:13:37.709 document.js:114:34] Unhandled property in raw constructor: mode RGBColor
+[warning:generator-assets 14:13:37.709 document.js:114:34] Unhandled property in raw constructor: depth 8
+active document is null null
+wrote token, name to /Users/lucasdasilva/Library/Application Support/EdgeReflow/comm.dat
+active document is /Users/lucasdasilva/Desktop/Real_Estate_2/Images/real_estate.jpeg 216
+wrote token, name to /Users/lucasdasilva/Library/Application Support/EdgeReflow/comm.dat
+[warning:generator-assets 14:13:42.048 document.js:114:34] Unhandled property in raw constructor: profile Untagged RGB
+[warning:generator-assets 14:13:42.057 document.js:114:34] Unhandled property in raw constructor: mode RGBColor
+[warning:generator-assets 14:13:42.058 document.js:114:34] Unhandled property in raw constructor: depth 8
+active document is null null
+wrote token, name to /Users/lucasdasilva/Library/Application Support/EdgeReflow/comm.dat
+active document is /Users/lucasdasilva/Desktop/Real_Estate_2/Images/rss7.jpeg 220
+wrote token, name to /Users/lucasdasilva/Library/Application Support/EdgeReflow/comm.dat
+[warning:generator-assets 14:13:47.577 document.js:114:34] Unhandled property in raw constructor: profile Untagged RGB
+[warning:generator-assets 14:13:47.586 document.js:114:34] Unhandled property in raw constructor: mode RGBColor
+[warning:generator-assets 14:13:47.587 document.js:114:34] Unhandled property in raw constructor: depth 8
+active document is null null
+wrote token, name to /Users/lucasdasilva/Library/Application Support/EdgeReflow/comm.dat
+active document is /Users/lucasdasilva/Desktop/Real_Estate_2/Images/rss4.jpeg 224
+wrote token, name to /Users/lucasdasilva/Library/Application Support/EdgeReflow/comm.dat
+[warning:generator-assets 14:13:56.705 document.js:114:34] Unhandled property in raw constructor: profile Untagged RGB
+[warning:generator-assets 14:13:56.706 document.js:114:34] Unhandled property in raw constructor: mode RGBColor
+[warning:generator-assets 14:13:56.706 document.js:114:34] Unhandled property in raw constructor: depth 8
+active document is null null
+wrote token, name to /Users/lucasdasilva/Library/Application Support/EdgeReflow/comm.dat
+[info:core 13:41:00.682 generator.js:119:25] Photoshop connection closed
+[1;31mExiting with code 0: Generator close event
+[0m

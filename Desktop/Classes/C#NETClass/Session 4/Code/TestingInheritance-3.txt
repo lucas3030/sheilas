@@ -1,0 +1,12 @@
+	    Employee E = new Employee("Frank");
+            E.Talking += new Person.TalkingEHandler(this.OnTalk);
+            E.BirthDate = new DateTime(1986, 1, 28);
+            E.HiredDate = new DateTime(2009, 10, 21);
+            E.Salary = 60000;
+
+            txtEmployeeName.Text = E.Name;
+            txtEmployeeDOB.Text = E.BirthDate.ToString("d");
+            txtHiredDate.Text = E.HiredDate.ToString("d");
+            txtSalary.Text = E.Salary.ToString("C");
+            txtAge.Text = E.Age.ToString() + " years old";
+            E.Talk("I talked as an Employee with the common feature of the Person.", "High");

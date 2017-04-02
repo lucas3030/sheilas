@@ -1,0 +1,7 @@
+string m = txtSpeakerName.Text;
+string v = cboVolume.Text;
+string c = txtContents.Text;
+Person P = new Person();
+P.Talking += new Person.TalkingEHandler(P_Talk);
+P.Name = m;
+P.Talk(c, v);

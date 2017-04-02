@@ -1,0 +1,22 @@
+public class TalkingEventArgs : EventArgs
+{
+    string mMessage;
+    string mName;
+    string mVoice;
+
+    public string Message
+    {
+        get { return mMessage; }
+        set { mMessage = value; }
+    }
+    public string SpeakerName
+    {
+        get { return mName; }
+        set { mName = value; }
+    }
+    public string Voice
+    {
+        get { return mVoice; }
+        set { mVoice = value; }
+    }
+}

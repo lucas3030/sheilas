@@ -1,0 +1,2 @@
+public delegate void TalkingEHandler(object sender, TalkingEventArgs e);
+public event TalkingEHandler Talking;

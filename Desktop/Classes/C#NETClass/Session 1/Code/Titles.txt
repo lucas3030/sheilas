@@ -1,0 +1,11 @@
+CEO
+DBA
+Executive Secratery
+Lan Administratior
+Office Manager
+Opperation Director
+Programmer
+Eletric Engineer
+Operator
+Marketing Ditector
+Sales Representative

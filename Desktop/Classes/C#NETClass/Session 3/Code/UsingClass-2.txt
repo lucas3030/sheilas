@@ -1,0 +1,7 @@
+	    Person P;
+            for (int i = 0; i < Group.Length; i++)
+            {
+                P = Group[i];
+                MessageBox.Show(P.Talk("My name is " + P.Name + " and I am " +
+                        P.Age + " years old."));
+            }

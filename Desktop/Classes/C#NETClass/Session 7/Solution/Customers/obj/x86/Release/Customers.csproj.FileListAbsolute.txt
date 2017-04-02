@@ -1,0 +1,37 @@
+C:\Yaxin\Customers\Customers\obj\x86\Release\ResolveAssemblyReference.cache
+C:\Yaxin\Customers\Customers\obj\x86\Release\Customers.CustomerData.resources
+C:\Yaxin\Customers\Customers\obj\x86\Release\Customers.Properties.Resources.resources
+C:\Yaxin\Customers\Customers\obj\x86\Release\GenerateResource.read.1.tlog
+C:\Yaxin\Customers\Customers\obj\x86\Release\GenerateResource.write.1.tlog
+C:\Yaxin\Customers\Customers\bin\Release\Customers.exe
+C:\Yaxin\Customers\Customers\bin\Release\Customers.pdb
+C:\Yaxin\Customers\Customers\obj\x86\Release\Customers.exe
+C:\Yaxin\Customers\Customers\obj\x86\Release\Customers.pdb
+C:\Yaxin\CUNY Teaching\Baruch 2014\Fall2014\TuesdayCS\Session 7\Solution\Customers\obj\x86\Release\Customers.exe
+C:\Yaxin\CUNY Teaching\Baruch 2014\Fall2014\TuesdayCS\Session 7\Solution\Customers\obj\x86\Release\Customers.pdb
+C:\Yaxin\CUNY Teaching\Baruch 2014\Fall2014\TuesdayCS\Session 7\Solution\Customers\obj\x86\Release\ResolveAssemblyReference.cache
+C:\Yaxin\CUNY Teaching\Baruch 2014\Fall2014\TuesdayCS\Session 7\Solution\Customers\obj\x86\Release\Customers.Properties.Resources.resources
+C:\Yaxin\CUNY Teaching\Baruch 2014\Fall2014\TuesdayCS\Session 7\Solution\Customers\obj\x86\Release\GenerateResource.read.1.tlog
+C:\Yaxin\CUNY Teaching\Baruch 2014\Fall2014\TuesdayCS\Session 7\Solution\Customers\obj\x86\Release\GenerateResource.write.1.tlog
+C:\Yaxin\CUNY Teaching\Baruch 2014\Fall2014\TuesdayCS\Session 7\Solution\Customers\bin\Release\Customers.exe
+C:\Yaxin\CUNY Teaching\Baruch 2014\Fall2014\TuesdayCS\Session 7\Solution\Customers\bin\Release\Customers.pdb
+C:\Yaxin\CUNY Teaching\Baruch 2014\Fall2014\TuesdayCS\Session 7\Solution\Customers\obj\x86\Release\Customers.CustomerDataForm.resources
+C:\Yaxin\CUNY Teaching\Baruch 2014\Fall2014\TuesdayCS\Session 7\Solution\Customers\bin\Release\Customers.exe.config
+C:\Yaxin\CUNY Teaching\Baruch 2014\Fall2014\C#-NET-Class\Session 7\Solution\Customers\bin\Release\Customers.exe.config
+C:\Yaxin\CUNY Teaching\Baruch 2014\Fall2014\C#-NET-Class\Session 7\Solution\Customers\obj\x86\Release\Customers.exe
+C:\Yaxin\CUNY Teaching\Baruch 2014\Fall2014\C#-NET-Class\Session 7\Solution\Customers\obj\x86\Release\Customers.pdb
+C:\Yaxin\CUNY Teaching\Baruch 2014\Fall2014\C#-NET-Class\Session 7\Solution\Customers\bin\Release\Customers.exe
+C:\Yaxin\CUNY Teaching\Baruch 2014\Fall2014\C#-NET-Class\Session 7\Solution\Customers\bin\Release\Customers.pdb
+C:\Yaxin\CUNY Teaching\Baruch 2014\Fall2014\C#-NET-Class\Session 7\Solution\Customers\obj\x86\Release\ResolveAssemblyReference.cache
+C:\Yaxin\CUNY Teaching\Baruch 2014\Fall2014\C#-NET-Class\Session 7\Solution\Customers\obj\x86\Release\Customers.CustomerDataForm.resources
+C:\Yaxin\CUNY Teaching\Baruch 2014\Fall2014\C#-NET-Class\Session 7\Solution\Customers\obj\x86\Release\Customers.Properties.Resources.resources
+C:\Yaxin\CUNY Teaching\Baruch 2014\Fall2014\C#-NET-Class\Session 7\Solution\Customers\obj\x86\Release\GenerateResource.read.1.tlog
+C:\Yaxin\CUNY Teaching\Baruch 2014\Fall2014\C#-NET-Class\Session 7\Solution\Customers\obj\x86\Release\GenerateResource.write.1.tlog
+C:\yagao01\Yaxin\CUNY Teaching\Baruch 2015\C#NETClass\Session 7\Solution\Customers\bin\Release\Customers.exe.config
+C:\yagao01\Yaxin\CUNY Teaching\Baruch 2015\C#NETClass\Session 7\Solution\Customers\obj\x86\Release\Customers.exe
+C:\yagao01\Yaxin\CUNY Teaching\Baruch 2015\C#NETClass\Session 7\Solution\Customers\obj\x86\Release\Customers.pdb
+C:\yagao01\Yaxin\CUNY Teaching\Baruch 2015\C#NETClass\Session 7\Solution\Customers\bin\Release\Customers.exe
+C:\yagao01\Yaxin\CUNY Teaching\Baruch 2015\C#NETClass\Session 7\Solution\Customers\bin\Release\Customers.pdb
+C:\yagao01\Yaxin\CUNY Teaching\Baruch 2015\C#NETClass\Session 7\Solution\Customers\obj\x86\Release\Customers.CustomerDataForm.resources
+C:\yagao01\Yaxin\CUNY Teaching\Baruch 2015\C#NETClass\Session 7\Solution\Customers\obj\x86\Release\Customers.Properties.Resources.resources
+C:\yagao01\Yaxin\CUNY Teaching\Baruch 2015\C#NETClass\Session 7\Solution\Customers\obj\x86\Release\Customers.csproj.GenerateResource.Cache

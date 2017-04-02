@@ -1,0 +1,69 @@
+[1;31mERROR:[0m unable to save tailspin data to file '/var/mobile/Library/Logs/CrashReporter/DiagnosticLogs/sysdiagnose/sysdiagnose_2016.10.11_07-31-24-0400/tailspin-trace.tailspin'.
+Sampling all processes for 2 seconds with 250 milliseconds of run time between samples
+Sampling completed, generating report...
+2016-10-11 07:31:26.243069 spindump[3314:1292767] Failed to find matching kernel in /System/Library/Kernels, /
+Failed to find matching kernel in /System/Library/Kernels, /
+Spindump analysis written to file /var/mobile/Library/Logs/CrashReporter/DiagnosticLogs/sysdiagnose/sysdiagnose_2016.10.11_07-31-24-0400/spindump-nosymbols.txt
+2016-10-11 07:31:33.003466 spindump[3322:1293000] Failed to find matching kernel in /System/Library/Kernels, /
+Failed to find matching kernel in /System/Library/Kernels, /
+2016-10-11 07:31:42.410055 spindump[3322:1293000] Unable to save binary format: 1
+Spindump failed to save report to /var/mobile/Library/Logs/CrashReporter/DiagnosticLogs/sysdiagnose/sysdiagnose_2016.10.11_07-31-24-0400/spindump.txt
+Date/Time:       2016-10-11 07:31:24 -0400
+OS Version:      iPhone OS 10.0.1 (Build 14A403)
+Architecture:    arm64
+Report Version:  25
+
+Data Source:     Stackshots
+Kernel Cache:    0xffffffe000000000 BD502948-2C9E-F1E5-A3CF-5E0AB39C6A61
+
+Duration:        2.25s
+Steps:           9 (250ms sampling interval)
+
+Hardware model:  iPhone8,1
+Active cpus:     2
+
+
+------------------------------------------------------------
+Heavy format: stacks are sorted by count
+Use -i and -timeline to re-report with chronological sorting
+------------------------------------------------------------
+
+
+
+Process:         accountsd [101]
+Path:            /System/Library/Frameworks/Accounts.framework/accountsd
+Architecture:    arm64
+Parent:          launchd [1]
+UID:             501
+Sudden Term:     Tracked (allows idle exit)
+Task size:       7 MB
+Note:            6 idle work queue threads omitted
+
+  Thread 0x508              DispatchQueue 1           9 samples (1-9)           priority 4 (base 4)
+  9  start + 4 (libdyld.dylib + 17848) [0x181dd45b8]
+    9  ??? (accountsd + 14656) [0x1000c3940]
+      9  CFRunLoopRunSpecific + 444 (CoreFoundation + 36936) [0x182df2048]
+        9  __CFRunLoopRun + 1132 (CoreFoundation + 895240) [0x182ec3908]
+          9  __CFRunLoopServiceMachPort + 192 (CoreFoundation + 904428) [0x182ec5cec]
+            9  mach_msg + 72 (libsystem_kernel.dylib + 4060) [0x181ec7fdc]
+              9  mach_msg_trap + 8 (libsystem_kernel.dylib + 4460) [0x181ec816c]
+               *9  ??? [0xfffffff007091f80]
+
+  Thread 0x34d5f            Thread name "com.apple.NSURLConnectionLoader"       9 samples (1-9)           priority 4 (base 4)
+  9  thread_start + 4 (libsystem_pthread.dylib + 3516) [0x181fa8dbc]
+    9  _pthread_start + 284 (libsystem_pthread.dylib + 14192) [0x181fab770]
+      9  _pthread_body + 240 (libsystem_pthread.dylib + 14432) [0x181fab860]
+        9  __NSThread__start__ + 1024 (Foundation + 1090828) [0x1839fe50c]
+          9  +[NSURLConnection(Loader) _resourceLoadLoop:] + 336 (CFNetwork + 838892) [0x1835dfcec]
+            9  CFRunLoopRunSpecific + 444 (CoreFoundation + 36936) [0x182df2048]
+              9  __CFRunLoopRun + 1132 (CoreFoundation + 895240) [0x182ec3908]
+                9  __CFRunLoopServiceMachPort + 192 (CoreFoundation + 904428) [0x182ec5cec]
+                  9  mach_msg + 72 (libsystem_kernel.dylib + 4060) [0x181ec7fdc]
+                    9  mach_msg_trap + 8 (libsystem_kernel.dylib + 4460) [0x181ec816c]
+                     *9  ??? [0xfffffff007091f80]
+
+  Binary Images:
+           0x1000c0000 -        0x1000c3fff  accountsd (637)         <4E1AD3B8-1523-3883-83CF-18330499069B>  /System/Library/Frameworks/Accounts.framework/accountsd
+           0x181dd0000 -        0x181dd7fff  libdyld.dylib           <B69BC097-9DE9-3E7C-9CAC-9D89B284039F>  /usr/lib/system/libdyld.dylib
+           0x181ec7000 -        0x181eeefff  libsystem_kernel.dylib  <04E6664A-F080-30E1-AD7D-9F2249E47E18>  /usr/lib/system/libsystem_kernel.dylib
+           0x181fa8000 -        0x181fb3fff  libsystem_pthread.dylib <BE

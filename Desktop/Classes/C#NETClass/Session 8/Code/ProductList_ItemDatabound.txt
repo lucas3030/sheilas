@@ -1,0 +1,9 @@
+protected void ProductList_ItemDataBound(object sender, DataListItemEventArgs e)
+    {
+        DataRowView myRowView;
+        DataRow myRow;
+        myRowView = (DataRowView)(e.Item.DataItem);
+        myRow = myRowView.Row;
+        if ((int)(myRow["OnSale"]) == 0)
+            e.Item.FindControl("saleItem").Visible = false;
+    }

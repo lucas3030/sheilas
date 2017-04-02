@@ -1,0 +1,107 @@
+v0.9.12 (051115)
+- fix: crunchyroll
+v0.9.11 (051115)
+- fix: openload, flashx, ani-stream hoster
+- upd: anime-tube
+- rem: animeswag, stream.moe
+v0.9.10 (200915)
+- fix: openload hoster
+v0.9.9 (040915)
+- upd: burning - switched from api to website parsing
+- upd: animeswag series due to website changes
+- add: adf.ly unshortener
+- fix: streams4.me episodes and movies regexes
+v0.9.8 (180815)
+- upd: animeswag due to website changes
+v0.9.7 (100815)
+- fix: ani-stream playback for certain kodi versions
+- fix: openload hoster
+- upd: anime-world24 due to website changes
+v0.9.6 (190715)
+- add: prosiebenmaxx hoster (incl hd support)
+- upd: some small improvements
+v0.9.5 (100715)
+- fix: anime-tube mirror
+v0.9.4 (090715)
+- upd: anisearch - reduced site requests to get anime list
+- upd: changed hoster name anime-tube to ani-stream
+- add: anime-flow.org, anime-streams4.me
+v0.9.3 (060715)
+- upd: add to library (thetvdb compatible)
+- upd: changed anime-world24 hoster name to animesu
+- upd: hoster viewster
+- add: setting to find episodes with alternative anime titles
+- del: content type
+- fix: play trailer
+v0.9.2 (300615)
+- add: manuelle hosterauswahl
+- add: openload hoster
+- upd: using anisearch for search function
+- fix: anime starting with space
+- del: view options
+v0.9.1 (170615)
+- fix: unicode and integer script error (list episodes)
+v0.9.0 (150615)
+- add: randaris-anime.net
+- upd: changed listing in neu, airing anime, episodes
+v0.8.0 (100615)
+- add: animeswag.to
+- add: several hoster
+- fix: several fixes
+v0.7.2 (190415)
+- del: cryptopy dependencies
+- add: cryptopy included
+- upd: burning domain (bs.to)
+- upd: burning cover url (https to http)
+- upd: divxstage domain (cloudtime.to)
+v0.7.1 (130415)
+- fix: burning get anime info
+- fix: global get anime info
+- upd: tavernakoma domain (taverna.tv)
+- upd: taverna - removed cover online check
+- upd: anisearch - added get anime info
+v0.7.0 (120315)
+- upd: code change (added types)
+- fix: anisearch mirrors (redirects)
+- del: animiru - reason: captchas
+v0.6.0 (110215)
+- add: proxer.me as mirror site
+- upd: amv tv select channels
+- upd: add threading to get mirrors
+- fix: viewster playing wrong sub/dub
+- fix: few other little bugs
+v0.5.0 (080215)
+- add: context menu 'add to library' (series only and no burning)
+- add: animiru.org as mirror site
+- add: nowvideo, promptfile, flashx, vodlocker
+- upd: genx-anime - only de streams
+v0.4.5 (280115)
+- add: context menu 'play trailer' and 'show similar' (taken from de.anisearch.com)
+- upd: only get info when there is no plot
+- fix: not showing my anime list when sites are disabled
+v0.4.0 (270115)
+- add: anisearch (legal and free) streams
+- add: anisearch hoster - crunchyroll, viewster, myvideo, clipfish, youtube(by bromix)
+- add: AMV TV
+- upd: switch from requests to simple_requests(by bromix)
+- upd: add threading to get series
+- upd: settings - clear cache
+- fix: listing genx categories(top100, movies etc)
+v0.3.1 (220115)
+- fix: get mirrors
+v0.3.0 (220115)
+- fix: primeshare
+- add: divxstage
+- add: views
+- add: anime-tube.tv new
+- add: context menu 'play amv'
+- upd: settings - splitted hoster into intern and extern
+- upd: settings - disable sites, set timeout
+- upd: anime info label studio = available site (sort by studio)
+v0.2.0 (190115)
+- add: anime-tube.tv series
+- bug fixes and code optimizations
+v0.1.0 (150115)
+- test release
+- main site: genx-anime.org
+- sub sites: burning-seri.es, tavernakoma.net, anime-world24.net

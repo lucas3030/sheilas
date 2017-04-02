@@ -1,0 +1,5 @@
+/Users/Tim/Documents/GDD 1200/Lecture Materials/Section 2 Your First C# Program/1 Your First C# Program/FirstCSharpProgram/FirstCSharpProgram/obj/x86/Debug/.NETFramework,Version=v4.5.AssemblyAttribute.cs
+/Users/Tim/Documents/GDD 1200/Lecture Materials/Section 2 Your First C# Program/1 Your First C# Program/FirstCSharpProgram/FirstCSharpProgram/bin/Debug/FirstCSharpProgram.exe.mdb
+/Users/Tim/Documents/GDD 1200/Lecture Materials/Section 2 Your First C# Program/1 Your First C# Program/FirstCSharpProgram/FirstCSharpProgram/bin/Debug/FirstCSharpProgram.exe
+/Users/Tim/Documents/GDD 1200/Lecture Materials/Section 2 Your First C# Program/1 Your First C# Program/FirstCSharpProgram/FirstCSharpProgram/obj/x86/Debug/FirstCSharpProgram.exe
+/Users/Tim/Documents/GDD 1200/Lecture Materials/Section 2 Your First C# Program/1 Your First C# Program/FirstCSharpProgram/FirstCSharpProgram/obj/x86/Debug/FirstCSharpProgram.exe.mdb

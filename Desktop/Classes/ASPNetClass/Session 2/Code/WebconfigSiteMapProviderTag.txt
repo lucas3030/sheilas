@@ -1,0 +1,5 @@
+<siteMap enabled="true">
+     <providers>
+	<add name="GASASiteMapProvider" type="System.Web.XmlSiteMapProvider" siteMapFile="~/GASA.sitemap"/>
+     </providers>
+ </siteMap>

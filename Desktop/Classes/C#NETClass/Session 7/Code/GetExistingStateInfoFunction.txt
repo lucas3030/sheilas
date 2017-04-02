@@ -1,0 +1,19 @@
+public DataTable GetExistingStateInfo()
+    {
+        try
+        {
+            DataTable dt = new DataTable();
+            if (cn.State != ConnectionState.Open)
+                cn.Open();
+            cmd.CommandText = "SP_GetExistingStateInfo";
+            cmd.Parameters.Clear();
+            da.SelectCommand = cmd;
+            da.Fill(dt);
+            cn.Close();
+            return dt;
+        }
+        catch (Exception Ex)
+        {
+            throw new Exception(Ex.Message);
+        }
+    }

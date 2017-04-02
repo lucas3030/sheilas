@@ -1,0 +1,8 @@
+public int Age
+{
+	get
+	{
+		int y = DateTime.Now.Year - mDob.Year;
+		return y;
+	}
+}

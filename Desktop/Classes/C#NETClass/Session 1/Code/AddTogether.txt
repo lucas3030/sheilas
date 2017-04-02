@@ -1,0 +1,46 @@
+using System;
+
+namespace TestConsole
+{
+    public class Calculator
+    {
+        public int AddTogether(int x, int y)
+        {
+	    return (x + y);
+        }
+
+        static void Main()
+        {
+     	    Calculator c = new Calculator();
+     	    int x, y;
+     	    string message;
+            firstNumber:
+            try
+     	    {
+		        
+		Console.WriteLine("Enter the First Integer Number: ");
+      		x= Int32.Parse(Console.ReadLine());
+            }
+       	    catch (Exception ex)
+     	    {
+		Console.WriteLine(ex.Message);
+ 		goto firstNumber;
+	    }
+            secondNumber:
+            try
+            {
+            
+                Console.WriteLine("Enter the Second Integer Number: ");
+                y = Int32.Parse(Console.ReadLine());
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine(ex.Message);
+                goto secondNumber;
+            }
+      	    message = c.AddTogether(x,y).ToString();
+      	    Console.WriteLine("The Sum of the two numbers is: " + message);
+      	    Console.ReadLine();
+        }	    	
+     }
+ }

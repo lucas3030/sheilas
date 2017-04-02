@@ -1,0 +1,77 @@
+#region "Get Data Methods"
+
+    public DataTable GetCustomerNames()
+    {
+        DataTable dtCustomerNames = new DataTable();
+        try
+        {
+            if (cn.State != ConnectionState.Open)
+                cn.Open();
+            cmd.CommandText = "SP_GetCustomerNames";
+            cmd.Parameters.Clear();
+            da.SelectCommand = cmd;
+            da.Fill(dtCustomerNames);
+            cn.Close();
+            return dtCustomerNames;
+        }
+        catch (Exception ex)
+        {
+            throw new Exception(ex.Message + ". No customer record found.");
+        }
+    }
+
+    public Customer GetCustomerByEmail(string EmailAddress)
+    {
+        Customer C = new Customer();
+        DataTable dtCustomer = new DataTable();
+        try
+        {
+            if (cn.State != ConnectionState.Open)
+                cn.Open();
+            cmd.CommandText = "SP_GetCustomerByEmail";
+            cmd.Parameters.Clear();
+            cmd.Parameters.AddWithValue("@EmailAddress", EmailAddress);
+            da.SelectCommand = cmd;
+            da.Fill(dtCustomer);
+            if (dtCustomer.Rows.Count == 1)
+            {
+                DataRow r = dtCustomer.Rows[0];
+                C.EmailAddress = r["EmailAddress"].ToString();
+                C.FirstName = r["FirstName"].ToString();
+                C.LastName = r["LastName"].ToString();
+                C.Address = r["Address"].ToString();
+                C.City = r["City"].ToString();
+                C.State = r["State"].ToString();
+                C.Zip = r["Zip"].ToString();
+                C.Phone = r["Phone"].ToString();
+            }
+            cn.Close();
+            return C;
+        }
+        catch (Exception ex)
+        {
+            throw new Exception(ex.Message + ". No customer record found.");
+        }
+    }
+
+    public DataTable GetCustomersByStateCode(string StateCode)
+    {
+        DataTable dtCustomers = new DataTable();
+        try
+        {
+            if (cn.State != ConnectionState.Open)
+                cn.Open();
+            cmd.CommandText = "SP_GetCustomersByStateCode";
+            cmd.Parameters.Clear();
+            cmd.Parameters.AddWithValue("@Statecode", StateCode);
+            da.SelectCommand = cmd;
+            da.Fill(dtCustomers);
+            cn.Close();
+            return dtCustomers;
+        }
+        catch (Exception ex)
+        {
+            throw new Exception(ex.Message + ". No customer record found.");
+        }
+    }
+    #endregion //End of "Get Data Methods" region

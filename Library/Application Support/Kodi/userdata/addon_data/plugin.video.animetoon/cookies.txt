@@ -1,0 +1,4 @@
+#LWP-Cookies-2.0
+Set-Cookie3: __cfduid=dfaa7c59d8dccdde5d93ccd07caa547961441152399; path="/"; domain=".animetoon.eu"; path_spec; domain_dot; expires="2016-09-01 00:06:39Z"; HttpOnly=None; version=0
+Set-Cookie3: __cfduid=debfee0b22720de10b78a1763eb9fb70c1441152397; path="/"; domain=".animetoon.tv"; path_spec; domain_dot; expires="2016-09-01 00:06:37Z"; HttpOnly=None; version=0
+Set-Cookie3: session=95v83vmf29n9jjtmllqbts4ic6; path="/"; domain="www.animetoon.eu"; path_spec; discard; version=0

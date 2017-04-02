@@ -1,0 +1,95 @@
+C:\Documents and Settings\yagao01\my documents\visual studio 2010\Projects\LearnCS\LearnCS\bin\Debug\LearnCS.exe
+C:\Documents and Settings\yagao01\my documents\visual studio 2010\Projects\LearnCS\LearnCS\bin\Debug\LearnCS.pdb
+C:\Documents and Settings\yagao01\my documents\visual studio 2010\Projects\LearnCS\LearnCS\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\yagao01\my documents\visual studio 2010\Projects\LearnCS\LearnCS\obj\x86\Debug\LearnCS.Form1.resources
+C:\Documents and Settings\yagao01\my documents\visual studio 2010\Projects\LearnCS\LearnCS\obj\x86\Debug\LearnCS.Properties.Resources.resources
+C:\Documents and Settings\yagao01\my documents\visual studio 2010\Projects\LearnCS\LearnCS\obj\x86\Debug\LearnCS.UsingControls.resources
+C:\Documents and Settings\yagao01\my documents\visual studio 2010\Projects\LearnCS\LearnCS\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Documents and Settings\yagao01\my documents\visual studio 2010\Projects\LearnCS\LearnCS\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Documents and Settings\yagao01\my documents\visual studio 2010\Projects\LearnCS\LearnCS\obj\x86\Debug\LearnCS.exe
+C:\Documents and Settings\yagao01\my documents\visual studio 2010\Projects\LearnCS\LearnCS\obj\x86\Debug\LearnCS.pdb
+C:\Yaxin\CUNY Teaching\Baruch 2014\Fall Semetser 2014\Tuesday 10-07 - 11-25 C#Programming\Session 1\Solution\LearnCS\obj\x86\Debug\LearnCS.exe
+C:\Yaxin\CUNY Teaching\Baruch 2014\Fall Semetser 2014\Tuesday 10-07 - 11-25 C#Programming\Session 1\Solution\LearnCS\obj\x86\Debug\LearnCS.pdb
+C:\Yaxin\CUNY Teaching\Baruch 2014\Fall Semetser 2014\Tuesday 10-07 - 11-25 C#Programming\Session 1\Solution\LearnCS\bin\Debug\LearnCS.exe
+C:\Yaxin\CUNY Teaching\Baruch 2014\Fall Semetser 2014\Tuesday 10-07 - 11-25 C#Programming\Session 1\Solution\LearnCS\bin\Debug\LearnCS.pdb
+C:\Yaxin\CUNY Teaching\Baruch 2014\Fall Semetser 2014\Tuesday 10-07 - 11-25 C#Programming\Session 1\Solution\LearnCS\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Yaxin\CUNY Teaching\Baruch 2014\Fall Semetser 2014\Tuesday 10-07 - 11-25 C#Programming\Session 1\Solution\LearnCS\obj\x86\Debug\LearnCS.Form1.resources
+C:\Yaxin\CUNY Teaching\Baruch 2014\Fall Semetser 2014\Tuesday 10-07 - 11-25 C#Programming\Session 1\Solution\LearnCS\obj\x86\Debug\LearnCS.Properties.Resources.resources
+C:\Yaxin\CUNY Teaching\Baruch 2014\Fall Semetser 2014\Tuesday 10-07 - 11-25 C#Programming\Session 1\Solution\LearnCS\obj\x86\Debug\LearnCS.UsingControls.resources
+C:\Yaxin\CUNY Teaching\Baruch 2014\Fall Semetser 2014\Tuesday 10-07 - 11-25 C#Programming\Session 1\Solution\LearnCS\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Yaxin\CUNY Teaching\Baruch 2014\Fall Semetser 2014\Tuesday 10-07 - 11-25 C#Programming\Session 1\Solution\LearnCS\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Yaxin\CUNY Teaching\Baruch 2014\Fall2014\TuesdayCS\Session 2\Solution\LearnCS\obj\x86\Debug\LearnCS.exe
+C:\Yaxin\CUNY Teaching\Baruch 2014\Fall2014\TuesdayCS\Session 2\Solution\LearnCS\obj\x86\Debug\LearnCS.pdb
+C:\Yaxin\CUNY Teaching\Baruch 2014\Fall2014\TuesdayCS\Session 2\Solution\LearnCS\bin\Debug\LearnCS.exe
+C:\Yaxin\CUNY Teaching\Baruch 2014\Fall2014\TuesdayCS\Session 2\Solution\LearnCS\bin\Debug\LearnCS.pdb
+C:\Yaxin\CUNY Teaching\Baruch 2014\Fall2014\TuesdayCS\Session 2\Solution\LearnCS\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Yaxin\CUNY Teaching\Baruch 2014\Fall2014\TuesdayCS\Session 2\Solution\LearnCS\obj\x86\Debug\LearnCS.Form1.resources
+C:\Yaxin\CUNY Teaching\Baruch 2014\Fall2014\TuesdayCS\Session 2\Solution\LearnCS\obj\x86\Debug\LearnCS.Properties.Resources.resources
+C:\Yaxin\CUNY Teaching\Baruch 2014\Fall2014\TuesdayCS\Session 2\Solution\LearnCS\obj\x86\Debug\LearnCS.UsingControls.resources
+C:\Yaxin\CUNY Teaching\Baruch 2014\Fall2014\TuesdayCS\Session 2\Solution\LearnCS\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Yaxin\CUNY Teaching\Baruch 2014\Fall2014\TuesdayCS\Session 2\Solution\LearnCS\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Yaxin\CUNY Teaching\Baruch 2014\Fall2014\TuesdayCS\Session 2\Solution\LearnCS\obj\x86\Debug\LearnCS.Iteration.resources
+C:\Yaxin\CUNY Teaching\Baruch 2014\Fall2014\TuesdayCS\Session 2\Solution\LearnCS\obj\x86\Debug\LearnCS.UsingArray.resources
+C:\Yaxin\CUNY Teaching\Baruch 2014\Fall2014\TuesdayCS\Session 3\Solution\LearnCS\obj\x86\Debug\LearnCS.exe
+C:\Yaxin\CUNY Teaching\Baruch 2014\Fall2014\TuesdayCS\Session 3\Solution\LearnCS\obj\x86\Debug\LearnCS.pdb
+C:\Yaxin\CUNY Teaching\Baruch 2014\Fall2014\TuesdayCS\Session 3\Solution\LearnCS\bin\Debug\LearnCS.exe
+C:\Yaxin\CUNY Teaching\Baruch 2014\Fall2014\TuesdayCS\Session 3\Solution\LearnCS\bin\Debug\LearnCS.pdb
+C:\Yaxin\CUNY Teaching\Baruch 2014\Fall2014\TuesdayCS\Session 3\Solution\LearnCS\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Yaxin\CUNY Teaching\Baruch 2014\Fall2014\TuesdayCS\Session 3\Solution\LearnCS\obj\x86\Debug\LearnCS.Form1.resources
+C:\Yaxin\CUNY Teaching\Baruch 2014\Fall2014\TuesdayCS\Session 3\Solution\LearnCS\obj\x86\Debug\LearnCS.Iteration.resources
+C:\Yaxin\CUNY Teaching\Baruch 2014\Fall2014\TuesdayCS\Session 3\Solution\LearnCS\obj\x86\Debug\LearnCS.Properties.Resources.resources
+C:\Yaxin\CUNY Teaching\Baruch 2014\Fall2014\TuesdayCS\Session 3\Solution\LearnCS\obj\x86\Debug\LearnCS.UsingArray.resources
+C:\Yaxin\CUNY Teaching\Baruch 2014\Fall2014\TuesdayCS\Session 3\Solution\LearnCS\obj\x86\Debug\LearnCS.UsingClass.resources
+C:\Yaxin\CUNY Teaching\Baruch 2014\Fall2014\TuesdayCS\Session 3\Solution\LearnCS\obj\x86\Debug\LearnCS.UsingControls.resources
+C:\Yaxin\CUNY Teaching\Baruch 2014\Fall2014\TuesdayCS\Session 3\Solution\LearnCS\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Yaxin\CUNY Teaching\Baruch 2014\Fall2014\TuesdayCS\Session 3\Solution\LearnCS\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Yaxin\CUNY Teaching\Baruch 2014\Fall2014\TuesdayCS\Session 4\Solution\LearnCS\bin\Debug\LearnCS.exe
+C:\Yaxin\CUNY Teaching\Baruch 2014\Fall2014\TuesdayCS\Session 4\Solution\LearnCS\bin\Debug\LearnCS.pdb
+C:\Yaxin\CUNY Teaching\Baruch 2014\Fall2014\TuesdayCS\Session 4\Solution\LearnCS\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Yaxin\CUNY Teaching\Baruch 2014\Fall2014\TuesdayCS\Session 4\Solution\LearnCS\obj\x86\Debug\LearnCS.Form1.resources
+C:\Yaxin\CUNY Teaching\Baruch 2014\Fall2014\TuesdayCS\Session 4\Solution\LearnCS\obj\x86\Debug\LearnCS.Iteration.resources
+C:\Yaxin\CUNY Teaching\Baruch 2014\Fall2014\TuesdayCS\Session 4\Solution\LearnCS\obj\x86\Debug\LearnCS.Properties.Resources.resources
+C:\Yaxin\CUNY Teaching\Baruch 2014\Fall2014\TuesdayCS\Session 4\Solution\LearnCS\obj\x86\Debug\LearnCS.TestEvent.resources
+C:\Yaxin\CUNY Teaching\Baruch 2014\Fall2014\TuesdayCS\Session 4\Solution\LearnCS\obj\x86\Debug\LearnCS.UsingArray.resources
+C:\Yaxin\CUNY Teaching\Baruch 2014\Fall2014\TuesdayCS\Session 4\Solution\LearnCS\obj\x86\Debug\LearnCS.UsingClass.resources
+C:\Yaxin\CUNY Teaching\Baruch 2014\Fall2014\TuesdayCS\Session 4\Solution\LearnCS\obj\x86\Debug\LearnCS.UsingControls.resources
+C:\Yaxin\CUNY Teaching\Baruch 2014\Fall2014\TuesdayCS\Session 4\Solution\LearnCS\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Yaxin\CUNY Teaching\Baruch 2014\Fall2014\TuesdayCS\Session 4\Solution\LearnCS\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Yaxin\CUNY Teaching\Baruch 2014\Fall2014\TuesdayCS\Session 4\Solution\LearnCS\obj\x86\Debug\LearnCS.exe
+C:\Yaxin\CUNY Teaching\Baruch 2014\Fall2014\TuesdayCS\Session 4\Solution\LearnCS\obj\x86\Debug\LearnCS.pdb
+C:\Yaxin\CUNY Teaching\Baruch 2014\Fall2014\TuesdayCS\Session 4\Solution\LearnCS\obj\x86\Debug\LearnCS.TestInheritance.resources
+C:\Yaxin\CUNY Teaching\Baruch 2014\Fall2014\TuesdayCS\Session 4\Solution\LearnCS\obj\x86\Debug\LearnCS.CollectionAndIndexer.resources
+C:\Yaxin\CUNY Teaching\Baruch 2014\Fall2014\TuesdayCS\Session 5\Solution\LearnCS\obj\x86\Debug\LearnCS.exe
+C:\Yaxin\CUNY Teaching\Baruch 2014\Fall2014\TuesdayCS\Session 5\Solution\LearnCS\obj\x86\Debug\LearnCS.pdb
+C:\Yaxin\CUNY Teaching\Baruch 2014\Fall2014\TuesdayCS\Session 5\Solution\LearnCS\bin\Debug\LearnCS.exe
+C:\Yaxin\CUNY Teaching\Baruch 2014\Fall2014\TuesdayCS\Session 5\Solution\LearnCS\bin\Debug\LearnCS.pdb
+C:\Yaxin\CUNY Teaching\Baruch 2014\Fall2014\TuesdayCS\Session 5\Solution\LearnCS\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Yaxin\CUNY Teaching\Baruch 2014\Fall2014\TuesdayCS\Session 5\Solution\LearnCS\obj\x86\Debug\LearnCS.CollectionAndIndexer.resources
+C:\Yaxin\CUNY Teaching\Baruch 2014\Fall2014\TuesdayCS\Session 5\Solution\LearnCS\obj\x86\Debug\LearnCS.Form1.resources
+C:\Yaxin\CUNY Teaching\Baruch 2014\Fall2014\TuesdayCS\Session 5\Solution\LearnCS\obj\x86\Debug\LearnCS.Iteration.resources
+C:\Yaxin\CUNY Teaching\Baruch 2014\Fall2014\TuesdayCS\Session 5\Solution\LearnCS\obj\x86\Debug\LearnCS.Properties.Resources.resources
+C:\Yaxin\CUNY Teaching\Baruch 2014\Fall2014\TuesdayCS\Session 5\Solution\LearnCS\obj\x86\Debug\LearnCS.TestEvent.resources
+C:\Yaxin\CUNY Teaching\Baruch 2014\Fall2014\TuesdayCS\Session 5\Solution\LearnCS\obj\x86\Debug\LearnCS.TestInheritance.resources
+C:\Yaxin\CUNY Teaching\Baruch 2014\Fall2014\TuesdayCS\Session 5\Solution\LearnCS\obj\x86\Debug\LearnCS.UsingADO.resources
+C:\Yaxin\CUNY Teaching\Baruch 2014\Fall2014\TuesdayCS\Session 5\Solution\LearnCS\obj\x86\Debug\LearnCS.UsingArray.resources
+C:\Yaxin\CUNY Teaching\Baruch 2014\Fall2014\TuesdayCS\Session 5\Solution\LearnCS\obj\x86\Debug\LearnCS.UsingClass.resources
+C:\Yaxin\CUNY Teaching\Baruch 2014\Fall2014\TuesdayCS\Session 5\Solution\LearnCS\obj\x86\Debug\LearnCS.UsingControls.resources
+C:\Yaxin\CUNY Teaching\Baruch 2014\Fall2014\TuesdayCS\Session 5\Solution\LearnCS\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Yaxin\CUNY Teaching\Baruch 2014\Fall2014\TuesdayCS\Session 5\Solution\LearnCS\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Yaxin\CUNY Teaching\Baruch 2014\Fall2014\C#-NET-Class\Session 5\Solution\LearnCS\obj\x86\Debug\LearnCS.exe
+C:\Yaxin\CUNY Teaching\Baruch 2014\Fall2014\C#-NET-Class\Session 5\Solution\LearnCS\obj\x86\Debug\LearnCS.pdb
+C:\yagao01\Yaxin\Baruch 2015 Fall\C#NETClass\Session 5\Solution\LearnCS\obj\x86\Debug\LearnCS.exe
+C:\yagao01\Yaxin\Baruch 2015 Fall\C#NETClass\Session 5\Solution\LearnCS\obj\x86\Debug\LearnCS.pdb
+C:\yagao01\Yaxin\Baruch 2015 Fall\C#NETClass\Session 5\Solution\LearnCS\obj\x86\Debug\LearnCS.CollectionAndIndexer.resources
+C:\yagao01\Yaxin\Baruch 2015 Fall\C#NETClass\Session 5\Solution\LearnCS\obj\x86\Debug\LearnCS.Form1.resources
+C:\yagao01\Yaxin\Baruch 2015 Fall\C#NETClass\Session 5\Solution\LearnCS\obj\x86\Debug\LearnCS.Iteration.resources
+C:\yagao01\Yaxin\Baruch 2015 Fall\C#NETClass\Session 5\Solution\LearnCS\obj\x86\Debug\LearnCS.Properties.Resources.resources
+C:\yagao01\Yaxin\Baruch 2015 Fall\C#NETClass\Session 5\Solution\LearnCS\obj\x86\Debug\LearnCS.TestEvent.resources
+C:\yagao01\Yaxin\Baruch 2015 Fall\C#NETClass\Session 5\Solution\LearnCS\obj\x86\Debug\LearnCS.TestInheritance.resources
+C:\yagao01\Yaxin\Baruch 2015 Fall\C#NETClass\Session 5\Solution\LearnCS\obj\x86\Debug\LearnCS.UsingADO.resources
+C:\yagao01\Yaxin\Baruch 2015 Fall\C#NETClass\Session 5\Solution\LearnCS\obj\x86\Debug\LearnCS.UsingArray.resources
+C:\yagao01\Yaxin\Baruch 2015 Fall\C#NETClass\Session 5\Solution\LearnCS\obj\x86\Debug\LearnCS.UsingClass.resources
+C:\yagao01\Yaxin\Baruch 2015 Fall\C#NETClass\Session 5\Solution\LearnCS\obj\x86\Debug\LearnCS.UsingControls.resources
+C:\yagao01\Yaxin\Baruch 2015 Fall\C#NETClass\Session 5\Solution\LearnCS\obj\x86\Debug\LearnCS.csproj.GenerateResource.Cache
+C:\yagao01\Yaxin\Baruch 2015 Fall\C#NETClass\Session 5\Solution\LearnCS\bin\Debug\LearnCS.exe
+C:\yagao01\Yaxin\Baruch 2015 Fall\C#NETClass\Session 5\Solution\LearnCS\bin\Debug\LearnCS.pdb

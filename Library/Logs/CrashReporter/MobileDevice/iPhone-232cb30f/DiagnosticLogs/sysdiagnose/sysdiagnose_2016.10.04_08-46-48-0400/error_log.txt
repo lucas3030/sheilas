@@ -1,0 +1,13 @@
+[1;31mERROR:[0m unable to save tailspin data to file '/var/mobile/Library/Logs/CrashReporter/DiagnosticLogs/sysdiagnose/sysdiagnose_2016.10.04_08-46-48-0400/tailspin-trace.tailspin'.
+Sampling all processes for 2 seconds with 250 milliseconds of run time between samples
+Sampling completed, generating report...
+2016-10-04 08:46:50.637953 spindump[1283:477739] Failed to find matching kernel in /System/Library/Kernels, /
+Failed to find matching kernel in /System/Library/Kernels, /
+Spindump analysis written to file /var/mobile/Library/Logs/CrashReporter/DiagnosticLogs/sysdiagnose/sysdiagnose_2016.10.04_08-46-48-0400/spindump-nosymbols.txt
+2016-10-04 08:46:57.384409 spindump[1294:478197] Failed to find matching kernel in /System/Library/Kernels, /
+Failed to find matching kernel in /System/Library/Kernels, /
+2016-10-04 08:47:06.045914 spindump[1294:478200] Invalid connection: com.apple.coresymbolicationd
+Invalid connection: com.apple.coresymbolicationd
+2016-10-04 08:47:06.187836 spindump[1294:478197] Failed to find matching kernel in /System/Library/Kernels, /
+Failed to find matching kernel in /System/Library/Kernels, /
+Spindump analysis written to file /var/mobile/Library/Logs/CrashReporter/DiagnosticLogs/sysdiagnose/sysdiagnose_2016.10.04_08-46-48-0400/spindump.txt

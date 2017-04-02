@@ -1,0 +1,16 @@
+try
+{
+        DataTable dt= ds.Tables["Products"];
+        lstProducts.Items.Clear();
+        lstProducts.Items.Add("         Product Name List    ");
+        lstProducts.Items.Add("***************************************");
+        lstProducts.Items.Add("");
+        foreach (DataRow dr in dt.Rows)
+        {
+		lstProducts.Items.Add(dr["ProductName"]);
+        }
+}
+catch (Exception ex)
+{
+	MessageBox.Show(ex.Message);
+}

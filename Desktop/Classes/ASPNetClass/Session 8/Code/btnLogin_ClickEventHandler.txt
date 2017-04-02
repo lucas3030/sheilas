@@ -1,0 +1,26 @@
+protected void btnLogIn_Click(object sender, EventArgs e)
+    {
+        CSecurityData mySecurityData = new CSecurityData();
+        string LoginName, Password;
+        LoginName = txtLoginName.Text;
+        Password = txtPassword.Text;
+        try
+        {
+            bool vResult = mySecurityData.ValidateLogin(LoginName, Password);
+            if (vResult == false)
+            {
+                lblMessage.ForeColor = Color.Red;
+                lblMessage.Text = "Sorry, login failed. Please try it again.";
+            }
+            else
+            {
+                Session["LoginStatus"] = "Y";
+                FormsAuthentication.RedirectFromLoginPage(LoginName, chkRememberMe.Checked);
+            }
+        }
+        catch (Exception ex)
+        {
+            lblMessage.ForeColor = Color.Red;
+            lblMessage.Text = ex.Message + ". Sorry, login failed. Please try it again.";
+        }
+    }

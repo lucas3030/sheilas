@@ -1,0 +1,32 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Data;
+
+namespace GASABusiness
+{
+    public class CMember
+    {
+        public string MemberID {get; set;}
+        public string CountryCode {get; set;}
+        public string CountryName {get; set;}
+       	public string StateName {get; set;}
+        public string City {get; set;}
+        public string FirstName {get; set;}
+        public string LastName {get; set;}
+        public string MemberName {get; set;}
+        public string LoginID {get; set;}
+        public string Password {get; set;}
+	public int PwdSalt {get; set;}
+        public string EmailAddress {get; set;}
+        public string Status {get; set;}
+        public string FlagImageName {get; set;}
+        public string Comments {get; set;}
+        public string SecurityQuestion {get; set;}
+        public string SecurityAnswer {get; set;}
+        public DateTime DateCreated {get; set;}
+        public DataTable Sports {get; set;}
+    }
+}
+

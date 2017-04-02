@@ -1,0 +1,41 @@
+using System;
+using System.Web;
+using System.Configuration;
+using System.Net.Mail;
+using System.IO;
+using System.Xml;
+using System.Xml.Serialization;
+
+namespace GASABusiness
+{
+    public class CCommon
+    {
+        public static string GetCnStr()
+        {
+            string cnStr = ConfigurationManager.ConnectionStrings["GASAcnStr"].ConnectionString;
+            return cnStr;
+        }
+
+        public static bool IsNumeric(object Expression)
+        {
+            bool isNum;
+            double retNum;
+            isNum = Double.TryParse(Convert.ToString(Expression), System.Globalization.NumberStyles.Any, System.Globalization.NumberFormatInfo.InvariantInfo, out retNum);
+            return isNum;
+        }
+
+        public static bool IsDate(string strDate)
+        {
+            DateTime x;
+            try
+            {
+                x = DateTime.Parse(strDate);
+                return true;
+            }
+            catch (Exception ex)
+            {
+                return false;
+            }
+        }
+    }
+}

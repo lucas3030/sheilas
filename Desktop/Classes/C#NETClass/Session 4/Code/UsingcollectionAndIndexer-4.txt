@@ -1,0 +1,27 @@
+private void btnList_Click(object sender, EventArgs e)
+        {
+            List<Person> myGroup = new List<Person>();
+            myGroup.Add(new Person("Yaxin", Convert.ToDateTime("12/11/1949")));
+            myGroup.Add(new Person("David", Convert.ToDateTime("10/18/1983")));
+            myGroup.Add(new Person("Mary", Convert.ToDateTime("08/23/1996")));
+            myGroup.Sort(CompareByName);
+            foreach (Person o in myGroup)
+                MessageBox.Show(o.Name + " is " + o.Age + " years old.");
+        }
+
+        public int CompareByAge(Person o1, Person o2)
+        {
+            int result;
+            if (o1.Age > o2.Age)
+                result = 1;
+            else if (o1.Age == o2.Age)
+                result = 0;
+            else
+                result = -1;
+            return result;
+        }
+
+        public int CompareByName(Person o1, Person o2)
+        {
+             return string.Compare(o1.Name, o2.Name);
+        }

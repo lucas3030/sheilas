@@ -1,0 +1,8 @@
+outcome.Text = "";
+int i = 0;
+while (i < 10)
+{
+     string line = "Test while loop " + i;
+     outcome.Text += line + "\r\n";
+     i++;
+}

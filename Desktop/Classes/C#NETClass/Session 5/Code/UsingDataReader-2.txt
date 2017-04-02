@@ -1,0 +1,17 @@
+sqlStr = "Select * from Products;";
+            cmd.CommandText = sqlStr;
+            try
+            {
+                dr = cmd.ExecuteReader();
+                lstProducts.Items.Clear();
+                lstProducts.Items.Add("    Product Name List    ");
+                lstProducts.Items.Add("*************************");
+                lstProducts.Items.Add("");
+                while (dr.Read())
+                    lstProducts.Items.Add(dr["ProductName"]);
+                dr.Close();
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message);
+            }

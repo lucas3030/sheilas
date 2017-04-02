@@ -1,0 +1,9 @@
+public static int RetirementAge
+{
+	get {return 65;}
+}
+
+public static int Count
+{
+	get {return sCount;}
+}

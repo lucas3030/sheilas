@@ -1,0 +1,40 @@
+#region "SelectedIndexChanged Event Handlers"
+
+        private void cboCustomers_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            lblMessage.Text = "";
+            string Email = cboCustomers.SelectedValue.ToString();
+            if (Email != "" && Email != "System.Data.DataRowView")
+            {
+                populateCustomerRecord(Email);
+                ChangeMode("Update");
+                sMode = "ByName";
+                dgvCustomers.DataSource = null;
+                dgvCustomers.Refresh();
+            }
+            else
+            {
+                ClearScreen();
+            }
+        }
+
+        private void cboStates_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            lblMessage.Text = "";
+            string StateCode = cboStates.SelectedValue.ToString();
+            if (StateCode != "" && StateCode != "System.Data.DataRowView")
+                GetRecordsByState(StateCode);
+        }
+
+        private void dgvCustomers_CellClick(object sender, DataGridViewCellEventArgs e)
+        {
+            lblMessage.Text = "";
+            int i = e.RowIndex;
+            if (i != -1)
+            {
+                string Email = dgvCustomers.Rows[i].Cells[0].Value.ToString();
+                populateCustomerRecord(Email);
+                ChangeMode("Update");
+            }
+        }
+        #endregion // End of "SelectedIndexChanged Event Handlers" region

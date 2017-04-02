@@ -1,0 +1,9 @@
+public void Talk(string m, string volume)
+{
+      TalkingEventArgs e = new TalkingEventArgs();
+      e.Message = m;
+      e.SpeakerName = mName;
+      e.Voice = volume;
+      if (this.Talking != null)
+           this.Talking(this, e);
+}

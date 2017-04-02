@@ -1,0 +1,8 @@
+CREATE PROCEDURE [dbo].[SP_GetExistingStateInfo]
+AS
+BEGIN
+	select '' as StateCode, 'Select a State' as StateName
+	Union
+	select distinct c.State as StateCode, s.StateName from Customers c inner join States s
+	on c.State  = s.StateCode
+END

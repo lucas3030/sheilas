@@ -1,0 +1,6 @@
+private void JQueryAlertMessageBoxOnClick(string strMessage, string strMessageType)
+{
+   	string strQuery = String.Empty;
+        strQuery = "$(document).ready(function(){jAlert('" + strMessageType + "', '" + strMessage + "', 'GASAEvening');});";
+        ScriptManager.RegisterStartupScript(this, Type.GetType("System.String"), "JQueryalertboxOnClick", strQuery, true);
+}

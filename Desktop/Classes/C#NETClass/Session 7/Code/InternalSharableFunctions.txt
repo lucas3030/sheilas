@@ -1,0 +1,138 @@
+#region "Internal Sharable Functions"
+
+        private void PopulateComboBoxes()
+        {
+            DataTable dtExistingStates, dtStates, dtNames;
+            dtExistingStates = cData.GetExistingStateInfo();
+            dtStates = cData.GetStateInfo();
+            dtNames = cData.GetCustomerNames();
+
+            cboState.DataSource = dtExistingStates;
+            cboState.DisplayMember = "StateName";
+            cboState.ValueMember = "StateCode";
+
+
+            cboStates.DataSource = dtStates;
+            cboStates.DisplayMember = "StateName";
+            cboStates.ValueMember = "StateCode";
+
+            cboCustomers.DataSource = dtNames;
+            cboCustomers.DisplayMember = "CustomerName";
+            cboCustomers.ValueMember = "EmailAddress";
+        }
+ 
+        private void GetRecordsByState(string StateCode)
+        {
+            if (StateCode != "" && StateCode != "System.Data.DataRowView")
+            {
+
+                dtCustomers = cData.GetCustomersByStateCode(StateCode);
+                if (dtCustomers.Rows.Count > 0)
+                {
+                    dgvCustomers.DataSource = dtCustomers;
+                    dgvCustomers.Refresh();
+                    dgvCustomers.Visible = true;
+                    ChangeMode("New");
+		    sMode = "ByState";
+                    lblMessage.Text = "Customer Reocrds for the State of " + cboStates.Text;
+                }
+                else
+                {
+                    dgvCustomers.Visible = false;
+                    lblMessage.Text = "No Customer Reocrds for the State of " + cboStates.Text;
+                }
+            }
+            else if (StateCode == "")
+            {
+                dgvCustomers.Visible = false;
+                lblMessage.Text = "";
+            }
+        }
+
+        private void populateCustomerRecord(string Email)
+        {
+            try
+            {
+                C = cData.GetCustomerByEmail(Email);
+                txtEmail.Text = C.EmailAddress;
+                txtFirstName.Text = C.FirstName;
+                txtLastName.Text = C.LastName;
+                txtAddress.Text = C.Address;
+                txtCity.Text = C.City;
+                txtZip.Text = C.Zip;
+                txtPhone.Text = C.Phone;
+                cboState.SelectedValue = C.State;
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message, "Saving Record", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+        }
+
+        private Customer CollectInputData()
+        {
+            C.EmailAddress = txtEmail.Text;
+            C.FirstName = txtFirstName.Text;
+            C.LastName = txtLastName.Text;
+            C.Address = txtAddress.Text;
+            C.City = txtCity.Text;
+            C.State = cboState.SelectedValue.ToString();
+            C.Zip = txtZip.Text;
+            C.Phone = txtPhone.Text;
+            return C;
+        }
+
+        private bool ValidateRequiredFields()
+        {
+            if (txtEmail.Text == "")
+            {
+                MessageBox.Show("You have to enter Email Address.", "Missing Email Address", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                txtEmail.Focus();
+                return false;
+            }
+            if (txtFirstName.Text == "")
+            {
+                MessageBox.Show("You have to enter First Name.", "Missing First Name", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                txtFirstName.Focus();
+                return false;
+            }
+            if (txtLastName.Text == "")
+            {
+                MessageBox.Show("You have to enter Last Name.", "Missing Last Name", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                txtLastName.Focus();
+                return false;
+            }
+            return true;
+        }
+
+        private void ClearScreen()
+        {
+            txtEmail.Text = "";
+            txtFirstName.Text = "";
+            txtLastName.Text = "";
+            txtAddress.Text = "";
+            txtCity.Text = "";
+            txtZip.Text = "";
+            txtPhone.Text = "";
+            cboState.SelectedValue = "";
+            cboCustomers.SelectedValue = "";
+            cboStates.SelectedValue = "";
+            lblMessage.Text = "";
+        }
+
+        private void ChangeMode(string mode)
+        {
+            if (mode == "New")
+            {
+                fMode = "New";
+                btnSave.Text = "Save";
+                btnDelete.Enabled = false;
+            }
+            else if (mode == "Update")
+            {
+                fMode = "Update";
+                btnSave.Text = "Update";
+                btnDelete.Enabled = true;
+            }
+        }
+        #endregion //End of "Internal Sharable Functions" region

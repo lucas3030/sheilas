@@ -1,0 +1,138 @@
+2016-10-04 08:47:06.748886 pcsstatus[1296:478347] subsystem: com.apple.siri, category: Intents, enable_level: 1, persist_level: 1, default_ttl: 0, info_ttl: 0, debug_ttl: 0, generate_symptoms: 0, enable_oversize: 0, privacy_setting: 0, enable_private_data: 0
+2016-10-04 08:47:06.771510 pcsstatus[1296:478347] PCSIdentitySetCreate: (null) {
+    kPCSSetupDSID = "<<VALUE>>";
+}
+2016-10-04 08:47:06.774265 pcsstatus[1296:478347] KeychainGetStatus(PCSiCloudServiceMarkerName): keychain: 0
+2016-10-04 08:47:06.774289 pcsstatus[1296:478347] KeychainGetStatus(PCSiCloudServiceMarkerName): status: on
+2016-10-04 08:47:06.798704 pcsstatus[1296:478347] KeychainGetStatus(kPCSPlesioMarkerName): keychain: -25300
+2016-10-04 08:47:06.798735 pcsstatus[1296:478347] KeychainGetStatus(kPCSPlesioMarkerName): status: off
+2016-10-04 08:47:06.833913 pcsstatus[1296:478347] subsystem: com.apple.securityd, category: api_trace, enable_level: 0, persist_level: 0, default_ttl: 0, info_ttl: 0, debug_ttl: 0, generate_symptoms: 0, enable_oversize: 0, privacy_setting: 2, enable_private_data: 0
+Status
+======
+status: [yes] [yes] [no]
+
+service: 0x100210ae0
+	public-key: pLApoclooXi/iYlhLeK237GF8zFZD/kKO8oQaL67AZo=
+	keyid: <1c965a71 920430e4 3e4b38f7 36f3442e 321c6b3d>
+	service-type: Backup
+	current: yes
+service: 0x100328780
+	public-key: 6PWjEQJqIMx4hrLT0ogNdFOWE/qFACkADilt4V0yLPE=
+	keyid: <7c103635 b2d4cdbd ccc94e77 ddb64ffa 660ffb2d>
+	service-type: KeyboardServices
+	current: yes
+service: 0x1002107e0
+	public-key: A9779W6S+Dp8foBfXccc1Vk2fEcQG0IfigY1GMYNhvc=
+	keyid: <5514cac0 ce20dd0d 75a39082 4d80fb11 4f398743>
+	service-type: iMessage
+	current: yes
+service: 0x100324f60
+	public-key: wDiRF263b7Uyd55FVfXa7Kpag1F6VEANkoclc+HmKE0=
+	keyid: <e6d630b2 f7ce81d6 d40ce8fa ff954cc6 86eed021>
+	service-type: Photos
+	current: yes
+service: 0x100324bc0
+	public-key: CpiOJgvuhJKa0aiZf/txX82j14dGLlPX64ZrOYOH308=
+	keyid: <ca5a6d89 7ead450d a1cdf0db cdc61e1a 33dec26b>
+	service-type: Activities
+	current: yes
+service: 0x100328540
+	public-key: RlkiGY6SkCmrQra7ob4uRtjsprYQLidiY08N6AvaqV4=
+	keyid: <d8bd01c5 f20f25a3 a1af5681 c1c34b1d c631c53a>
+	service-type: MasterKey
+	current: yes
+service: 0x100328e50
+	public-key: yYAZgMFf0l33WUy9PsOw5qyo3o9sgo7vOktRKMT2SH4=
+	keyid: <f28b8e3e f0eb5837 a938229a 2cd5eee2 e1b95e0b>
+	service-type: Gaming
+	current: yes
+service: 0x10020fda0
+	public-key: /PuSrvHZT5xoixR7I9RmubK5s/87jdt+2PFGogZ0VF8=
+	keyid: <52cea8a6 2e0ff691 636ea580 15fc4850 aca9e455>
+	service-type: Continuity
+	current: yes
+service: 0x100207c00
+	public-key: BElh6cbETtIaun3UX9pRpsIQN+kcDUKF+lnueI+KB2I=
+	keyid: <c1889d37 d2c83ba3 f4383f10 afa9483d a6b1cdca>
+	service-type: CloudKit
+	current: yes
+service: 0x10020f410
+	public-key: aKpGapqtm3opNmQvJdYpkdIf7jgMefjMoDVXY7qTKcs=
+	keyid: <ca628a83 a30970ad 8a43e86b e30c4aac d6a6ff1b>
+	service-type: iAD
+	current: yes
+service: 0x100324980
+	public-key: BKz6klRNWRJEizLQR1+vRYvMYcY1hS7UJk5gOEsHFnYfslgMmcp7ctQ6JqcqyBLTRSLshxSH4qxFlDjruTNchUI=
+	keyid: <a6e6357a 57722d51 b7a77d39 9eef69a1 f44defbf>
+	service-type: FDE
+	current: yes
+service: 0x100323f20
+	public-key: IiMRiOL/1uuqREmJszrRf0fWuQzjWxBf1iYLD5OMFEI=
+	keyid: <29ccf4dd dfe64d5f 035b63fa 1b7dc66b 2ee564da>
+	service-type: iCloudDrive
+	current: yes
+service: 0x10020f6c0
+	public-key: N963Xtbwm3G4H7v9U9fpJibsJJx9AEThaV1ydTfTYUg=
+	keyid: <70462af3 f7c5dd9e 3dc6417a 11424558 7afcd11a>
+	service-type: BTPairing
+	current: yes
+service: 0x10020edc0
+	public-key: w1HW0kEckqKAC+6vjuFMkLg+hjyL9uhWVI7N4NTIMMA=
+	keyid: <7f5f0307 c3a55a0a e7897c7f f0ef0fa0 c9d2967a>
+	service-type: BulkMail
+	current: yes
+service: 0x100324c50
+	public-key: pGt2+VHcDDs2lsegGI8nWOFR7523D8uobdkmOHXlnoo=
+	keyid: <62041f2e 1e1bd538 8d0db462 6bf95974 f30bc921>
+	service-type: News
+	current: yes
+service: 0x10020f090
+	public-key: PV8OM48qbiiC3AbKTabfeq77L55/36JRThdfqbv/4YU=
+	keyid: <f5d09d9b c797fcc3 3bed979f 80e89e8a 300476d0>
+	service-type: BTAnnouncement
+	current: yes
+service: 0x100328230
+	public-key: ygr08TFBOqbEN1kB349ozVoegYY90XnhQKjBRbnhQtM=
+	keyid: <2f83776d afb68c7d 79b1cf8a cabaca8f 0f3c4fdd>
+	service-type: Maildrop
+	current: yes
+service: 0x10020e730
+	public-key: NLtsbKEhh6vYwu0GsNgMAuko9WBGtnxNTS2uAB9ObYM=
+	keyid: <b1d99441 828d0b51 41358504 f7284393 fa8e1ad2>
+	service-type: Sharing
+	current: yes
+service: 0x10020e140
+	public-key: vchkMEaSqNpvsv39UKfYrKmTixBRcat3+FK4Aj858j8=
+	keyid: <18c24151 79eb060c 1bf5c559 fb0dcaa0 cbc5f42a>
+	service-type: TTYCallHistory
+	current: yes
+service: 0x1003252c0
+	public-key: VJuUJxL+UrxTNdhXxm2NCtL9i+wGDHcB+vpNcfQ14OU=
+	keyid: <99c85e0d e3ac9084 012c5b98 f695b641 b9f38a16>
+	service-type: Notes
+	current: yes
+service: 0x10020fb90
+	public-key: BDReibIYJWgoceuTfCZVHcK15Jw1zOKITBAMWZNYaqFtVDRwmPWFmBNu6W+HjOSHVP8EJrcXse7LXz6c54N8ASg=
+	keyid: <3c52f5d8 e518ee93 cc127037 3985c058 ba1fb86b>
+	service-type: Escrow
+	current: yes
+
+
+iCloud Keychain status: InCircle
+iCloud view status:
+	view PCS-MasterKey status: Member
+	view PCS-iCloudDrive status: Member
+	view PCS-Photos status: Member
+	view PCS-CloudKit status: Member
+	view PCS-Escrow status: Member
+	view PCS-FDE status: Member
+	view PCS-Maildrop status: Member
+	view PCS-Backup status: Member
+	view PCS-Notes status: Member
+	view PCS-iMessage status: Member
+	view PCS-Feldspar status: Member
+clients: {
+}
+
+local hash: <5596ac80 a618eaee c7809df4 77c8872a bf6894e4 5ed89e30 2f8bae54 66add3d3>
+

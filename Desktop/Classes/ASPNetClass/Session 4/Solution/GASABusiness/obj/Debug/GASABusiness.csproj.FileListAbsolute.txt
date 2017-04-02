@@ -1,0 +1,5 @@
+C:\yagao01\Yaxin\Baruch 2016 Spring\ASPNetClass\Session 4\Solution\GASABusiness\bin\Debug\GASABusiness.dll
+C:\yagao01\Yaxin\Baruch 2016 Spring\ASPNetClass\Session 4\Solution\GASABusiness\bin\Debug\GASABusiness.pdb
+C:\yagao01\Yaxin\Baruch 2016 Spring\ASPNetClass\Session 4\Solution\GASABusiness\obj\Debug\GASABusiness.csprojResolveAssemblyReference.cache
+C:\yagao01\Yaxin\Baruch 2016 Spring\ASPNetClass\Session 4\Solution\GASABusiness\obj\Debug\GASABusiness.dll
+C:\yagao01\Yaxin\Baruch 2016 Spring\ASPNetClass\Session 4\Solution\GASABusiness\obj\Debug\GASABusiness.pdb

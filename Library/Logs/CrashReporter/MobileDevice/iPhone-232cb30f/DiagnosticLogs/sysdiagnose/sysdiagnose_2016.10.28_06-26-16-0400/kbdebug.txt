@@ -1,0 +1,88 @@
+<_UIKeyboardArbiter: 0x1702f2980; <<_UIKeyboardArbiter_ForSpringBoard: 0x170224b60>; workspace = <SBUIWorkspace: 0x17447c340; identifier: com.apple.UIKit.KeyboardManagement.hosted> {
+    clientQueue = <FBSSerialQueue: 0x17447c3c0; dispatchQueue: com.apple.UIKit.keyboard-arbiter>;
+    scenes = {
+        <SBUIScene: 0x17467d2c0; identifier: com.apple.UIKit.remote-keyboard> {
+            display = <FBSDisplay: 0x1740f8f00; name: Main ("LCD"); scale: 2.0; displayID: 1> {
+                bounds = {{0, 0}, {375, 667}};
+                seed = 2;
+                tags = 0;
+                pid = 0;
+                hidden = NO;
+            };
+            settings = <FBSSceneSettings: 0x1748a8f40> {
+                frame = {{0, 0}, {375, 667}};
+                level = 2.0;
+                interfaceOrientation = unknown;
+                backgrounded = NO;
+                occlusions = {
+                    <FBSSceneOcclusion: 0x17444e460; {{0, 0}, {1, 1}}>;
+                }
+            };
+            clientSettings = <FBSSceneClientSettings: 0x17125cfe0> {
+                preferredLevel = 2.0;
+                preferredInterfaceOrientation = unknown;
+                preferredSceneHostIdentifier = ;
+            };
+        };
+    }
+}; scene = <SBUIScene: 0x17467d2c0; identifier: com.apple.UIKit.remote-keyboard> {
+    display = <FBSDisplay: 0x1740f8f00; name: Main ("LCD"); scale: 2.0; displayID: 1> {
+        bounds = {{0, 0}, {375, 667}};
+        seed = 2;
+        tags = 0;
+        pid = 0;
+        hidden = NO;
+    };
+    settings = <FBSSceneSettings: 0x1748a8f40> {
+        frame = {{0, 0}, {375, 667}};
+        level = 2.0;
+        interfaceOrientation = unknown;
+        backgrounded = NO;
+        occlusions = {
+            <FBSSceneOcclusion: 0x17444e460; {{0, 0}, {1, 1}}>;
+        }
+    };
+    clientSettings = <FBSSceneClientSettings: 0x17125cfe0> {
+        preferredLevel = 2.0;
+        preferredInterfaceOrientation = unknown;
+        preferredSceneHostIdentifier = ;
+    };
+}>current state = (null);
+active handle = (null);
+handles = (
+    "<_UIKeyboardArbiterHandle: 0x1704e7d80; PID 57: com.apple.springboard <(null)>; hosting PIDs {(\n)}; level 2001.000000; active NO [wants YES]; suppression 0>",
+    "<_UIKeyboardArbiterHandle: 0x170cef980; PID 217: com.apple.AppPredictionWidget.extension <(null)> (suspended); hosting PIDs {(\n)}; level 0.000000; active NO [wants NO]; suppression 0>",
+    "<_UIKeyboardArbiterHandle: 0x1748e0800; PID 225: com.apple.UpNextWidget.extension <(null)> (suspended); hosting PIDs {(\n)}; level 0.000000; active NO [wants NO]; suppression 0>",
+    "<_UIKeyboardArbiterHandle: 0x1708e1580; PID 223: com.apple.weather.WeatherAppTodayWidget <(null)> (suspended); hosting PIDs {(\n)}; level 0.000000; active NO [wants NO]; suppression 0>",
+    "<_UIKeyboardArbiterHandle: 0x170ae0c80; PID 222: com.apple.news.widget <(null)> (suspended); hosting PIDs {(\n)}; level 0.000000; active NO [wants NO]; suppression 0>",
+    "<_UIKeyboardArbiterHandle: 0x1744eb780; PID 248: com.apple.InCallService <(null)>; hosting PIDs {(\n)}; level 0.000000; active NO [wants NO]; suppression 0>",
+    "<_UIKeyboardArbiterHandle: 0x1748f5200; PID 1248: (null) <(null)>; hosting PIDs {(\n)}; level 0.000000; active NO [wants NO]; suppression 0>"
+)>
+Handle detail:
+	<_UIKeyboardArbiterHandle: 0x170cef980; PID 217: com.apple.AppPredictionWidget.extension <(null)> (suspended); hosting PIDs {(
+)}; level 0.000000; active NO [wants NO]; suppression 0>:
+	 -> State: Inactive  
+		 Process: Suspended
+	<_UIKeyboardArbiterHandle: 0x1748e0800; PID 225: com.apple.UpNextWidget.extension <(null)> (suspended); hosting PIDs {(
+)}; level 0.000000; active NO [wants NO]; suppression 0>:
+	 -> State: Inactive  
+		 Process: Suspended
+	<_UIKeyboardArbiterHandle: 0x1708e1580; PID 223: com.apple.weather.WeatherAppTodayWidget <(null)> (suspended); hosting PIDs {(
+)}; level 0.000000; active NO [wants NO]; suppression 0>:
+	 -> State: Inactive  
+		 Process: Suspended
+	<_UIKeyboardArbiterHandle: 0x170ae0c80; PID 222: com.apple.news.widget <(null)> (suspended); hosting PIDs {(
+)}; level 0.000000; active NO [wants NO]; suppression 0>:
+	 -> State: Inactive  
+		 Process: Suspended
+	<_UIKeyboardArbiterHandle: 0x1704e7d80; PID 57: com.apple.springboard <(null)>; hosting PIDs {(
+)}; level 2001.000000; active NO [wants YES]; suppression 0>:
+	 -> State: Inactive  CMD-KBD-focus
+		 keyWindow: SBAlertWindow
+	<_UIKeyboardArbiterHandle: 0x1748f5200; PID 1248: (null) <(null)>; hosting PIDs {(
+)}; level 0.000000; active NO [wants NO]; suppression 0>:
+	 -> State: Inactive  
+		 Special: kbdebug
+	<_UIKeyboardArbiterHandle: 0x1744eb780; PID 248: com.apple.InCallService <(null)>; hosting PIDs {(
+)}; level 0.000000; active NO [wants NO]; suppression 0>:
+	 -> State: Inactive  

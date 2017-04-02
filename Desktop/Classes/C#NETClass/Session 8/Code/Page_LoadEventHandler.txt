@@ -1,0 +1,25 @@
+protected void Page_Load(object sender, EventArgs e)
+    {
+        ProductsData pData = new ProductsData();
+        string pType;
+        if (!(Request.Params["ProductType"] == null))
+            pType = Int32.Parse(Request.Params["ProductType"]).ToString();
+        else
+            pType = "1";
+        try
+        {
+            if (CategoryList.DataSource == null)
+            {
+                DataTable dtCategories = pData.GetCategoryList();
+                CategoryList.DataSource = dtCategories;
+                CategoryList.DataBind();
+            }
+            DataTable dtProducts = pData.GetProductsByProductType(Convert.ToInt32(pType));
+            CatalogImage.ImageUrl = "images/hd_" + pType + ".gif";
+            ProductList.DataSource = dtProducts;
+            ProductList.DataBind();
+        }
+        catch (Exception ex)
+        {
+        }
+    }

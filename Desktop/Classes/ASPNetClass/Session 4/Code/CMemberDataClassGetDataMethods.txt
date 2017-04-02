@@ -1,0 +1,164 @@
+#region "Get Methods"
+        public DataSet GetDataForDropDowns()
+        {
+            DataSet ds = new DataSet();
+            try
+            {
+                if (cn.State != ConnectionState.Open)
+                    cn.Open();
+                cmd.CommandText = "SP_GetDataForDropDowns";
+                cmd.Parameters.Clear();
+                da.SelectCommand = cmd;
+                da.Fill(ds);
+                ds.Tables[0].TableName = "Countries";
+                ds.Tables[1].TableName = "States";
+                ds.Tables[2].TableName = "Sports";
+                ds.Tables[3].TableName = "Questions";
+                cn.Close();
+                return ds;
+            }
+            catch (Exception ex)
+            {
+                throw new Exception(ex.Message + ". No Data Records found.");
+            }
+        }
+
+       public DataTable GetMembersByCountryCodeAndSportCode(string CountryCode, string SportCode)
+       {
+           DataTable dtMembers = new DataTable();
+           try
+           {
+               if (cn.State != ConnectionState.Open)
+                   cn.Open();
+               cmd.CommandText = "SP_GetMembersByCountryCodeAndSportCode";
+               cmd.Parameters.Clear();
+               cmd.Parameters.AddWithValue("@CountryCode", CountryCode);
+               cmd.Parameters.AddWithValue("@SportCode", SportCode);
+               da.SelectCommand = cmd;
+               da.Fill(dtMembers);
+               cn.Close();
+               return dtMembers;
+           }
+           catch (Exception ex)
+           {
+               throw new Exception(ex.Message + ". No sport Record found.");
+           }
+       }
+
+       public CMember GetMemberRecordByMemberID(string MemberID)
+       {
+           CMember M = new CMember();
+           DataTable dtMember = new DataTable();
+           DataTable dtSports = new DataTable();
+           try
+           {
+               if (cn.State != ConnectionState.Open)
+                   cn.Open();
+               cmd.CommandText = "SP_GetMemberRecordByMemberID";
+               cmd.Parameters.Clear();
+               cmd.Parameters.AddWithValue("@MemberID", MemberID);
+               da.SelectCommand = cmd;
+               da.Fill(dtMember);
+               if (dtMember.Rows.Count == 1)
+               {
+                   DataRow r = dtMember.Rows[0];
+                   M.City = r["City"].ToString();
+                   M.CountryCode = r["CountryCode"].ToString();
+                   M.CountryName = r["CountryName"].ToString();
+                   M.EmailAddress = r["EmailAddress"].ToString();
+                   M.LastName = r["LastName"].ToString();
+                   M.FirstName = r["FirstName"].ToString();
+                   M.MemberName = r["MemberName"].ToString();
+                   M.StateName = r["StateName"].ToString();
+                   M.MemberID = r["MemberID"].ToString();
+                   M.FlagImageName = r["FlagImageName"].ToString();
+                   M.Comments = r["Comments"].ToString();
+               }
+               cmd.CommandText = "SP_GetSportsByMemberID";
+               cmd.Parameters.Clear();
+               cmd.Parameters.AddWithValue("@MemberID", MemberID);
+               da.SelectCommand = cmd;
+               da.Fill(dtSports);
+               M.Sports = dtSports;
+               cn.Close();
+               return M;
+           }
+           catch (Exception ex)
+           {
+               throw new Exception(ex.Message + ". No Member record found.");
+           }
+       }
+
+       public CMember GetMemberRecordByLoginID(string LoginID)
+       {
+           CMember M = new CMember();
+           DataTable dtMember = new DataTable();
+           DataTable dtSports = new DataTable();
+           try
+           {
+               if (cn.State != ConnectionState.Open)
+                   cn.Open();
+               cmd.CommandText = "SP_GetMemberInfoByLoginID";
+               cmd.Parameters.Clear();
+               cmd.Parameters.AddWithValue("@LoginID", LoginID);
+               da.SelectCommand = cmd;
+               da.Fill(dtMember);
+               if (dtMember.Rows.Count == 1)
+               {
+                   DataRow r = dtMember.Rows[0];
+                   M.CountryCode = r["CountryCode"].ToString();
+                   M.CountryName = r["CountryName"].ToString();
+                   M.StateName = r["StateName"].ToString();
+                   M.City = r["City"].ToString();
+                   M.EmailAddress = r["EmailAddress"].ToString();
+                   M.LastName = r["LastName"].ToString();
+                   M.FirstName = r["FirstName"].ToString();
+                   M.MemberID = r["MemberID"].ToString();
+                   M.Comments = r["Comments"].ToString();
+                   M.LoginID = r["LoginID"].ToString();
+                   M.Password = r["Password"].ToString();
+                   M.SecurityQuestion = r["SecurityQuestion"].ToString();
+                   M.SecurityAnswer = r["SecurityAnswer"].ToString();
+               }
+               cmd.CommandText = "SP_GetSportsByMemberID";
+               cmd.Parameters.Clear();
+               cmd.Parameters.AddWithValue("@MemberID", M.MemberID);
+               da.SelectCommand = cmd;
+               da.Fill(dtSports);
+               M.Sports = dtSports;
+               cn.Close();
+               return M;
+           }
+           catch (Exception ex)
+           {
+               throw new Exception(ex.Message + ". No Member record found.");
+           }
+       }
+
+	public string GetCountryFlagImageNameByCountryCode(string CountryCode)
+        {
+            DataTable dt = new DataTable();
+            string f = String.Empty;
+            try
+            {
+                if (cn.State != ConnectionState.Open)
+                    cn.Open();
+                cmd.CommandText = "SP_GetCountryInfoByCountryCode";
+                cmd.Parameters.Clear();
+                cmd.Parameters.AddWithValue("@CountryCode", CountryCode);
+                da.SelectCommand = cmd;
+                da.Fill(dt);
+                if (dt.Rows.Count==1)
+                {
+                    DataRow r = dt.Rows[0];
+                    f = r["FlagImageName"].ToString();
+                }
+                cn.Close();
+                return f;
+            }
+            catch (Exception ex)
+            {
+                throw new Exception(ex.Message + ". No sport Record found.");
+            }
+        }
+    #endregion  //End of "Get Methods" region

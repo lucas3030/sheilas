@@ -1,0 +1,1 @@
+Android_Accelerated_x86,Android_ARMv7a

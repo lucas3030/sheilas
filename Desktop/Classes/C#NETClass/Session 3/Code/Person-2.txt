@@ -1,0 +1,11 @@
+public Person()
+{
+      sCount += 1;
+}
+
+public Person(string name, DateTime dob)
+{
+       mName = name;
+       mDob = dob;
+       sCount += 1;
+}

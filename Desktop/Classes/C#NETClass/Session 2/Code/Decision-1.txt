@@ -1,0 +1,26 @@
+	    string firstName, lastName, title, msg;
+            firstName = txtFirstName.Text;
+            lastName = txtLastName.Text;
+            title = cboTitle.Text;
+            if (firstName == "")
+            {
+                MessageBox.Show("You have to enter first name.");
+                txtFirstName.Focus();
+            }
+            else if (lastName == "")
+            {
+                MessageBox.Show("You have to enter last name.");
+                txtLastName.Focus();
+            }
+            else if (title == "")
+            {
+                MessageBox.Show("You have to enter title.");
+                cboTitle.Focus();
+            }
+            else
+            {
+                msg = " Welcome to Visual C# using VS 2012 class! Your name is " + firstName + " " + lastName +
+                            " and your title is " + title + ".";
+                MessageBox.Show(msg, "User Input Data", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                lblInputData.Text = msg;
+            }

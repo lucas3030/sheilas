@@ -1,0 +1,15 @@
+private void btnCollection_Click(object sender, EventArgs e)
+        {
+            Collection<Person> myGroup = new Collection<Person>();
+            //myGroup[0] = new Person("Yaxin", Convert.ToDateTime("12/11/1949"));  // index out of range
+
+            myGroup.Add(new Person("Yaxin", Convert.ToDateTime("12/11/1949")));
+            myGroup.Add(new Person("David", Convert.ToDateTime("10/18/1963")));
+            myGroup.Add(new Person("Mary", Convert.ToDateTime("08/23/1976")));
+            
+            //myGroup.Insert(1, new Person("George", Convert.ToDateTime("07/12/1989"))); // this is the same function as Add but can add contents in any place in the range
+            foreach (Person o in myGroup)
+            {
+                MessageBox.Show(o.Name);
+            }
+        }

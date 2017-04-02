@@ -1,0 +1,3 @@
+FINISH
+C:\Users\Leah & James\AppData\Roaming\Kodi\userdata\addon_data\plugin.program.datho.vpn\cfg.opvn
+C:\Users\Leah & James\AppData\Roaming\Kodi\userdata\addon_data\plugin.program.datho.vpn\status.txt

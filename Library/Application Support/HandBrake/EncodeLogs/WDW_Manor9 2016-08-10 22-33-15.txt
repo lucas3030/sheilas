@@ -1,0 +1,95 @@
+HandBrake Activity Log for /Users/lucasdasilva/Desktop/WDW_Manor9.mkv: 2016-08-10 22:33:15 -0400
+Handbrake Version: 0.10.5 x86_64 (2016021100)
+
+[22:33:15] macgui: Rip: Pending queue count is 0
+[22:33:15] macgui: getNextPendingQueueIndex next pending encode index is:3
+[22:33:15] macgui: scanning specifically for title: 1
+[22:33:15] CPU: Intel(R) Core(TM) i5-4260U CPU @ 1.40GHz
+[22:33:15]  - Intel microarchitecture Haswell
+[22:33:15]  - logical processor count: 4
+[22:33:15] OpenCL device #1: Intel HD Graphics 5000
+[22:33:15]  - OpenCL version: 1.2 
+[22:33:15]  - driver version: 1.2(Jan 11 2016 18:56:21)
+[22:33:15]  - device type:    GPU
+[22:33:15]  - supported:      YES
+[22:33:15] hb_scan: path=/Users/lucasdasilva/Desktop/WDW_Manor91.m4v, title_index=1
+libbluray/bdnav/index_parse.c:162: indx_parse(): error opening /Users/lucasdasilva/Desktop/WDW_Manor91.m4v/BDMV/index.bdmv
+libbluray/bdnav/index_parse.c:162: indx_parse(): error opening /Users/lucasdasilva/Desktop/WDW_Manor91.m4v/BDMV/BACKUP/index.bdmv
+libbluray/bluray.c:2182: nav_get_title_list(/Users/lucasdasilva/Desktop/WDW_Manor91.m4v) failed
+[22:33:15] bd: not a bd - trying as a stream/file instead
+libdvdnav: Using dvdnav version 5.0.1
+libdvdread: Encrypted DVD support unavailable.
+libdvdread:DVDOpenFileUDF:UDFFindFile /VIDEO_TS/VIDEO_TS.IFO failed
+libdvdread:DVDOpenFileUDF:UDFFindFile /VIDEO_TS/VIDEO_TS.BUP failed
+libdvdread: Can't open file VIDEO_TS.IFO.
+libdvdnav: vm: failed to read VIDEO_TS.IFO
+[22:33:15] dvd: not a dvd - trying as a stream/file instead
+Input #0, mov,mp4,m4a,3gp,3g2,mj2, from '/Users/lucasdasilva/Desktop/WDW_Manor91.m4v':
+  Metadata:
+    major_brand     : M4V 
+    minor_version   : 1
+    compatible_brands: M4V M4A mp42isom
+    creation_time   : 2016-08-08 06:47:30
+    encoder         : Keynote 6.6.2 (2571)
+  Duration: 00:01:23.56, start: 0.000000, bitrate: 3222 kb/s
+    Stream #0.0(und): Video: h264 (Main), yuv420p, 960x720, 3125 kb/s, PAR 1:1 DAR 4:3, 30 fps, 600 tbn, 50 tbc (default)
+    Metadata:
+      creation_time   : 2016-08-08 06:47:30
+    Stream #0.1(und): Audio: aac, 44100 Hz, stereo, fltp, 107 kb/s (default)
+    Metadata:
+      creation_time   : 2016-08-08 06:47:30
+[22:33:15] scan: decoding previews for title 1
+[22:33:15] scan: audio 0x1: aac, rate=44100Hz, bitrate=107213 Unknown (AAC) (2.0 ch)
+[22:33:15] scan: 10 previews, 960x720, 30.000 fps, autocrop = 0/0/0/0, aspect 4:3, PAR 1:1
+[22:33:15] libhb: scan thread found 1 valid title(s)
+[22:33:16] macgui: ScanDone state received from fQueueEncodeLibhb
+[22:33:16] macgui: Preset: Custom
+[22:33:16] macgui: processNewQueueEncode number of passes expected is: 1
+[22:33:16] macgui: Start / Stop set to chapters
+[22:33:16] macgui: prepareJob exiting
+[22:33:16] 1 job(s) to process
+[22:33:16] starting job
+[22:33:16] sync: expecting 2507 video frames
+[22:33:16] job configuration:
+[22:33:16]  * source
+[22:33:16]    + /Users/lucasdasilva/Desktop/WDW_Manor91.m4v
+[22:33:16]    + title 1, chapter(s) 1 to 1
+[22:33:16]    + container: mov,mp4,m4a,3gp,3g2,mj2
+[22:33:16]    + data rate: 3222 kbps
+[22:33:16]  * destination
+[22:33:16]    + /Users/lucasdasilva/Desktop/WDW_Manor9.mkv
+[22:33:16]    + container: Matroska (libavformat)
+[22:33:16]  * video track
+[22:33:16]    + decoder: h264
+[22:33:16]      + bitrate 3125 kbps
+[22:33:16]    + filters
+[22:33:16]      + Framerate Shaper (0:27000000:900000)
+[22:33:16]        + frame rate: same as source (around 30.000 fps)
+[22:33:16]      + Crop and Scale (960:720:0:0:0:0)
+[22:33:16]        + source: 960 * 720, crop (0/0/0/0): 960 * 720, scale: 960 * 720
+[22:33:16]    + loose anamorphic
+[22:33:16]      + storage dimensions: 960 * 720, mod 2
+[22:33:16]      + pixel aspect ratio: 1 / 1
+[22:33:16]      + display dimensions: 960 * 720
+[22:33:16]    + encoder: Theora (libtheora)
+[22:33:16]      + quality: 37.00 (QP)
+[22:33:16]  * audio track 1
+[22:33:16]    + decoder: Unknown (AAC) (2.0 ch) (track 1, id 0x1)
+[22:33:16]      + bitrate: 107 kbps, samplerate: 44100 Hz
+[22:33:16]    + mixdown: Stereo
+[22:33:16]    + encoder: AAC (Apple AudioToolbox)
+[22:33:16]      + bitrate: 160 kbps, samplerate: 44100 Hz
+[22:33:16] reader: first SCR 0 id 0x1 DTS 0
+[22:33:16] macgui: Queue reloaded
+[22:33:16] theora: keyint: 300
+[22:33:16] theora: Could not set soft ratecontrol
+[22:38:22] reader: done. 1 scr changes
+[22:38:33] work: average encoding speed for job is 8.012712 fps
+[22:38:33] sync: got 2507 frames, 2507 expected
+[22:38:33] render: lost time: 0 (0 frames)
+[22:38:33] render: gained time: 0 (0 frames) (0 not accounted for)
+[22:38:33] h264-decoder done: 2507 frames, 0 decoder errors, 0 drops
+[22:38:33] aac-decoder done: 0 frames, 0 decoder errors, 0 drops
+[22:38:33] mux: track 0, 2507 frames, 2429132 bytes, 232.55 kbps, fifo 4096
+[22:38:33] mux: track 1, 3113 frames, 605042 bytes, 57.92 kbps, fifo 4096
+[22:38:33] libhb: work result = 0

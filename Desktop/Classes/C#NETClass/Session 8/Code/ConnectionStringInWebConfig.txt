@@ -1,0 +1,1 @@
+<add name="AdvCnString" connectionString="Data Source=Localhost;Initial Catalog=AdventureStore;Integrated Security=true;"/>

@@ -1,0 +1,40 @@
+Log file created on Fri Sep 30 2016 10:44:19 GMT-0400 (EDT)
+
+[debug:core 10:44:19.967 generator.js:105:17] Launching with config:
+{}
+[debug:core 10:44:19.986 generator.js:107:21] provided PS information:
+ version 16.1.2
+ path/Applications/Adobe Photoshop CC 2015/Adobe Photoshop CC 2015.app/
+
+[info:core 10:44:20.083 generator.js:223:25] Detected Photoshop version: 16.1.2
+[1;31mPotential problem with plugin at '/Applications/Adobe Photoshop CC 2015/Plug-ins/Generator/reflow.generate': Warning: Plugin 'reflow-generator' did not specify which versions of generator-core it is compatible with. It will be loaded anyway, but providing generator-core-version in its package.json is recommended.
+[0m[debug:core 10:44:20.147 generator.js:1751:21] Loading plugin: generator-assets
+[debug:core 10:44:20.507 generator.js:1767:21] Plugin loaded: generator-assets
+[debug:core 10:44:20.509 generator.js:1751:21] Loading plugin: generator-spaces
+[debug:core 10:44:20.919 generator.js:1767:21] Plugin loaded: generator-spaces
+[debug:core 10:44:20.921 generator.js:1751:21] Loading plugin: crema
+[debug:core 10:44:21.488 generator.js:1767:21] Plugin loaded: crema
+[debug:core 10:44:21.494 generator.js:1751:21] Loading plugin: adobe-preview-generator-plugin
+[debug:core 10:44:22.252 generator.js:1767:21] Plugin loaded: adobe-preview-generator-plugin
+[warning:core 10:44:22.254 generator.js:1740:21] Warning: Plugin 'reflow-generator' did not specify which versions of generator-core it is compatible with. It will be loaded anyway, but providing generator-core-version in its package.json is recommended.
+[debug:core 10:44:22.256 generator.js:1751:21] Loading plugin: reflow-generator
+[1;31mWarning: Native modules not compiled.  XOR performance will be degraded.
+[0m[1;31mWarning: Native modules not compiled.  UTF-8 validation disabled.
+[0m[debug:core 10:44:22.392 generator.js:1767:21] Plugin loaded: reflow-generator
+[info:generator-spaces 10:44:22.401 main.js:36:20] Starting websocket server...
+[warning:core 10:44:23.083 generator.js:124:25] Photoshop error { id: 7, body: 'Error: No image open' }
+[warning:generator-assets 10:44:23.086 documentmanager.js:336:26] Error: No image open
+[warning:core 10:44:24.329 generator.js:124:25] Photoshop error { id: 22, body: 'Error: No image open' }
+[warning:crema 10:44:24.331 documentmanager.js:336:26] Error: No image open
+Fri Sep 30 2016 10:44:24 GMT-0400 (EDT) Server is listening on port 8010
+wrote token, name to /Users/lucasdasilva/Library/Application Support/EdgeReflow/comm.dat
+[warning:core 10:44:24.715 generator.js:124:25] Photoshop error { id: 28, body: 'Error: No image open' }
+[warning:adobe-preview-generator-plugin 10:44:24.717 documentmanager.js:336:26] Error: No image open
+[info:generator-spaces 10:44:24.928 main.js:39:28] Started websocket server on port 59596
+[warning:core 10:44:25.034 generator.js:124:25] Photoshop error { id: 32, body: 'Error: No image open' }
+[warning:core 10:44:25.157 generator.js:124:25] Photoshop error { id: 33, body: 'Error: No image open' }
+[warning:generator-spaces 10:44:25.159 documentmanager.js:336:26] Error: No image open
+[info:generator-spaces 10:44:25.329 main.js:44:28] For kicks, fetched stored port from generator:  59596
+[info:core 01:17:15.793 generator.js:119:25] Photoshop connection closed
+[1;31mExiting with code 0: Generator close event
+[0m

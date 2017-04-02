@@ -1,0 +1,17 @@
+employees = new string[5] { "George", "David", "Linda", "Liz", "Peter" };
+string[] x = new string[employees.Length];
+for (int i = 0; i < x.Length; i++)
+	x[i] = employees[i];
+str = "We made a new copy from employees array and called it x. \n";
+str += "Now the contents in employees and in x are the same.\n\n";
+employees[0] = "Barbara";
+employees[2] = "Sharon";
+employees[4] = "Kevin";
+lblResult.Text = "";
+str += "Employee names in the array employees are changed. \n";
+for (int i = 0; i < employees.Length; i++)
+	str += "\n" + employees[i];
+str += "\n\n" + "Employee names in the array x remain unchanged. \n";
+for (int i = 0; i < x.Length; i++)
+	str += "\n" + x[i];
+lblResult.Text = str;

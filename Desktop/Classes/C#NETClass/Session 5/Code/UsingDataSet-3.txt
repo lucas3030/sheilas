@@ -1,0 +1,25 @@
+try
+{
+    DataTable pDt = ds.Tables["Categories"];
+    DataTable cDt = ds.Tables["Products"];
+    if (ds.Relations["CategoryProducts"] == null)
+       ds.Relations.Add("CategoryProducts",pDt.Columns["ProductType"],
+           cDt.Columns["ProductType"]);
+    lstProducts.Items.Clear();
+    lstProducts.Items.Add("       Product Name List By Category    ");
+    lstProducts.Items.Add("**********************************************");
+    foreach (DataRow pRow in pDt.Rows)
+    {
+         lstProducts.Items.Add("");
+         lstProducts.Items.Add(pRow["CategoryName"]);
+         DataRow[] cRows = pRow.GetChildRows("CategoryProducts");
+         if (cRows.Length == 0)
+             lstProducts.Items.Add("       No products in this category");
+         foreach (DataRow cRow in cRows)
+             lstProducts.Items.Add("       " + cRow["ProductName"]);
+    }
+}
+catch (Exception ex)
+{
+    MessageBox.Show(ex.Message);
+}

@@ -1,0 +1,5 @@
+-- the tag in the Web.config file
+<connectionStrings>
+	<add name="GASAcnStr" connectionString="Server=localhost; Database=GASA;Persist Security Info=True; User ID=GASAUsers; Password=gasasports;"/>
+</connectionStrings>
+

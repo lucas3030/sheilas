@@ -1,0 +1,33 @@
+#region "Button Click Event Handlers"
+    protected void btnSubmit_Click(object sender, EventArgs e)
+    {
+        mySports = Session["Sports"] as DataTable;
+        if (ddlCountries.SelectedValue == "")
+        {
+            lblMessage.ForeColor = Color.Red;
+            lblMessage.Text = "You have to select a country.";
+            return;
+        }
+        if (mySports.Rows.Count == 0)
+        {
+            lblMessage.ForeColor = Color.Red;
+            lblMessage.Text = "You have to select at least one assoicated sport.";
+            return;
+        }
+        try
+        {
+            myMemberData.SaveMember(CollectData());
+            lblMessage.ForeColor = Color.Green;
+            lblMessage.Text = "Your registration has been successful done and enjoy your surfing.";
+        }
+        catch (Exception ex)
+        {
+            lblMessage.ForeColor = Color.Red;
+            lblMessage.Text = ex.Message + ". Sorry, the registration failed, please try it again.";
+        }
+    }
+    protected void btnClear_Click(object sender, EventArgs e)
+    {
+        ClearForm();
+    }
+    #endregion // End of "Button Click Event Handlers"

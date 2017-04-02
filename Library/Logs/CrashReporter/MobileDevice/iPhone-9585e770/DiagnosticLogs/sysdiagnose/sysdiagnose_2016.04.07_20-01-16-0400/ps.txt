@@ -1,0 +1,165 @@
+USER             UID   PID  PPID  %CPU %MEM PRI NI      VSZ    RSS WCHAN    TT  STAT STARTED      TIME COMMAND
+root               0     1     0   0.1  0.3  37  0   683424   2976 -        ??  Ss    7:57PM   0:07.72 /sbin/launchd
+root               0    25     1   0.0  0.1   4  0   683552    912 -        ??  Rs    7:58PM   0:05.19 /usr/sbin/syslogd
+root               0    26     1   0.0  0.4  97  0   719088   4296 -        ??  Ss    7:58PM   0:02.24 /usr/libexec/UserEventAgent (System)
+mobile           501    28     1   0.3  0.5  97  0   743760   5228 -        ??  Ss    7:58PM   0:01.71 /usr/sbin/mediaserverd
+root               0    29     1   0.0  0.1  50  0   682624   1264 -        ??  Ss    7:58PM   0:00.45 /usr/libexec/fseventsd
+mobile           501    30     1   0.0  0.1   4  0   714848   1204 -        ??  Rs    7:58PM   0:00.13 /System/Library/PrivateFrameworks/AssistantServices.framework/assistantd
+mobile           501    31     1   0.0  0.2   4  0   710592   2196 -        ??  Rs    7:58PM   0:00.30 /System/Library/PrivateFrameworks/FileProvider.framework/Support/fileproviderd
+mobile           501    32     1   0.0  0.2   4  0   707248   2292 -        ??  Rs    7:58PM   0:00.20 /usr/libexec/routined
+mobile           501    34     1   0.0  0.0   4  0   707712    476 -        ??  Us    7:58PM   0:00.07 /System/Library/PrivateFrameworks/MediaRemote.framework/Support/mediaremoted
+root               0    35     1   0.0  0.0   4  0   680736    236 -        ??  Ss    7:58PM   0:00.05 /usr/libexec/misd
+mobile           501    36     1   0.0  0.3  37  0   709376   3492 -        ??  Ss    7:58PM   0:00.69 /System/Library/Frameworks/HealthKit.framework/healthd
+root               0    37     1   0.0  0.2  37  0   711632   1688 -        ??  Ss    7:58PM   0:00.92 /usr/libexec/configd
+root               0    38     1   0.0  0.2   4  0   706192   1520 -        ??  Rs    7:58PM   0:00.36 /System/Library/CoreServices/powerd.bundle/powerd
+mobile           501    40     1   0.0  0.3  37  0   713584   3084 -        ??  Ss    7:58PM   0:00.44 /usr/libexec/atc
+root               0    42     1   0.0  0.2  37  0   711072   2516 -        ??  Ss    7:58PM   0:00.65 /usr/sbin/wifid
+root               0    44     1   0.0  0.0  37  0   680816    432 -        ??  Ss    7:58PM   0:00.07 /usr/libexec/keybagd -t 15
+mobile           501    46     1   0.0  0.0   4  0   706480    504 -        ??  Ss    7:58PM   0:00.04 /System/Library/PrivateFrameworks/FamilyNotification.framework/familynotificationd
+mobile           501    48     1   0.0  0.0   4  0   706112    344 -        ??  Ss    7:58PM   0:00.03 /usr/libexec/seld
+mobile           501    49     1   0.0  0.0   4  0   680144    228 -        ??  Ss    7:58PM   0:00.02 /System/Library/PrivateFrameworks/MobileSoftwareUpdate.framework/Support/softwareupdated
+_installd         33    50     1   0.0  0.2  37  0   710960   2356 -        ??  Ss    7:58PM   0:04.33 /usr/libexec/installd
+mobile           501    52     1   0.0  0.3  37  0   714368   3324 -        ??  Ss    7:58PM   0:00.74 /System/Library/PrivateFrameworks/IDS.framework/identityservicesd.app/identityservicesd
+mobile           501    54     1   0.0  0.0   4  0   680320    376 -        ??  Ss    7:58PM   0:00.02 /System/Library/PrivateFrameworks/TouchRemote.framework/Support/touchsetupd
+root               0    55     1   0.0  0.0   4  0   681808    408 -        ??  Ss    7:58PM   0:00.05 /System/Library/CoreServices/AppleIDAuthAgent
+mobile           501    56     1   0.0  0.1  49  0   711696   1080 -        ??  Ss    7:58PM   0:00.46 /System/Library/Frameworks/AssetsLibrary.framework/Support/assetsd
+mobile           501    57     1   0.0  0.1   4  0   706768    512 -        ??  Ss    7:58PM   0:00.06 /usr/libexec/wcd
+mobile           501    58     1   0.0  2.7  47  0   841296  26988 -        ??  Rs    7:58PM   0:10.40 /System/Library/CoreServices/SpringBoard.app/SpringBoard
+mobile           501    59     1   0.0  0.1   4  0   706336    844 -        ??  Rs    7:58PM   0:00.06 /usr/sbin/wirelessproxd
+mobile           501    60     1   9.8  0.9  63  0   780628   9084 -        ??  Ss    7:58PM   0:15.33 /usr/libexec/backboardd
+mobile           501    61     1   0.0  0.1   4  0   706624    508 -        ??  Ss    7:58PM   0:00.04 /System/Library/PrivateFrameworks/AskPermission.framework/askpermissiond
+mobile           501    62     1   0.0  0.1  37  0   706528    732 -        ??  Ss    7:58PM   0:00.19 /usr/libexec/timed
+mobile           501    63     1   0.0  0.2  37  0   708752   1576 -        ??  Ss    7:58PM   0:00.25 /usr/libexec/sharingd
+root               0    64     1   0.0  0.9  47  0   734192   8876 -        ??  Ss    7:58PM   0:02.57 /usr/libexec/locationd
+mobile           501    65     1   0.0  0.2  63  0   733200   2456 -        ??  Ss    7:58PM   0:00.29 /usr/sbin/BTServer
+mobile           501    66     1   0.0  0.2  37  0   711184   1600 -        ??  Ss    7:58PM   0:00.46 /System/Library/PrivateFrameworks/IMCore.framework/imagent.app/imagent
+root               0    67     1   0.0  0.1   4  0   707840   1312 -        ??  Rs    7:58PM   0:00.34 /usr/libexec/assertiond
+mobile           501    68     1   0.0  0.1   4  0   706128    532 -        ??  Ss    7:58PM   0:00.05 /usr/libexec/tipsd
+mobile           501    69     1   0.0  0.1   4  0   680672    556 -        ??  Ss    7:58PM   0:00.02 /System/Library/PrivateFrameworks/SoftwareBehaviorServices.framework/Support/softwarebehaviorservicesd
+mobile           501    70     1   0.0  0.1  37  0   714448   1308 -        ??  Ss    7:58PM   0:01.01 /usr/libexec/ptpd -t usb
+root               0    71     1   0.0  0.1  37  0   706656   1272 -        ??  Ss    7:58PM   0:00.37 /usr/libexec/lockdownd
+_mdnsresponder    65    72     1   0.0  0.1  37  0   681568   1028 -        ??  Ss    7:58PM   0:00.40 /usr/sbin/mDNSResponder
+mobile           501    73     1   0.0  0.2  37  0   708864   1660 -        ??  Ss    7:58PM   0:00.11 /System/Library/PrivateFrameworks/IAP.framework/Support/iaptransportd
+mobile           501    74     1   0.0  0.6   4  0   717152   5856 -        ??  Rs    7:58PM   0:01.83 /System/Library/PrivateFrameworks/AggregateDictionary.framework/Support/aggregated
+mobile           501    78     1   0.0  0.4  37  0   696736   4448 -        ??  Ss    7:58PM   0:00.35 /usr/sbin/fairplayd.H2
+_wireless         25    79     1   0.0  0.8  46  0   744368   8508 -        ??  Rs    7:58PM   0:08.63 /System/Library/Frameworks/CoreTelephony.framework/Support/CommCenter
+root               0    80     1   0.0  0.2   4  0   707488   2296 -        ??  Us    7:58PM   0:02.22 /System/Library/PrivateFrameworks/MobileContainerManager.framework/Support/containermanagerd
+root               0    81     1   0.0  0.2  37  0   682352   1556 -        ??  Us    7:58PM   0:01.79 /usr/sbin/notifyd
+root               0    82     1   0.0  0.2   4  0   684224   1776 -        ??  Rs    7:58PM   0:01.35 /usr/sbin/cfprefsd daemon
+_distnote        241    83     1   0.0  0.1  37  0   680032    652 -        ??  Ss    7:58PM   0:00.23 /usr/sbin/distnoted daemon
+root               0    84     1   0.0  0.0  37  0   680624    216 -        ??  Ss    7:58PM   0:00.01 aslmanager
+mobile           501    85     1   0.0  0.3   4  0   712240   2672 -        ??  Rs    7:58PM   0:02.91 /usr/libexec/lsd
+mobile           501    86     1   0.0  0.1  37  0   707568    948 -        ??  Ss    7:58PM   0:00.18 /usr/libexec/nanoregistryd
+root               0    87     1   0.0  0.1  37  0   682512    792 -        ??  Ss    7:58PM   0:00.10 /usr/libexec/diagnosticd
+mobile           501    88     1   0.0  0.1   4  0   682320    704 -        ??  Rs    7:58PM   0:00.04 /usr/libexec/lockbot
+_wireless         25    89     1   0.0  0.1   4  0   682080   1032 -        ??  Rs    7:58PM   0:00.11 /System/Library/PrivateFrameworks/WirelessDiagnostics.framework/Support/awdd
+mobile           501    90     1   0.0  0.0   4  0   680288    304 -        ??  Ss    7:58PM   0:00.04 /usr/libexec/MobileGestaltHelper
+_securityd        64    91     1   0.0  0.3  37  0   712064   2736 -        ??  Ss    7:58PM   0:01.49 /usr/libexec/securityd
+mobile           501    92     1   0.0  0.0   4  0   681424    324 -        ??  Ss    7:58PM   0:00.05 /usr/libexec/mobileactivationd
+_networkd         24    93     1  80.7  5.5  37  0   726352  55928 -        ??  Rs    7:58PM   1:04.36 /usr/libexec/networkd
+mobile           501    94     1   0.0  0.3  37  0   710864   2900 -        ??  Ss    7:58PM   0:00.72 /System/Library/PrivateFrameworks/ApplePushService.framework/apsd
+root               0    95     1   0.0  0.1   4  0   706000    520 -        ??  Ss    7:58PM   0:00.02 /usr/libexec/nanoregistrylaunchd
+mobile           501    97     1   0.0  0.6  47  0   722752   6192 -        ??  Ss    7:58PM   0:04.40 /usr/libexec/coreduetd
+root               0    98     1   0.0  0.0   4  0   680608    176 -        ??  Ss    7:58PM   0:00.01 /usr/libexec/pfd -d
+mobile           501    99     1   0.0  0.4   4  0   712480   3764 -        ??  Rs    7:58PM   0:01.84 /System/Library/Frameworks/Accounts.framework/accountsd
+root               0   100     1   0.0  0.0   4  0   680592    224 -        ??  Ss    7:58PM   0:00.03 /usr/libexec/networkd_privileged
+root               0   101     1   0.0  0.2   4  0   707600   1920 -        ??  Ss    7:58PM   0:02.04 /usr/libexec/pkd -d/var/db/PlugInKit-Annotations
+root               0   102     1   0.0  0.0   4  0   680608    300 -        ??  Ss    7:58PM   0:00.02 /System/Library/PrivateFrameworks/MobileSoftwareUpdate.framework/XPCServices/com.apple.MobileSoftwareUpdate.CleanupPreparePathService.xpc/com.apple.MobileSoftwareUpdate.CleanupPreparePathService
+mobile           501   105     1   0.0  0.3   4  0   708448   3048 -        ??  Ss    7:58PM   0:00.72 /System/Library/PrivateFrameworks/VisualVoicemail.framework/vmd
+root               0   106     1   0.1  0.1  37  0   709888   1324 -        ??  Ss    7:58PM   0:04.33 /usr/libexec/nehelper
+root               0   107     1   0.0  0.0   4  0   680224    364 -        ??  Ss    7:58PM   0:00.04 /System/Library/Frameworks/Security.framework/CloudKeychainProxy.bundle/CloudKeychainProxy
+mobile           501   108     1   0.0  0.1   4  0   708048   1192 -        ??  Rs    7:58PM   0:00.18 /System/Library/PrivateFrameworks/TCC.framework/tccd
+root               0   109     1   0.0  0.1   4  0   680640    876 -        ??  Ss    7:58PM   0:00.53 /System/Library/PrivateFrameworks/MobileInstallation.framework/XPCServices/com.apple.MobileInstallationHelperService.xpc/com.apple.MobileInstallationHelperService
+mobile           501   110     1   0.0  0.0   4  0   687760    276 -        ??  Ss    7:58PM   0:00.23 /System/Library/Frameworks/Metal.framework/XPCServices/MTLCompilerService.xpc/MTLCompilerService
+mobile           501   111     1   0.0  0.3   4  0   687760   2984 -        ??  Ss    7:58PM   0:02.27 /System/Library/Frameworks/Metal.framework/XPCServices/MTLCompilerService.xpc/MTLCompilerService
+mobile           501   112     1   2.5  3.2  37  0   767072  32232 -        ??  Ss    7:58PM   0:12.17 /System/Library/PrivateFrameworks/iTunesStore.framework/Support/itunesstored
+mobile           501   113     1   0.0  0.2   4  0   711408   2024 -        ??  Rs    7:58PM   0:00.36 /usr/libexec/nsurlstoraged
+mobile           501   114     1   0.0  0.1   4  0   708064   1180 -        ??  Ss    7:58PM   0:00.24 /System/Library/PrivateFrameworks/GeoServices.framework/geod
+root               0   116     1   0.0  0.1  48  0   706996    572 -        ??  Ss    7:58PM   0:00.08 /usr/libexec/hangtracerd
+mobile           501   117     1  59.6 19.6  34  0   910512 198788 -        ??  Rs    7:58PM   2:45.72 /usr/libexec/nsurlsessiond
+mobile           501   118     1   0.0  0.1  37  0   707776   1096 -        ??  Ss    7:58PM   0:00.12 /System/Library/PrivateFrameworks/MusicLibrary.framework/Support/medialibraryd
+mobile           501   119     1   0.0  0.1   4  0   706736   1012 -        ??  Ss    7:58PM   0:00.05 /Applications/ServerDocuments.app/PlugIns/ServerFileProvider.appex/ServerFileProvider
+mobile           501   120     1   0.0  0.2  37  0   707648   1780 -        ??  Ss    7:58PM   0:00.30 /System/Library/PrivateFrameworks/AuthKit.framework/akd
+mobile           501   121     1   0.0  0.3  37  0   708752   2784 -        ??  Rs    7:58PM   0:00.49 /System/Library/PrivateFrameworks/SyncedDefaults.framework/Support/syncdefaultsd
+mobile           501   122     1   0.0  0.0  50  0   707552    368 -        ??  Ss    7:58PM   0:00.08 /usr/libexec/nfcd
+mobile           501   123     1   0.0  0.2  37  0   694496   1916 -        ??  Ss    7:58PM   0:00.33 /usr/sbin/WirelessRadioManagerd
+root               0   124     1   0.0  0.0   4  0   680160    380 -        ??  Rs    7:58PM   0:00.15 /System/Library/Frameworks/SystemConfiguration.framework/SCHelper
+mobile           501   125     1   0.0  0.0   4  0   671808    212 -        ??  Ss    7:58PM   0:00.01 /usr/libexec/misagent
+mobile           501   126     1   0.0  0.2  31  0   711136   2168 -        ??  Ss    7:58PM   0:00.80 /System/Library/PrivateFrameworks/Accessibility.framework/Frameworks/AccessibilityUI.framework/XPCServices/com.apple.accessibility.AccessibilityUIServer.xpc/com.apple.accessibility.AccessibilityUIServer
+root               0   127     1   0.0  0.2   4  0   711584   2004 -        ??  Rs    7:58PM   0:09.86 /usr/libexec/mobileassetd
+root               0   128     1   0.0  0.1  37  0   681280   1208 -        ??  Us    7:58PM   0:00.08 /usr/sbin/filecoordinationd
+mobile           501   129     1   0.0  0.0   4  0   686720    228 -        ??  Ss    7:58PM   0:00.08 /usr/sbin/BlueTool -R
+mobile           501   130     1   0.0  0.2   4  0   684992   1720 -        ??  Rs    7:58PM   0:00.98 /System/Library/PrivateFrameworks/IMDPersistence.framework/XPCServices/IMDPersistenceAgent.xpc/IMDPersistenceAgent
+root               0   132     1   0.0  0.0  37  0   680560    216 -        ??  Ss    7:58PM   0:00.01 /usr/libexec/oscard --launchd
+root               0   133     1   0.0  0.1   4  0   707264   1092 -        ??  Rs    7:58PM   0:00.08 /usr/libexec/biometrickitd --launchd
+_networkd         24   134     1   0.0  0.3  37  0   714304   2852 -        ??  Rs    7:58PM   0:00.69 /usr/libexec/symptomsd
+mobile           501   135     1   0.0  0.1   4  0   681104   1008 -        ??  Ss    7:58PM   0:00.12 /usr/libexec/adid
+mobile           501   136     1   0.0  0.1   4  0   708480   1496 -        ??  Rs    7:58PM   0:00.19 /System/Library/PrivateFrameworks/ManagedConfiguration.framework/Support/profiled
+mobile           501   137     1   0.0  0.0   4  0   680992    364 -        ??  Ss    7:58PM   0:00.02 /System/Library/CoreServices/EscrowSecurityAlert.app/EscrowSecurityAlert
+mobile           501   138     1   0.0  0.1   4  0   708000    808 -        ??  Rs    7:58PM   0:00.08 /System/Library/PrivateFrameworks/AssetCacheServices.framework/XPCServices/AssetCacheLocatorService.xpc/AssetCacheLocatorService -d
+mobile           501   139     1   0.0  0.1   4  0   706448    576 -        ??  Ss    7:58PM   0:00.05 /System/Library/PrivateFrameworks/CarKit.framework/Support/carkitd
+mobile           501   140     1   0.0  0.1   4  0   708480   1328 -        ??  Ss    7:58PM   0:00.26 /System/Library/PrivateFrameworks/TelephonyUtilities.framework/callservicesd
+mobile           501   141     1   0.0  0.5  37  0   828256   4588 -        ??  Rs    7:58PM   0:01.90 /System/Library/PrivateFrameworks/Search.framework/searchd
+mobile           501   142     1   0.0  0.0  37  0   706656    444 -        ??  Ss    7:58PM   0:00.03 /usr/sbin/BTLEServer
+mobile           501   143     1   0.0  0.1  37  0   708960   1264 -        ??  Us    7:58PM   0:00.17 /System/Library/PrivateFrameworks/CoreSuggestions.framework/suggestd
+mobile           501   144     1   0.0  0.2  37  0   714144   1996 -        ??  Ss    7:58PM   0:00.60 /usr/libexec/duetexpertd
+mobile           501   145     1   0.0  0.0   4  0   687728    200 -        ??  Ss    7:58PM   0:00.50 /System/Library/PrivateFrameworks/AGXCompilerConnection.framework/XPCServices/AGXCompilerService.xpc/AGXCompilerService
+mobile           501   146     1   0.0  0.2   4  0   707920   1824 -        ??  Ss    7:58PM   0:00.11 /System/Library/PrivateFrameworks/MapsSupport.framework/mapspushd
+mobile           501   147     1   0.0  0.2   4  0   708768   2004 -        ??  Rs    7:58PM   0:00.12 /System/Library/PrivateFrameworks/StoreBookkeeperClient.framework/Support/storebookkeeperd
+mobile           501   148     1   0.0  0.3   4  0   710272   2612 -        ??  Rs    7:58PM   0:00.16 /usr/libexec/findmydeviced
+mobile           501   149     1   0.0  0.2   4  0   690336   2048 -        ??  Ss    7:58PM   0:00.28 /System/Library/PrivateFrameworks/AGXCompilerConnection.framework/XPCServices/AGXCompilerService.xpc/AGXCompilerService
+mobile           501   150     1   0.0  0.1   4  0   681536    656 -        ??  Rs    7:58PM   0:00.03 /usr/libexec/SafariCloudHistoryPushAgent
+mobile           501   151     1   0.0  0.4   4  0   719264   4012 -        ??  Rs    7:58PM   0:00.50 /System/Library/PrivateFrameworks/DataAccess.framework/Support/dataaccessd
+mobile           501   152     1   0.0  0.1  37  0   707088    620 -        ??  Us    7:58PM   0:00.10 /System/Library/PrivateFrameworks/CallHistory.framework/Support/CallHistorySyncHelper
+mobile           501   153     1   0.0  0.4   4  0   718384   3848 -        ??  Rs    7:58PM   0:00.32 /usr/libexec/gamed
+mobile           501   154     1   0.0  0.0   4  0   685680    272 -        ??  Ss    7:58PM   0:00.04 /System/Library/Frameworks/Metal.framework/XPCServices/MTLCompilerService.xpc/MTLCompilerService
+mobile           501   155     1   0.0  0.0   4  0   687728    272 -        ??  Ss    7:58PM   0:00.16 /System/Library/Frameworks/Metal.framework/XPCServices/MTLCompilerService.xpc/MTLCompilerService
+mobile           501   156     1   0.0  0.3  37  0   709152   2592 -        ??  Ss    7:58PM   0:00.36 /System/Library/PrivateFrameworks/HomeSharing.framework/Support/itunescloudd
+mobile           501   157     1   0.0  0.2   4  0   707552   2040 -        ??  Rs    7:58PM   0:00.34 /System/Library/PrivateFrameworks/HomeKitDaemon.framework/Support/homed
+mobile           501   158     1   0.0  0.2   4  0   707888   1716 -        ??  Ss    7:58PM   0:00.12 /usr/libexec/DuetHeuristic-BM
+mobile           501   159     1   0.0  0.2   4  0   709696   2060 -        ??  Rs    7:58PM   0:00.23 /System/Library/PrivateFrameworks/CloudKitDaemon.framework/Support/cloudd
+mobile           501   160     1   0.0  0.2   4  0   708832   1704 -        ??  Rs    7:58PM   0:00.19 /System/Library/Frameworks/PassKit.framework/passd
+mobile           501   161     1   0.0  0.2   4  0   710784   2180 -        ??  Rs    7:58PM   0:00.16 /System/Library/PrivateFrameworks/iCloudNotification.framework/ind
+mobile           501   162     1   0.0  0.3   4  0   711584   3356 -        ??  Rs    7:58PM   0:00.54 /System/Library/PrivateFrameworks/CloudDocsDaemon.framework/bird
+mobile           501   163     1   0.0  0.1   4  0   706528    544 -        ??  Ss    7:58PM   0:00.08 /usr/libexec/fmfd
+mobile           501   164     1   0.0  0.2   4  0   709328   2220 -        ??  Rs    7:58PM   0:00.17 /usr/libexec/aosnotifyd
+mobile           501   165     1   0.2  0.1   4  0   707728   1412 -        ??  Rs    7:58PM   0:00.19 /System/Library/PrivateFrameworks/StreamingZip.framework/XPCServices/com.apple.StreamingUnzipService.xpc/com.apple.StreamingUnzipService
+mobile           501   167     1   0.0  0.0   4  0   681152    384 -        ??  Rs    7:58PM   0:00.03 /System/Library/CoreServices/CFNetworkAgent
+mobile           501   168     1   0.0  0.1  37  0   706928    696 -        ??  Ss    7:58PM   0:00.14 /System/Library/PrivateFrameworks/CalendarDaemon.framework/Support/calaccessd
+mobile           501   169     1   0.0  0.1   4  0   680032   1000 -        ??  Ss    7:58PM   0:00.18 /System/Library/PrivateFrameworks/CloudDocsDaemon.framework/XPCServices/ContainerMetadataExtractor.xpc/ContainerMetadataExtractor
+mobile           501   170     1   0.0  0.0   4  0   680752    312 -        ??  Ss    7:58PM   0:00.03 /System/Library/PrivateFrameworks/CloudServices.framework/XPCServices/com.apple.sbd.xpc/com.apple.sbd
+mobile           501   173     1   0.0  0.1   4  0   706544   1492 -        ??  Ss    7:58PM   0:00.06 /System/Library/PrivateFrameworks/MapsSupport.framework/navd
+mobile           501   175     1   0.0  0.1   4  0   680416   1048 -        ??  Ss    7:58PM   0:00.05 /usr/libexec/languageassetd
+mobile           501   176     1   0.0  0.7  47  0   749392   7380 -        ??  Rs    7:58PM   0:00.63 /System/Library/TextInput/kbd
+mobile           501   177     1   0.0  0.2   4  0   707312   1608 -        ??  Ss    7:58PM   0:00.09 /System/Library/PrivateFrameworks/UserActivity.framework/Agents/useractivityd
+mobile           501   179     1   0.0  0.3  37  0   714880   2824 -        ??  Rs    7:58PM   0:00.28 /System/Library/PrivateFrameworks/VoiceServices.framework/Support/voiced
+mobile           501   180     1   0.0  0.1   4  0   680784   1504 -        ??  Ss    7:58PM   0:00.08 /Applications/MobileSafari.app/webbookmarksd
+mobile           501   181     1   0.0  0.1   4 20   680592    596 -        ??  SNs   7:58PM   0:00.03 /System/Library/PrivateFrameworks/AppSupport.framework/Support/cplogd
+mobile           501   182     1   0.0  0.1   4  0   710832    992 -        ??  Ss    7:58PM   0:02.30 /System/Library/PrivateFrameworks/SoftwareUpdateServices.framework/Support/softwareupdateservicesd
+mobile           501   183     1   0.0  1.1   4  0   795856  10708 -        ??  Rs    7:58PM   0:01.44 /var/containers/Bundle/Application/BF43837D-6C51-4181-B0C4-3871865F52CB/WhatsApp.app/WhatsApp
+root               0   184     1   0.0  0.0  37  0   680560    172 -        ??  Ss    7:58PM   0:00.02 /usr/libexec/amfid
+mobile           501   185     1   0.0  0.0   4  0   680688    252 -        ??  Ss    7:58PM   0:00.04 /System/Library/PrivateFrameworks/CacheDelete.framework/deleted
+mobile           501   186     1   0.0  0.0   4  0   706592    360 -        ??  Ss    7:58PM   0:00.02 /System/Library/PrivateFrameworks/UIFoundation.framework/XPCServices/com.apple.uifoundation-bundle-helper.xpc/com.apple.uifoundation-bundle-helper
+mobile           501   187     1   0.0  0.6  33  0   725008   6256 -        ??  Ss    7:58PM   0:01.22 /Applications/MobileMail.app/MobileMail
+mobile           501   188     1   0.0  0.1   4  0   708688    960 -        ??  Ss    7:58PM   0:00.19 /System/Library/PrivateFrameworks/CoreRecents.framework/recentsd
+mobile           501   190     1   0.0  0.0   4  0   680160    372 -        ??  Ss    7:58PM   0:00.04 /System/Library/PrivateFrameworks/IMFoundation.framework/IMLoggingAgent
+mobile           501   191     1   0.0  0.1   4  0   680544    860 -        ??  Rs    7:58PM   0:00.09 /usr/sbin/absd
+mobile           501   192     1   0.0  0.1   4  0   681856   1196 -        ??  Rs    7:58PM   0:00.05 /System/Library/PrivateFrameworks/CloudServices.framework/Frameworks/EscrowService.framework/XPCServices/com.apple.lakitu.xpc/com.apple.lakitu
+mobile           501   193     1   0.1  5.7  47  0   943632  57888 -        ??  Ss    7:58PM   0:09.95 /Applications/AppStore.app/AppStore
+mobile           501   194     1   0.0  0.1   4  0   712976   1432 -        ??  Ss    7:58PM   0:00.11 /usr/libexec/splashboardd
+root               0   196     1   0.0  0.0   4  0   682768    408 -        ??  Ss    7:58PM   0:00.01 /System/Library/PrivateFrameworks/CoreSymbolication.framework/coresymbolicationd
+mobile           501   197     1   0.0  0.1   4  0   707088    512 -        ??  Ss    7:59PM   0:00.06 /System/Library/PrivateFrameworks/FamilyCircle.framework/familycircled
+mobile           501   198     1   0.0  0.0   4  0   680016    344 -        ??  Ss    7:59PM   0:00.02 /System/Library/PrivateFrameworks/CommunicationsFilter.framework/CMFSyncAgent.app/CMFSyncAgent
+mobile           501   199     1   0.0  0.1   4  0   680000    516 -        ??  Ss    7:59PM   0:00.06 /usr/libexec/swcd
+mobile           501   200     1   0.0  0.1   4  0   707984   1236 -        ??  Rs    7:59PM   0:00.08 /System/Library/PrivateFrameworks/FoundationODR.framework/ondemandd.bundle/ondemandd
+root               0   201     1   0.0  0.1   4  0   681760    656 -        ??  Rs    7:59PM   0:00.02 /usr/libexec/online-auth-agent
+mobile           501   202     1   0.0  0.1   4  0   658336    644 -        ??  Rs    7:59PM   0:00.02 /usr/libexec/limitadtrackingd
+mobile           501   203     1   0.0  0.1  37  0   680928    972 -        ??  Ss    7:59PM   0:00.06 /System/Library/PrivateFrameworks/IMDMessageServices.framework/XPCServices/IMDMessageServicesAgent.xpc/IMDMessageServicesAgent
+mobile           501   204     1   0.0  0.1   4  0   681216   1264 -        ??  Rs    7:59PM   0:00.04 /System/Library/PrivateFrameworks/CoreFollowUp.framework/followupd
+root               0   205     1   0.0  0.3   4  0   708624   2664 -        ??  Rs    8:00PM   0:00.14 /System/Library/PrivateFrameworks/MobileBackup.framework/backupd
+mobile           501   207     1   0.0  0.1   4  0   682656   1440 -        ??  Ss    8:00PM   0:00.05 /System/Library/Frameworks/UIKit.framework/Support/pasteboardd
+root               0   208     1   0.0  0.3  37  0   710736   2732 -        ??  Rs    8:01PM   0:00.11 /usr/bin/sysdiagnose
+root               0   211     1   0.4  0.5  37  0   711920   5384 -        ??  Rs    8:01PM   0:01.75 /System/Library/CoreServices/ReportCrash -f
+root               0   212   208   0.0  0.1  31  0   669792    652 -        ??  R     8:01PM   0:00.00 /bin/ps axMwww -o ppid,%mem,pri,ni,vsz,rss,wchan,start,time,command
+root               0   213   208   0.0  0.0  31  0   668528    480 -        ??  S     8:01PM   0:00.00 /usr/bin/vm_stat -c 25 0.2
+root               0   214   208   0.0  0.1  31  0   668752    624 -        ??  R     8:01PM   0:00.00 /bin/ps axwww -o user,uid,pid,ppid,%cpu,%mem,pri,ni,vsz,rss,wchan,tt,stat,start,time,command

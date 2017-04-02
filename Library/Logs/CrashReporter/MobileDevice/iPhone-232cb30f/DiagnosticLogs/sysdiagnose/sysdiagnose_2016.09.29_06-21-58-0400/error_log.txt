@@ -1,0 +1,8 @@
+[1;31mERROR:[0m unable to save tailspin data to file '/var/mobile/Library/Logs/CrashReporter/DiagnosticLogs/sysdiagnose/sysdiagnose_2016.09.29_06-21-58-0400/tailspin-trace.tailspin'.
+Sampling all processes for 2 seconds with 250 milliseconds of run time between samples
+Sampling completed, generating report...
+2016-09-29 06:22:00.689260 spindump[460:93481] Failed to find matching kernel in /System/Library/Kernels, /
+Failed to find matching kernel in /System/Library/Kernels, /
+Spindump analysis written to file /var/mobile/Library/Logs/CrashReporter/DiagnosticLogs/sysdiagnose/sysdiagnose_2016.09.29_06-21-58-0400/spindump-nosymbols.txt
+2016-09-29 06:22:08.128047 spindump[470:93956] Failed to find matching kernel in /System/Library/Kernels, /
+Failed to find matching kernel in /System/Library/Kernels, /

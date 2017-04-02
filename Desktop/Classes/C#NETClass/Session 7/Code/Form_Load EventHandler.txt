@@ -1,0 +1,3 @@
+PopulateComboBoxes();
+fMode = "New";
+sMode = "ByName";

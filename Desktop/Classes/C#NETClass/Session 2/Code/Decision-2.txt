@@ -1,0 +1,44 @@
+	    string msg;
+            switch (cboMonth.Text)
+            {
+                case "January":
+                    msg = "\nJanuary 1st the New Year's Day and January 19th Martin Luther King's Birthday.";
+                    break;
+                case "February":
+                    msg = "\nFebruary 12th Lincoln's Birthday and February 16th Washington's Birthday.";
+                    break;
+                case "March":
+                    msg = "\nThere is no holiday in this month.";
+                    break;
+                case "April":
+                    msg = "\nThere is no holiday in this month.";
+                    break;
+                case "May":
+                    msg = "\nMay 31st Memorial Day.";
+                    break;
+                case "June":
+                    msg = "\nThere is no holiday in this month.";
+                    break;
+                case "July":
+                    msg = "\nJuly 4th Independent Day.";
+                    break;
+                case "August":
+                    msg = "\nThere is no holiday in this month.";
+                    break;
+                case "September":
+                    msg = "\nSeptember 6th Labor Day";
+                    break;
+                case "October":
+                    msg = "\nOctober 11th Columbus Day";
+                    break;
+                case "November":
+                    msg = "\nNovember 2nd Election Day, November 11th Veteran's Day and November 24th Thanksgiving Day.";
+                    break;
+                case "December":
+                    msg = "\nDecember 25th Christmas Day.";
+                    break;
+                default:
+                    msg = "\nYou have to choose a month.";
+                    break;
+            }
+            lblMessage.Text = msg;

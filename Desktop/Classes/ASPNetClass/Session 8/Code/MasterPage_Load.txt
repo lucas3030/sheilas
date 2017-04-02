@@ -1,0 +1,7 @@
+if (Session["LoginStatus"] != null)
+        {
+            if (Session["LoginStatus"].ToString() == "Y")
+                lbtnSignInOut.Text = "Sign Out";
+            else
+                lbtnSignInOut.Text = "Sign In";
+        }

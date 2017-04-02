@@ -1,0 +1,4 @@
+private void P_Talk(object sender, TalkingEventArgs e)
+      {
+            MessageBox.Show(e.SpeakerName + " is saying with a " + e.Voice + " voice: '" + e.Message + ".'");
+      }

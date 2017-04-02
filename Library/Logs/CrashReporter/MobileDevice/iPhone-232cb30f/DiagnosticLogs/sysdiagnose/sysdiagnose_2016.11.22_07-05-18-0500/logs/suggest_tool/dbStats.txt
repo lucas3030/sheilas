@@ -1,0 +1,49 @@
+2016-11-22 07:05:46.075364 suggest_tool[823:265307] subsystem: com.apple.siri, category: Intents, enable_level: 1, persist_level: 1, default_ttl: 0, info_ttl: 0, debug_ttl: 0, generate_symptoms: 0, enable_oversize: 0, privacy_setting: 0, enable_private_data: 0
+2016-11-22 07:05:46.101571 suggest_tool[823:265307] subsystem: com.apple.libsqlite3, category: logging, enable_level: 0, persist_level: 0, default_ttl: 0, info_ttl: 0, debug_ttl: 0, generate_symptoms: 0, enable_oversize: 1, privacy_setting: 2, enable_private_data: 0
+2016-11-22 07:05:46.119284 suggest_tool[823:265307] [suggestions] Sqlite didn't open (rc = 23, extended result code = 17)
+2016-11-22 07:05:46.132415 suggest_tool[823:265307] [suggestions] failed to initialize database at path <private>: <private>
+2016-11-22 07:05:46.132513 suggest_tool[823:265307] [suggestions] unable to initialize snippets DB
+2016-11-22 07:05:46.188783 suggest_tool[823:265307] [suggestions] Starting counter at 1
+
+Completed in 108.2ms
+Dropping root privileges to mobile (501)
+[1mSchema version:[0m 54
+
+[1mEntities:[0m
+   35	SGEntityTypeDetectedPhone
+   3	SGEntityTypeDetectedEmailAddress
+   8	SGEntityTypeDetectedAddress
+   16	SGEntityTypeTextMessage
+   133	SGEntityTypeEmail
+   24	SGEntityTypePseudoEvent
+   24	SGEntityTypeInteraction
+   105	SGEntityTypePseudoContact	(3 merged)
+
+     Orphans: 1
+       Total: 348
+
+[1mFull Text Search:[0m
+   Locale: en-US
+  Details: 46
+     Rows: 152
+
+[1mSerialized Contacts:[0m
+   14	Lowest EntityID
+   3091	Highest EntityID
+
+   Limit: 3500
+   Total: 99
+
+[1mSnippets:[0m
+   (null)	Snippets with titles
+   (null)	Snippets with content
+
+   Total: (null)
+   Journals: 12
+
+
+[1mBatches deferred until powered:[0m 0
+
+[1mTombstones:[0m 0
+
+[1mRecipient filter counts:[0m 84 / 29

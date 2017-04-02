@@ -1,0 +1,119 @@
+#region "Save, Update  or Delete Methods"
+       public void SaveMember(CMember M)
+       {
+           try
+           {
+               if (CheckMemberExists(M))
+               {
+                   throw new Exception("The member already exists.");
+               }
+               else
+               {
+                   M.MemberID = GenerateNewMemberID(M.CountryCode);
+                   if (cn.State != ConnectionState.Open)
+                       cn.Open();
+                   tran = cn.BeginTransaction();
+                   cmd.Transaction = tran;
+                   cmd.CommandText = "SP_SaveMember";
+                   cmd.Parameters.Clear();
+                   cmd.Parameters.AddWithValue("@MemberID", M.MemberID);
+                   cmd.Parameters.AddWithValue("@CountryCode", M.CountryCode);
+                   cmd.Parameters.AddWithValue("@StateName", M.StateName);
+                   cmd.Parameters.AddWithValue("@City", M.City);
+                   cmd.Parameters.AddWithValue("@FirstName", M.FirstName);
+                   cmd.Parameters.AddWithValue("@LastName", M.LastName);
+                   cmd.Parameters.AddWithValue("@LoginID", M.LoginID);
+                   cmd.Parameters.AddWithValue("@Password", M.Password);
+		   cmd.Parameters.AddWithValue("@PwdSalt", M.PwdSalt);
+                   cmd.Parameters.AddWithValue("@EmailAddress", M.EmailAddress);
+                   cmd.Parameters.AddWithValue("@SecurityQuestion", M.SecurityQuestion);                   
+                   cmd.Parameters.AddWithValue("@SecurityAnswer", M.SecurityAnswer);                 
+                   cmd.Parameters.AddWithValue("@Comments", M.Comments);
+                   cmd.ExecuteNonQuery();
+
+                   // insert sports
+
+                   DataTable mySports = M.Sports;
+                   foreach (DataRow r in mySports.Rows)
+                   {
+                       cmd.CommandText = "SP_InsertMemberSports";
+                       cmd.Parameters.Clear();
+                       cmd.Parameters.AddWithValue("@MemberID", M.MemberID);
+                       cmd.Parameters.AddWithValue("@SportCode", r["SportCode"]);
+                       cmd.ExecuteNonQuery();
+                   }
+                   tran.Commit();
+                   cn.Close();
+               }
+           }
+           catch (Exception Ex)
+           {
+               if (tran != null)
+		  tran.Rollback();
+               throw new Exception(Ex.Message);
+           }
+       }
+
+       public void UpdateMember(CMember M)
+       {
+           try
+           {
+               if (cn.State != ConnectionState.Open)
+                   cn.Open();
+               tran = cn.BeginTransaction();
+               cmd.Transaction = tran;
+               cmd.CommandText = "SP_UpdateMember";
+               cmd.Parameters.Clear();
+               cmd.Parameters.AddWithValue("@MemberID", M.MemberID);
+               cmd.Parameters.AddWithValue("@StateName", M.StateName);
+               cmd.Parameters.AddWithValue("@City", M.City);
+               cmd.Parameters.AddWithValue("@FirstName", M.FirstName);
+               cmd.Parameters.AddWithValue("@LastName", M.LastName);
+               cmd.Parameters.AddWithValue("@LoginID", M.LoginID);
+               cmd.Parameters.AddWithValue("@EmailAddress", M.EmailAddress);
+               cmd.Parameters.AddWithValue("@Comments", M.Comments);
+               cmd.ExecuteNonQuery();
+
+               // insert sports
+               cmd.CommandText = "SP_DeleteMemberSports";
+               cmd.Parameters.Clear();
+               cmd.Parameters.AddWithValue("@MemberID", M.MemberID);
+               cmd.ExecuteNonQuery();
+
+               DataTable mySports = M.Sports;
+               foreach (DataRow r in mySports.Rows)
+               {
+                   cmd.CommandText = "SP_InsertMemberSports";
+                   cmd.Parameters.Clear();
+                   cmd.Parameters.AddWithValue("@MemberID", M.MemberID);
+                   cmd.Parameters.AddWithValue("@SportCode", r["SportCode"]);
+                   cmd.ExecuteNonQuery();
+               }
+               tran.Commit();
+               cn.Close();
+           }
+           catch (Exception Ex)
+           {
+               tran.Rollback();
+               throw new Exception(Ex.Message);
+           }
+       }
+
+       public void DeleteMember(string MemberID)
+       {
+           try
+           {
+               if (cn.State != ConnectionState.Open)
+                   cn.Open();
+               cmd.CommandText = "SP_DeleteMemberByID";
+               cmd.Parameters.Clear();
+               cmd.Parameters.AddWithValue("@MemberID", MemberID);
+               cmd.ExecuteNonQuery();
+               cn.Close();
+           }
+           catch (Exception Ex)
+           {
+               throw new Exception(Ex.Message);
+           }
+       }
+       #endregion        //End of "Save/Update/Delete Methods" Region

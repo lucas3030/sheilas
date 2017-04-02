@@ -1,0 +1,46 @@
+2016-11-29 06:29:04.336631 suggest_tool[1407:397693] subsystem: com.apple.siri, category: Intents, enable_level: 1, persist_level: 1, default_ttl: 0, info_ttl: 0, debug_ttl: 0, generate_symptoms: 0, enable_oversize: 0, privacy_setting: 0, enable_private_data: 0
+2016-11-29 06:29:04.346306 suggest_tool[1407:397693] subsystem: com.apple.libsqlite3, category: logging, enable_level: 0, persist_level: 0, default_ttl: 0, info_ttl: 0, debug_ttl: 0, generate_symptoms: 0, enable_oversize: 1, privacy_setting: 2, enable_private_data: 0
+2016-11-29 06:29:04.378509 suggest_tool[1407:397693] [suggestions] Starting counter at 300
+
+Completed in 40.6ms
+Dropping root privileges to mobile (501)
+[1mSchema version:[0m 54
+
+[1mEntities:[0m
+   30	SGEntityTypeDetectedPhone
+   1	SGEntityTypeDetectedEmailAddress
+   7	SGEntityTypeDetectedAddress
+   15	SGEntityTypeTextMessage
+   97	SGEntityTypeEmail
+   18	SGEntityTypePseudoEvent
+   24	SGEntityTypeInteraction
+   89	SGEntityTypePseudoContact	(1 merged)
+
+     Orphans: 1
+       Total: 281
+
+[1mFull Text Search:[0m
+   Locale: en-US
+  Details: 38
+     Rows: 128
+
+[1mSerialized Contacts:[0m
+   243	Lowest EntityID
+   3215	Highest EntityID
+
+   Limit: 3500
+   Total: 86
+
+[1mSnippets:[0m
+   120	Snippets with titles
+   150	Snippets with content
+
+   Total: 292
+   Journals: 0
+
+
+[1mBatches deferred until powered:[0m 1
+
+[1mTombstones:[0m 0
+
+[1mRecipient filter counts:[0m 87 / 29

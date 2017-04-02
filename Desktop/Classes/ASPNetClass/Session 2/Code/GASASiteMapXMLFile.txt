@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<siteMap xmlns="http://schemas.microsoft.com/AspNet/SiteMap-File-1.0" >
+	<siteMapNode>
+		<siteMapNode url="~\Default.aspx" title="Home"  description="The home page"/>
+		<siteMapNode title="About US"  description="Assoication Information" >
+			<siteMapNode url="~\OurMission.aspx" title="Association Mission"  description="Association Mission" />
+		</siteMapNode>
+		<siteMapNode  title="Members Services"  description="Members Services" >
+			<siteMapNode url="~\Registration.aspx" title="Member Registration"  description="New Member Registration" />
+			<siteMapNode url="~\Secured\UpdateMemberProfile.aspx" title="Member Profile Update"  description="Member Profile Update" />
+			<siteMapNode url="~\Secured\MembershipFeePayment.aspx?Mode='New'" title="Membership initial Payment"  description="Member Profile Update" />
+			<siteMapNode url="~\Secured\MembershipFeePayment.aspx?Mode='Renew'" title="Mmebership Renewal"  description="Mmebership Renewal" />
+		</siteMapNode>
+		<siteMapNode  title="Member Connections"  description="Member Connections" >
+			<siteMapNode url="~\Secured\FindFriends.aspx" title="Find Friends By Country and Sports"  description="Find Friends By Country" />
+		</siteMapNode>
+		<siteMapNode  title="Member Videos"  description="Member Connections" >
+			<siteMapNode url="~\Secured\UploadVideos.aspx" title="Upload videos"  description="member uploaded Vedios" />
+			<siteMapNode url="~\Secured\MemberVideoViewer.aspx" title="Enjoy member videos"  description="Watching member uploaded Vedios" />
+			<siteMapNode url="~\Secured\DeleteUploadedVideos.aspx" title="Delete Uploaded videos"  description="member deletes uploaded Vedios" />
+		</siteMapNode>
+		<siteMapNode  title="Password Management"  description="Members Services" >
+			<siteMapNode url="~\GetLoginNameAndPassword.aspx" title="Request for forgotten lonin name and password"  description="New Member Registration" />
+			<siteMapNode url="~\resetPassword.aspx" title="Reset Password"  description="Member Profile Update" />
+		</siteMapNode>
+		<siteMapNode  title="Contact Us"  description="Contact Us" >
+			<siteMapNode url="~\ContactUs.aspx" title="Contact Us"  description="Contact Us" />
+		</siteMapNode>
+	</siteMapNode>
+</siteMap>

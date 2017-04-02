@@ -1,0 +1,12 @@
+cnStr = "Server=(local);database=AdventureStore;Integrated Security=true;";
+cn = new SqlConnection(cnStr);
+cmd = new SqlCommand();
+cmd.Connection = cn;
+try
+{
+     cn.Open();
+}
+catch (Exception ex)
+{
+     MessageBox.Show(ex.Message);
+}

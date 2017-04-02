@@ -1,0 +1,7 @@
+Direct ID ( )|sop://broker.sopcast.com:3912/|2|C:\Users\The boss\AppData\Roaming\Kodi\addons\plugin.video.p2p-streams\resources\art\sopcast_logo.jpg
+Sopcast|sop://broker.sopcast.com:3912/148248|2|C:\Users\The boss\AppData\Roaming\Kodi\addons\plugin.video.p2p-streams\resources\art\sopcast_logo.jpg
+Setanta sport  SHD|http://super-pomoyka.us.to/trash/ttv-list/acelive/12247.acelive|1|C:\Users\The boss\AppData\Roaming\Kodi\addons\plugin.video.p2p-streams\resources\art\acelogofull.jpg
+Setanta sport HD|http://super-pomoyka.us.to/trash/ttv-list/acelive/12247.acelive|1|C:\Users\The boss\AppData\Roaming\Kodi\addons\plugin.video.p2p-streams\resources\art\acelogofull.jpg
+Sky Sports 1|7dcf3c8daaad0efbef55af2d74d52a5f8f65783c|1|C:\Users\The boss\AppData\Roaming\Kodi\addons\plugin.video.p2p-streams\resources\art\acelogofull.jpg
+acestream SkySports1|acestream://cfeab8852fbcf326531d36bdfacce5b456ffc290|1|C:\Users\The boss\AppData\Roaming\Kodi\addons\plugin.video.p2p-streams\resources\art\acelogofull.jpg
+acestream SkySports2|acestream://fe53ba46ab012b202f9f6e61557151bc1bc59cfd|1|C:\Users\The boss\AppData\Roaming\Kodi\addons\plugin.video.p2p-streams\resources\art\acelogofull.jpg

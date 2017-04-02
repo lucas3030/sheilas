@@ -1,0 +1,5 @@
+protected void btnPost_Click(object sender, EventArgs e)
+{
+        string content = txtContent.Text;
+        lblMessage.Text = "The content you entered is: " + content;
+}

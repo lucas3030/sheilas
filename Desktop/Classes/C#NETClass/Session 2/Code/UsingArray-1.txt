@@ -1,0 +1,9 @@
+string[] Employees;
+string str, s;
+
+Employees = new string[5] { "George", "David", "Linda", "Liz", "Peter" };
+            lblResult.Text = "";
+            str = "Now List the employee names in the array employees. \n";
+            for (int i = 0; i < Employees.Length; i++)
+                str += "\n" + Employees[i];
+            lblResult.Text = str;

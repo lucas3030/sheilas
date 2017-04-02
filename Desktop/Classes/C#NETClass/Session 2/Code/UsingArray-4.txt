@@ -1,0 +1,25 @@
+			int[,] table = new int[4, 3];
+			table[0, 0] = 1;
+			table[0, 1] = 2;
+			table[0, 2] = 3;
+			table[1, 0] = 4;
+			table[1, 1] = 5;
+			table[1, 2] = 6;
+			table[2, 0] = 7;
+			table[2, 1] = 8;
+			table[2, 2] = 9;
+			table[3, 0] = 10;
+			table[3, 1] = 11;
+			table[3, 2] = 12;
+	        
+			int x, y;
+			lblResult.Text = "";
+			str = "Display a two dimentional array.\n";
+				for (x = 0; x < table.GetLength(0); x++)
+				{
+					s = "";
+					for (y = 0; y < table.GetLength(1); y++)
+						s += table[x, y] + "   ";
+					str += "\n" + s;
+				}
+			lblResult.Text = str;

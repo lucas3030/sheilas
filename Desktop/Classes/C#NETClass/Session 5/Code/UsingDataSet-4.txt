@@ -1,0 +1,7 @@
+if (cboCategories.SelectedValue.ToString() !="System.Data.DataRowView")
+{
+    DataView dv = new DataView(ds.Tables["Products"]);
+    dv.RowFilter = "ProductType = "+ cboCategories.SelectedValue.ToString();
+    dv.Sort = "ProductName";
+    dgvProducts.DataSource = dv;
+}
