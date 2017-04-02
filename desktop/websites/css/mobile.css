@@ -1,0 +1,51 @@
+<!Doctype html>
+<html> 
+<head>
+<title>mysite</title>
+<link rel="stylesheet" type="text/css" href="css/custom.css">
+<!-- Media query for narrow browser width -->
+<link rel="stylesheet" media="only screen and (max-width: 480px)" href="mobile.css">
+
+<!-- Prevent smartphones from scaling pages down -->
+<meta name="viewport" content="initial-scale=1">
+		</head>
+
+		<body>
+
+			<div id="wrap">
+			
+				<nav>
+					<ul>
+						<li><a href="index.html">Food</a></li>
+						<li><a href="Music.html">Music</a></li>
+						<li><a href="Games.html">Games</a></li>
+					</ul>
+				</nav>
+			</div>
+		<div class="content">
+			<h1> Food </h1>
+			<p> My favorite food is Brasillian food. Our typical food is Fiejoada. In Brasil there are variety of choices. I personally like the style of BBQ that we make. When youo get a chance to visit, make sure to 
+			try the BBQ at the typical churrascaria. </p>
+		</div>
+		<div class="content">
+			<h1> Music</h1>
+				<p> I love listening to classical Bossa Nova. I think that this type of music is very relaxing. 
+				Bossa Nova is one of the best music groups in the world. Whenever I need to relax I alway listen to Bossa Nova.</p>
+				</div>
+
+		<div class="content">
+			<h1> Music</h1>
+				<p> I love listening to classical Bossa Nova. I think that this type of music is very relaxing.</p>
+				</div>
+
+			<div class="image">
+
+     <a href=""><img src="images.jpg" width="360" height="400" alt=""></a>
+
+ </div>
+		
+
+		</body>
+
+</html>
+

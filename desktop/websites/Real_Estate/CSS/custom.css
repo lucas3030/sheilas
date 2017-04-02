@@ -1,0 +1,112 @@
+
+body
+{
+	background-color:linen; 
+}
+
+.wrap
+{
+    padding: 50px 30px 50px 80px;
+}
+
+
+
+
+
+
+.title1
+{
+
+    width: 300%;
+    border-color: black;
+    border-style: thin;
+    border-color: none;
+    font-style: oblique;
+    font-size: 16px;
+    text-align: center;
+    padding: 50px 30px 50px 80px;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: linen;
+    text-decoration: none;
+}
+
+li 
+{
+    float: left;
+    width: 29%;
+    display: block;
+    color: black;
+    font-size: 24pt; 
+    text-align: center;
+    padding: 45px 15px;
+    text-decoration: none;
+}
+a {
+text-decoration: none;
+}
+a {
+color: black;
+}
+
+li:hover {
+    background-color: pink ;
+    background-color: none ;
+    padding: center;
+    border-width: 45px;
+
+}
+
+
+
+
+
+
+.seeBorder{
+  position: absolute;
+   top: 250px;
+  left:100px;
+  background-color: none;
+  margin-right: 300px;
+  padding: right;
+  margin-bottom: 50px;
+  border-bottom-width: 34px;
+}
+
+.p{
+  margin-right: 1px;
+  text-align: right;
+}
+
+.seeborder2{
+  posi
+}
+
+
+
+
+
+
+
+
+
+
+.loop{
+	float:left;
+	width:50%;
+
+}   
+
+.slides{
+  position: absolute;
+  margin-bottom: 80px;
+
+}
+
+
+
+

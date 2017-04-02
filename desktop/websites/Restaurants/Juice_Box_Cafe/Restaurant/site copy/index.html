@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+     <head>
+     <title>Home</title>
+     <meta charset="utf-8">
+     <link rel="icon" href="images/favicon.ico">
+     <link rel="shortcut icon" href="images/favicon.ico" />
+     <link rel="stylesheet" href="css/style.css">
+     <link rel="stylesheet" href="css/slider.css">
+     <script src="js/jquery.js"></script>
+     <script src="js/jquery-migrate-1.1.1.js"></script>
+     <script src="js/superfish.js"></script>
+     <script src="js/jquery.easing.1.3.js"></script>
+     <script src="js/sForm.js"></script>
+     <script src="js/jquery.carouFredSel-6.1.0-packed.js"></script>
+     <script src="js/tms-0.4.1.js"></script>
+     <script>
+      $(window).load(function(){
+      $('.slider')._TMS({
+              show:0,
+              pauseOnHover:false,
+              prevBu:'.prev',
+              nextBu:'.next',
+              playBu:false,
+              duration:800,
+              preset:'fade', 
+              pagination:true,//'.pagination',true,'<ul></ul>'
+              pagNums:false,
+              slideshow:8000,
+              numStatus:false,
+              banners:false,
+          waitBannerAnimation:false,
+        progressBar:false
+      })  
+      });
+      
+     $(window).load (
+    function(){$('.carousel1').carouFredSel({auto: false,prev: '.prev',next: '.next', width: 960, items: {
+      visible : {min: 1,
+       max: 4
+},
+height: 'auto',
+ width: 240,
+
+    }, responsive: false, 
+    
+    scroll: 1, 
+    
+    mousewheel: false,
+    
+    swipe: {onMouse: false, onTouch: false}});
+    
+    
+    });      
+
+     </script>
+     <!-- import bootstrap -->
+		<link rel="stylesheet"
+			  type="text/css"
+			  href="bootstrap.css"
+		      />
+
+		<!-- import our own stylesheet -->
+		<link rel="stylesheet"
+			  type="text/css"
+			  href="styles.css"
+		      />	
+
+		<!-- import jQuery -->
+		<script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+     <!--[if lt IE 8]>
+       <div style=' clear: both; text-align:center; position: relative;'>
+         <a href="http://windows.microsoft.com/en-US/internet-explorer/products/ie/home?ocid=ie6_countdown_bannercode">
+           <img src="http://storage.ie6countdown.com/assets/100/images/banners/warning_bar_0000_us.jpg" border="0" height="42" width="820" alt="You are using an outdated browser. For a faster, safer browsing experience, upgrade for free today." />
+         </a>
+      </div>
+    <![endif]-->
+    <!--[if lt IE 9]>
+      <script src="js/html5shiv.js"></script>
+      <link rel="stylesheet" media="screen" href="css/ie.css">
+
+    <![endif]-->
+     </head>
+     <body>
+       <div class="main">
+<!--==============================header=================================-->
+ <header> 
+  <div class="container_12">
+    <div class="grid_12" id="form1">
+    <h1>JUICE BOX CAFE</h1>
+     <div class="menu_block">
+           <nav  class="" >
+            <ul class="sf-menu">
+                   <li class="current"><a href="index.html">Home</a></li>
+                   <li class="current"><a href="aboutus.html">About Us</a></li>
+                   <li class="with_ul"><a href="menu.html">Menu</a><ul>
+                        
+                        
+                     </ul></li>
+                   <li></li>
+                  
+                   <li><a href="contactus.html">Contacts</a></li>
+             </ul>
+          </nav>
+           <div class="clear"></div>
+     </div>
+           <div class="container">
+		
+
+	 <!--
+		   These are the thumbnail images.
+		   They are laid out using the 
+		   bootstrap grid.
+		   I have given them all the class
+		   "crop-image" which I use in the
+		   css and the javascript code.
+		-->
+		<div class="row">
+			<div class="col-md-3">
+			  <img class="crop-img" 
+				 src="images/IMG_1780.JPG"
+				  alt="graffittied building"/> 
+	 </div>
+	<!--		<div class="col-md-3">
+				<img class="crop-img" 
+				  src="images/img_1758.jpg" 
+				  alt="display of cheese"/> 
+			</div>
+			<div class="col-md-3">
+				<img class="crop-img" 
+				  src="images/img_4904.jpg" 
+				  alt="synethesizer workshop"/> 
+			</div>
+			<div class="col-md-3">
+				<img class="crop-img" 
+				   src="images/img_4908.jpg" 
+				   alt="City night"/> 
+			</div>
+		</div>
+		<!--
+			this is the large image which is
+			on a row of its own. 
+			I will change it source in the 
+			javascript
+		-->
+		<div class="row">
+			<div class="col-md-12">
+				<!--<img id="bigImage" 
+				  class="large-img" 
+				  src="images/img_4884.jpg" 
+				  alt="graffittied building"/> 
+			</div>
+		</div>
+	</div>
+
+	<script>
+		// when we click on the thumbnail
+		// we set the src attribute of the 
+		// bit image to be the same as the 
+		// src of the image we have clicked on
+		// ("this"). This loads the same
+		// image file into the big image
+		$(".crop-img").click(function(){
+			$("#bigImage").attr('src', 
+				$(this).attr('src'));
+		});
+	</script>
+			</div>
+		</div>
+	</div>
+
+	<script>
+		// when we click on the thumbnail
+		// we set the src attribute of the 
+		// bit image to be the same as the 
+		// src of the image we have clicked on
+		// ("this"). This loads the same
+		// image file into the big image
+		$(".crop-img").click(function(){
+			$("#bigImage").attr('src', 
+				$(this).attr('src'));
+		});
+	</script>
+
+           <div class="clear"></div>
+      </div>
+    </div>
+</header>
+ <div class="slider-relative">
+    <div class="slider-block">
+      <div class="slider">
+        <ul class="items">
+          <li><img src="images/downloadbb.jpeg" alt=""width="220" height="170" class="img_inner">></li>
+          <li><img src="images/downloadss.jpeg" alt=""width="220" height="170" class="img_inner">></li>
+          <li class="mb0"><img src="images/img_1784.jpg" alt=""width="679" height="170" class="img_inner">></li>
+        </ul>
+      </div>
+    </div>
+ </div>
+<!--=======content================================-->
+
+<div class="content page1"><div class="ic"></div>
+  <div class="container_12">
+      <div class="grid_7">
+        <h2>Welcome</h2>
+        <div class="page1_block col1">
+          <img src src="images/page3_img4.jpg" alt="">
+          <div class="extra_wrapper">
+          Come and taste the best Mexican and American food in Westbury Long Island. <br>
+            <a href="#" class="btn">more</a>
+          </div>
+          <div class="clear"></div>
+        </div>
+      </div>
+      <div class="grid_5">
+        <h2>Features</h2>
+        <ul class="list">
+          <li><a href="#">Our Variety flavors of frozen yogurt.</a></li>
+          <li><a href="#">Try our natural diet shakes.</a></li>
+          <li><a href="#">Fresh fruit salad.</a></li>
+          <li><a href="#">Sandwiches and much more.</a></li>
+        </ul>
+      </div>
+      <div class="clear"></div>
+      <div class="grid_12"> </div>
+      <div class="grid_12">
+        <div class="car_wrap">
+        <h2>Sample Choices on our Menu</h2>
+        <a href="#" class="prev"></a><a href="#" class="next"></a>
+        <ul class="carousel1">
+          <li><div><img src="images/img_4884.jpg" alt="">
+          <div class="col1 upp"> <a href="#">Come and try our fresh salads</a></div>
+          <div class="price">$</div></div>
+          </li>
+          <li><div><img src="images/download.jpeg" alt="">
+          <div class="col1 upp"> <a href="#">Note, will send me pictures of different tacos</a></div>
+<div class="price">$</div></div>
+          </li>
+          <li><div><img src="images/img_1763.jpg" alt="">
+          <div class="col1 upp"> <a href="smoothies.html">Smoothies</a></div>
+<div class="price">$</div></div>
+          </li>
+          <li><div><img  src="images/IMG_1780.JPG" alt="">
+          <div class="col1 upp"> <a href="#">platter</a></div>
+<div class="price">$</div></div>
+          </li>
+          <li> </li>
+        </ul>
+      </div>
+      
+    </div>
+    <div class="clear"></div>
+    <div class="bottom_block">
+      <div class="grid_6">
+        <h3>Follow Us</h3>
+        <div class="socials">
+          <a href="#"></a>
+          <a href="#"></a>
+          <a href="#"></a>
+        </div>
+        <nav><ul>
+                   <li class="current"><a href="index.html">Home</a></li>
+                   <li ><a href="index-1.html">About Us</a></li>
+                   <li><a href="index-2.html">Menu</a></li>
+                   
+                   <li></li>
+                   <li><a href="index-5.html">Contacts</a></li>
+          </ul></nav>
+      </div>
+      <div class="grid_6">
+<form id="newsletter">
+                  <div class="success">Your subscribe request has been sent!</div>
+</form> 
+          </div>
+      </div>
+      <div class="clear"></div>
+    </div>
+  </div>
+</div>
+<!--==============================footer=================================-->
+
+<footer>    
+  <div class="container_12">
+    <div class="grid_12">
+     Juice Box © 2016  &nbsp;&nbsp; |&nbsp;&nbsp;   <a href="#">Privacy Policy</a>    
+    </div>
+    <div class="clear"></div>
+  </div>
+</footer>
+</body>
+</html>

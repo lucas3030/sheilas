@@ -1,0 +1,16 @@
+body{
+	background-color: lightblue;
+}
+
+
+div {
+    width: 1400px;
+    height: 70px;
+    border: 6px solid #c6c6c6;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-align-content: center;
+    align-content: center;
+}

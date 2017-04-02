@@ -1,0 +1,440 @@
+<!DOCTYPE html>
+<html lang="en">
+     <head>
+     <title>Home</title>
+     <meta charset="utf-8">
+     <link rel="icon" href="images/favicon.ico">
+     <link rel="shortcut icon" href="images/favicon.ico" />
+     <link rel="stylesheet" href="css/style.css">
+     <link rel="stylesheet" href="css/slider.css">
+     <script src="js/jquery.js"></script>
+     <script src="js/jquery-migrate-1.1.1.js"></script>
+     <script src="js/superfish.js"></script>
+     <script src="js/jquery.easing.1.3.js"></script>
+     <script src="js/sForm.js"></script>
+     <script src="js/jquery.carouFredSel-6.1.0-packed.js"></script>
+     <script src="js/tms-0.4.1.js"></script>
+     <script>
+	 <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      $(window).load(function(){
+      $('.slider')._TMS({
+              show:0,
+              pauseOnHover:false,
+              prevBu:'.prev',
+              nextBu:'.next',
+              playBu:false,
+              duration:800,
+              preset:'fade', 
+              pagination:true,//'.pagination',true,'<ul></ul>'
+              pagNums:false,
+              slideshow:8000,
+              numStatus:false,
+              banners:false,
+          waitBannerAnimation:false,
+        progressBar:false
+      })  
+      });
+      
+     $(window).load (
+    function(){$('.carousel1').carouFredSel({auto: false,prev: '.prev',next: '.next', width: 960, items: {
+      visible : {min: 1,
+       max: 4
+},
+height: 'auto',
+ width: 240,
+
+    }, responsive: false, 
+    
+    scroll: 1, 
+    
+    mousewheel: false,
+    
+    swipe: {onMouse: false, onTouch: false}});
+    
+    
+    });      
+
+     </script>
+     <!-- #region Jssor Slider Begin -->
+
+    <!-- Generator: Jssor Slider Maker -->
+    <!-- Source: http://www.jssor.com/demos/image-slider.slider -->
+    
+    <!-- This demo works with jquery library -->
+
+    <script type="text/javascript" src="js/jquery-1.11.3.min.js"></script>
+    <script type="text/javascript" src="js/jssor.slider-21.1.5.mini.js"></script>
+    <!-- use jssor.slider-21.1.5.debug.js instead for debug -->
+    <script>
+        jQuery(document).ready(function ($) {
+            
+            var jssor_1_SlideoTransitions = [
+              [{b:0,d:600,y:-290,e:{y:27}}],
+              [{b:0,d:1000,y:185},{b:1000,d:500,o:-1},{b:1500,d:500,o:1},{b:2000,d:1500,r:360},{b:3500,d:1000,rX:30},{b:4500,d:500,rX:-30},{b:5000,d:1000,rY:30},{b:6000,d:500,rY:-30},{b:6500,d:500,sX:1},{b:7000,d:500,sX:-1},{b:7500,d:500,sY:1},{b:8000,d:500,sY:-1},{b:8500,d:500,kX:30},{b:9000,d:500,kX:-30},{b:9500,d:500,kY:30},{b:10000,d:500,kY:-30},{b:10500,d:500,c:{x:87.50,t:-87.50}},{b:11000,d:500,c:{x:-87.50,t:87.50}}],
+              [{b:0,d:600,x:410,e:{x:27}}],
+              [{b:-1,d:1,o:-1},{b:0,d:600,o:1,e:{o:5}}],
+              [{b:-1,d:1,c:{x:175.0,t:-175.0}},{b:0,d:800,c:{x:-175.0,t:175.0},e:{c:{x:7,t:7}}}],
+              [{b:-1,d:1,o:-1},{b:0,d:600,x:-570,o:1,e:{x:6}}],
+              [{b:-1,d:1,o:-1,r:-180},{b:0,d:800,o:1,r:180,e:{r:7}}],
+              [{b:0,d:1000,y:80,e:{y:24}},{b:1000,d:1100,x:570,y:170,o:-1,r:30,sX:9,sY:9,e:{x:2,y:6,r:1,sX:5,sY:5}}],
+              [{b:2000,d:600,rY:30}],
+              [{b:0,d:500,x:-105},{b:500,d:500,x:230},{b:1000,d:500,y:-120},{b:1500,d:500,x:-70,y:120},{b:2600,d:500,y:-80},{b:3100,d:900,y:160,e:{y:24}}],
+              [{b:0,d:1000,o:-0.4,rX:2,rY:1},{b:1000,d:1000,rY:1},{b:2000,d:1000,rX:-1},{b:3000,d:1000,rY:-1},{b:4000,d:1000,o:0.4,rX:-1,rY:-1}]
+            ];
+            
+            var jssor_1_options = {
+              $AutoPlay: true,
+              $Idle: 2000,
+              $CaptionSliderOptions: {
+                $Class: $JssorCaptionSlideo$,
+                $Transitions: jssor_1_SlideoTransitions,
+                $Breaks: [
+                  [{d:2000,b:1000}]
+                ]
+              },
+              $ArrowNavigatorOptions: {
+                $Class: $JssorArrowNavigator$
+              },
+              $BulletNavigatorOptions: {
+                $Class: $JssorBulletNavigator$
+              }
+            };
+            
+            var jssor_1_slider = new $JssorSlider$("jssor_1", jssor_1_options);
+            
+            //responsive code begin
+            //you can remove responsive code if you don't want the slider scales while window resizing
+            function ScaleSlider() {
+                var refSize = jssor_1_slider.$Elmt.parentNode.clientWidth;
+                if (refSize) {
+                    refSize = Math.min(refSize, 600);
+                    jssor_1_slider.$ScaleWidth(refSize);
+                }
+                else {
+                    window.setTimeout(ScaleSlider, 30);
+                }
+            }
+            ScaleSlider();
+            $(window).bind("load", ScaleSlider);
+            $(window).bind("resize", ScaleSlider);
+            $(window).bind("orientationchange", ScaleSlider);
+            //responsive code end
+        });
+    </script>
+
+    <style>
+        
+        /* jssor slider bullet navigator skin 01 css */
+        /*
+        .jssorb01 div           (normal)
+        .jssorb01 div:hover     (normal mouseover)
+        .jssorb01 .av           (active)
+        .jssorb01 .av:hover     (active mouseover)
+        .jssorb01 .dn           (mousedown)
+        */
+        .jssorb01 {
+            position: absolute;
+        }
+        .jssorb01 div, .jssorb01 div:hover, .jssorb01 .av {
+            position: absolute;
+            /* size of bullet elment */
+            width: 12px;
+            height: 12px;
+            filter: alpha(opacity=70);
+            opacity: .7;
+            overflow: hidden;
+            cursor: pointer;
+            border: #000 1px solid;
+        }
+        .jssorb01 div { background-color: gray; }
+        .jssorb01 div:hover, .jssorb01 .av:hover { background-color: #d3d3d3; }
+        .jssorb01 .av { background-color: #fff; }
+        .jssorb01 .dn, .jssorb01 .dn:hover { background-color: #555555; }
+
+        /* jssor slider arrow navigator skin 02 css */
+        /*
+        .jssora02l                  (normal)
+        .jssora02r                  (normal)
+        .jssora02l:hover            (normal mouseover)
+        .jssora02r:hover            (normal mouseover)
+        .jssora02l.jssora02ldn      (mousedown)
+        .jssora02r.jssora02rdn      (mousedown)
+        */
+        .jssora02l, .jssora02r {
+            display: block;
+            position: absolute;
+            /* size of arrow element */
+            width: 55px;
+            height: 55px;
+            cursor: pointer;
+            background: url('') no-repeat;
+            overflow: hidden;
+        }
+        .jssora02l { background-position: -3px -33px; }
+        .jssora02r { background-position: -63px -33px; }
+        .jssora02l:hover { background-position: -123px -33px; }
+        .jssora02r:hover { background-position: -183px -33px; }
+        .jssora02l.jssora02ldn { background-position: -3px -33px; }
+        .jssora02r.jssora02rdn { background-position: -63px -33px; }
+    </style>
+
+
+    <div id="jssor_1" style="position: relative; margin: 0 auto; top: 0px; left: 0px; width: 600px; height: 300px; overflow: hidden; visibility: hidden;">
+        <!-- Loading Screen -->
+        <div data-u="loading" style="position: absolute; top: 0px; left: 0px;">
+            <div style="filter: alpha(opacity=70); opacity: 0.7; position: absolute; display: block; top: 0px; left: 0px; width: 100%; height: 100%;"></div>
+            <div style="position:absolute;display:block;background:url('img/loading.gif') no-repeat center center;top:0px;left:0px;width:100%;height:100%;"></div>
+        </div>
+        <div data-u="slides" style="cursor: default; position: relative; top: 0px; left: 0px; width: 600px; height: 300px; overflow: hidden;">
+            <div data-p="112.50" style="display: none;">
+                <img data-u="image"    src="images/IMG_1763.JPG" />
+                <div data-u="caption" data-t="0" style="position: absolute; top: 320px; left: 30px; width: 350px; height: 30px; background-color: rgba(235,81,0,0.5); font-size: 20px; color: #ffffff; line-height: 30px; text-align: center;">Our Fresh Juices and Smoothies</div>
+            </div>
+            <div data-p="112.50" style="display: none;">
+                <img data-u="image"   src="images/IMG_4884.JPG"/>
+                <div data-u="caption" data-t="1" data-3d="1" style="position: absolute; top: -50px; left: 125px; width: 350px; height: 30px; background-color: rgba(235,81,0,0.5); font-size: 20px; color: #ffffff; line-height: 30px; text-align: center;">Our delicious Fresh Salads</div>
+            </div>
+            <div data-p="112.50" style="display: none;">
+                <img data-u="image" src="images/IMG_4904.JPG" />
+                <div data-u="caption" data-t="2" style="position: absolute; top: 30px; left: -380px; width: 350px; height: 30px; background-color: rgba(235,81,0,0.5); font-size: 20px; color: #ffffff; line-height: 30px; text-align: center;">Join us for lunch</div>
+            </div>
+            <div data-p="112.50" style="display: none;">
+                <img data-u="image" src="images/IMG_1758.JPG" />
+                <div data-u="caption" data-t="3" style="position: absolute; top: 30px; left: 30px; width: 350px; height: 30px; background-color: rgba(235,81,0,0.5); font-size: 20px; color: #ffffff; line-height: 30px; text-align: center;">#1 in Westbury</div>
+            </div>
+            <div data-p="112.50" style="display: none;">
+                <img data-u="image" src="images/IMG_1759.JPG" />
+                <div data-u="caption" data-t="4" style="position: absolute; top: 30px; left: 30px; width: 350px; height: 30px; background-color: rgba(235,81,0,0.6); font-size: 20px; color: #ffffff; line-height: 30px; text-align: center;">Come and Try our Appetizers and Salads</div>
+            </div>
+            <div data-p="112.50" style="display: none;">
+                <img data-u="image" src="images/IMG_4909.JPG" />
+                <div data-u="caption" data-t="5" style="position: absolute; top: 30px; left: 600px; width: 350px; height: 30px; background-color: rgba(235,81,0,0.5); font-size: 20px; color: #ffffff; line-height: 30px; text-align: center;">Various Appetizers to choose from</div>
+            </div>
+            <div data-p="112.50" style="display: none;">
+                <img data-u="image"  src="images/IMG_1731.JPG" />
+                <div data-u="caption" data-t="6" style="position: absolute; top: 30px; left: 30px; width: 350px; height: 30px; background-color: rgba(235,81,0,0.5); font-size: 20px; color: #ffffff; line-height: 30px; text-align: center;">Come and try out our delicious smoothies</div>
+            </div>
+            <div data-b="0" data-p="112.50" style="display: none;">
+                <img data-u="image" src="images/IMG_1780.JPG" />
+                <div data-u="caption" data-t="7" style="position: absolute; top: -50px; left: 30px; width: 350px; height: 30px; background-color: rgba(235,81,0,0.5); font-size: 20px; color: #ffffff; line-height: 30px; text-align: center;">Our different flavors of frozen yogurt</div>
+            </div>
+
+                        
+                       
+                        
+                        <a href="http://wwww.jssor.com">
+                           
+                        </a> 
+                        
+                        <img src="images/img_4908.jpg" /> .
+                        
+                    </div>
+                </div>
+            </div>
+        
+        </div>
+        <!-- Bullet Navigator -->
+        <div data-u="navigator" class="jssorb01" style="bottom:16px;right:16px;">
+            <div data-u="prototype" style="width:12px;height:12px;"></div>
+        </div>
+        <!-- Arrow Navigator -->
+        <span data-u="arrowleft" class="jssora02l" style="top:0px;left:8px;width:55px;height:55px;" data-autocenter="2"></span>
+        <span data-u="arrowright" class="jssora02r" style="top:0px;right:8px;width:55px;height:55px;" data-autocenter="2"></span>
+    </div>
+
+    <!-- #endregion Jssor Slider End -->
+     <!-- import bootstrap -->
+		<link rel="stylesheet"
+			  type="text/css"
+			  href="bootstrap.css"
+		      />
+
+		<!-- import our own stylesheet -->
+		<link rel="stylesheet"
+			  type="text/css"
+			  href="styles.css"
+		      />	
+
+		<!-- import jQuery -->
+		<script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+     <!--[if lt IE 8]>
+       <div style=' clear: both; text-align:center; position: relative;'>
+         <a href="http://windows.microsoft.com/en-US/internet-explorer/products/ie/home?ocid=ie6_countdown_bannercode">
+           <img src="http://storage.ie6countdown.com/assets/100/images/banners/warning_bar_0000_us.jpg" border="0" height="42" width="820" alt="You are using an outdated browser. For a faster, safer browsing experience, upgrade for free today." />
+         </a>
+      </div>
+    <![endif]-->
+    <!--[if lt IE 9]>
+      <script src="js/html5shiv.js"></script>
+      <link rel="stylesheet" media="screen" href="css/ie.css">
+
+    <![endif]-->
+     </head>
+     <body>
+       <div class="main">
+<!--==============================header=================================-->
+ <header> 
+  <div class="container_12">
+    <div class="grid_12" id="form1">
+    <h1>JUICE BOX CAFE</h1>
+     
+           <nav>
+            <a href="index.html">Home</a>
+            <br>
+            <a href="smoothies.html">Smoothies</a>
+            <br>
+            <a href="breakfast.html">Breakfast</a>
+            <br>
+            <a href="appetizers.html">Appetizers</a>
+            <br>
+            <a href="aboutus.html">Contact Us</a>
+             
+             
+          </nav>
+           <div class="clear"></div>
+     </div>
+           <div class="container">
+		
+
+	 <!--
+		   These are the thumbnail images.
+		   They are laid out using the 
+		   bootstrap grid.
+		   I have given them all the class
+		   "crop-image" which I use in the
+		   css and the javascript code.
+		-->
+		<div class="row">
+			<div class="col-md-3"> </div>
+	<!--		<div class="col-md-3">
+				<img class="crop-img" 
+				  src="images/img_1758.jpg" 
+				  alt="display of cheese"/> 
+			</div>
+			<div class="col-md-3">
+				<img class="crop-img" 
+				  src="images/img_4904.jpg" 
+				  alt="synethesizer workshop"/> 
+			</div>
+			<div class="col-md-3">
+				<img class="crop-img" 
+				   src="images/img_4908.jpg" 
+				   alt="City night"/> 
+			</div>
+		</div>
+		<!--
+			this is the large image which is
+			on a row of its own. 
+			I will change it source in the 
+			javascript
+		-->
+		<div class="row">
+			<div class="col-md-12">
+				<!--<img id="bigImage" 
+				  class="large-img" 
+				  src="images/img_4884.jpg" 
+				  alt="graffittied building"/> 
+			</div>
+		</div>
+	</div>
+
+	<script>
+		// when we click on the thumbnail
+		// we set the src attribute of the 
+		// bit image to be the same as the 
+		// src of the image we have clicked on
+		// ("this"). This loads the same
+		// image file into the big image
+		$(".crop-img").click(function(){
+			$("#bigImage").attr('src', 
+				$(this).attr('src'));
+		});
+	</script>
+			</div>
+		</div>
+	</div>
+
+	<script>
+		// when we click on the thumbnail
+		// we set the src attribute of the 
+		// bit image to be the same as the 
+		// src of the image we have clicked on
+		// ("this"). This loads the same
+		// image file into the big image
+		$(".crop-img").click(function(){
+			$("#bigImage").attr('src', 
+				$(this).attr('src'));
+		});
+	</script>
+
+           <div class="clear"></div>
+      </div>
+    </div>
+</header>
+ <div class="slider-relative">
+    <div class="slider-block">
+      <div class="slider">
+        <ul class="items">
+          <li><img src="images/downloadbb.jpeg" alt=""width="220" height="170" class="img_inner">></li>
+          <li><img src="images/downloadss.jpeg" alt=""width="220" height="170" class="img_inner">></li>
+          <li class="mb0"><img src="images/img_1784.jpg" alt=""width="679" height="170" class="img_inner">></li>
+        </ul>
+      </div>
+    </div>
+ </div>
+<!--=======content================================-->
+
+<div class="content page1"><div class="ic"></div>
+  <div class="container_12">
+      <div class="grid_7">
+        <h2>Welcome</h2>
+        <div class="page1_block col1">
+          <div class="extra_wrapper">
+          Come and taste the best Mexican and American food in Westbury Long Island. <br>
+            <a href="#" class="btn">more</a>
+          </div>
+          <div class="clear"></div>
+        </div>
+      </div>
+      <div class="grid_5">
+        <h2>Features</h2>
+        <ul class="list">
+          <li><a href="#">Our Variety flavors of frozen yogurt.</a></li>
+          <li><a href="#">Try our natural diet shakes.</a></li>
+          <li><a href="#">Fresh fruit salad.</a></li>
+          <li><a href="#">Sandwiches and much more.</a></li>
+        </ul>
+      </div>
+      <div class="clear"></div>
+      <div class="grid_12"> </div>
+      <div class="grid_12">
+        <div class="car_wrap">
+        <h2>Sample Choices on our Menu</h2>
+</div>
+
+<div id="sample1">
+<a href="smoothies.html"><img src="images/IMG_1774.JPG" width="190"></a>
+<a href="appetizers.html"><img src="images/IMG_1784.JPG" width="190">
+<a href="lunch.html"><img src="images/IMG_1780.JPG" width="190">
+<a href="breakfast.html"><img src="images/IMG_1807.JPG" width="190">
+</div>
+      
+    </div>
+    <div class="clear"></div>
+<div class="clear"></div>
+    </div>
+  </div>
+</div>
+<!--==============================footer=================================-->
+
+<footer>    
+  <div class="container_12">
+    <div class="grid_12">
+     Juice Box Cafe © 2016  &nbsp;&nbsp; |&nbsp;&nbsp;   <a href="#">Privacy Policy</a>    
+    </div>
+    <div class="clear"></div>
+  </div>
+</footer>
+</body>
+</html>
